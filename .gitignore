@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+
+# render-verification screenshots are build artifacts, regenerate with 09_verify.py
+report/verify/

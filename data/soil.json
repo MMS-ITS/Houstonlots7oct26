@@ -1,0 +1,4018 @@
+{
+ "pony652": {
+  "mapunits": [
+   {
+    "mukey": "363062",
+    "muname": "Asa silty clay loam, 0 to 1 percent slopes, rarely flooded",
+    "musym": "3",
+    "areasymbol": "TX039",
+    "areaname": "Brazoria County, Texas"
+   },
+   {
+    "mukey": "363069",
+    "muname": "Pledger clay, 0 to 1 percent slopes, rarely flooded",
+    "musym": "36",
+    "areasymbol": "TX039",
+    "areaname": "Brazoria County, Texas"
+   }
+  ],
+  "coverage_pct_by_mukey": {
+   "363062": 54.5,
+   "363069": 45.5
+  },
+  "muaggatt": [
+   {
+    "mukey": "363062",
+    "muname": "Asa silty clay loam, 0 to 1 percent slopes, rarely flooded",
+    "drclassdcd": "Well drained",
+    "drclasswettest": "Well drained",
+    "hydgrpdcd": "B",
+    "flodfreqdcd": "Rare",
+    "flodfreqmax": "Rare",
+    "pondfreqprs": "0",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": "4.5",
+    "aws0100wta": "19.05",
+    "slopegraddcp": "0.5",
+    "slopegradwta": "0.5"
+   },
+   {
+    "mukey": "363069",
+    "muname": "Pledger clay, 0 to 1 percent slopes, rarely flooded",
+    "drclassdcd": "Moderately well drained",
+    "drclasswettest": "Moderately well drained",
+    "hydgrpdcd": "D",
+    "flodfreqdcd": "Rare",
+    "flodfreqmax": "Rare",
+    "pondfreqprs": "1",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": "3.5",
+    "aws0100wta": "14",
+    "slopegraddcp": "0.1",
+    "slopegradwta": "0.1"
+   }
+  ],
+  "components": [
+   {
+    "mukey": "363062",
+    "cokey": "28770996",
+    "compname": "Asa",
+    "comppct_r": "85",
+    "compkind": "Series",
+    "drainagecl": "Well drained",
+    "hydgrp": "B",
+    "taxclname": "Fine-silty, mixed, superactive, hyperthermic Fluventic Hapludolls",
+    "taxorder": "Mollisols",
+    "taxsubgrp": "Fluventic Hapludolls",
+    "slope_l": "0",
+    "slope_r": "0.5",
+    "slope_h": "1",
+    "runoff": "Negligible",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "2",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "Low",
+    "corsteel": "Low"
+   },
+   {
+    "mukey": "363069",
+    "cokey": "28770971",
+    "compname": "Pledger",
+    "comppct_r": "85",
+    "compkind": "Series",
+    "drainagecl": "Moderately well drained",
+    "hydgrp": "D",
+    "taxclname": "Very-fine, smectitic, hyperthermic Typic Hapluderts",
+    "taxorder": "Vertisols",
+    "taxsubgrp": "Typic Hapluderts",
+    "slope_l": "0",
+    "slope_r": "0.1",
+    "slope_h": "1",
+    "runoff": "High",
+    "erocl": "None - deposition",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "3",
+    "nirrcapscl": "s",
+    "frostact": "None",
+    "corcon": "Low",
+    "corsteel": "High"
+   }
+  ],
+  "horizons": [
+   {
+    "cokey": "28770971",
+    "chkey": "86436949",
+    "hzname": "A",
+    "hzdept_r": "0",
+    "hzdepb_r": "44",
+    "sandtotal_r": "1.6",
+    "silttotal_r": "28.9",
+    "claytotal_r": "69.5",
+    "om_r": "6.5",
+    "ph1to1h2o_r": "7",
+    "ksat_r": "0.21",
+    "lep_r": "19",
+    "awc_r": "0.14",
+    "dbthirdbar_r": "1.06",
+    "caco3_r": "1",
+    "cec7_r": "60.6",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28770971",
+    "chkey": "86436946",
+    "hzname": "Bss",
+    "hzdept_r": "44",
+    "hzdepb_r": "133",
+    "sandtotal_r": "1.1",
+    "silttotal_r": "25.8",
+    "claytotal_r": "73.1",
+    "om_r": "3.5",
+    "ph1to1h2o_r": "7.2",
+    "ksat_r": "0.21",
+    "lep_r": "18.3",
+    "awc_r": "0.14",
+    "dbthirdbar_r": "1.16",
+    "caco3_r": "1",
+    "cec7_r": "58.6",
+    "sar_r": "1",
+    "ec_r": "0.5"
+   },
+   {
+    "cokey": "28770971",
+    "chkey": "86436947",
+    "hzname": "Bkss1",
+    "hzdept_r": "133",
+    "hzdepb_r": "171",
+    "sandtotal_r": "2.2",
+    "silttotal_r": "45.1",
+    "claytotal_r": "52.7",
+    "om_r": "0.4",
+    "ph1to1h2o_r": "7.7",
+    "ksat_r": "0.21",
+    "lep_r": "10.6",
+    "awc_r": "0.14",
+    "dbthirdbar_r": "1.43",
+    "caco3_r": "24",
+    "cec7_r": "30.6",
+    "sar_r": "2",
+    "ec_r": "1.5"
+   },
+   {
+    "cokey": "28770971",
+    "chkey": "86436948",
+    "hzname": "Bkss2",
+    "hzdept_r": "171",
+    "hzdepb_r": "203",
+    "sandtotal_r": "0.8",
+    "silttotal_r": "44.1",
+    "claytotal_r": "55.1",
+    "om_r": "0.33",
+    "ph1to1h2o_r": "7.7",
+    "ksat_r": "0.21",
+    "lep_r": "7.6",
+    "awc_r": "0.18",
+    "dbthirdbar_r": "1.45",
+    "caco3_r": "19",
+    "cec7_r": "31.6",
+    "sar_r": "2",
+    "ec_r": "1.5"
+   },
+   {
+    "cokey": "28770996",
+    "chkey": "86436977",
+    "hzname": "Ap",
+    "hzdept_r": "0",
+    "hzdepb_r": "42",
+    "sandtotal_r": "14.5",
+    "silttotal_r": "49",
+    "claytotal_r": "36.5",
+    "om_r": "3.07",
+    "ph1to1h2o_r": "6.8",
+    "ksat_r": "9",
+    "lep_r": "4.5",
+    "awc_r": "0.18",
+    "dbthirdbar_r": "1.43",
+    "caco3_r": "5",
+    "cec7_r": "31",
+    "sar_r": "0",
+    "ec_r": "0.1"
+   },
+   {
+    "cokey": "28770996",
+    "chkey": "86436975",
+    "hzname": "Bw",
+    "hzdept_r": "42",
+    "hzdepb_r": "89",
+    "sandtotal_r": "5.2",
+    "silttotal_r": "66.2",
+    "claytotal_r": "28.6",
+    "om_r": "0.71",
+    "ph1to1h2o_r": "7.9",
+    "ksat_r": "9",
+    "lep_r": "3.1",
+    "awc_r": "0.2",
+    "dbthirdbar_r": "1.33",
+    "caco3_r": "26",
+    "cec7_r": "19.6",
+    "sar_r": "0",
+    "ec_r": "0.1"
+   },
+   {
+    "cokey": "28770996",
+    "chkey": "86436976",
+    "hzname": "Bk",
+    "hzdept_r": "89",
+    "hzdepb_r": "102",
+    "sandtotal_r": "8.6",
+    "silttotal_r": "56.4",
+    "claytotal_r": "35",
+    "om_r": "0.58",
+    "ph1to1h2o_r": "8",
+    "ksat_r": "9",
+    "lep_r": "4.5",
+    "awc_r": "0.19",
+    "dbthirdbar_r": "1.33",
+    "caco3_r": "31",
+    "cec7_r": "21.4",
+    "sar_r": "0",
+    "ec_r": "0.1"
+   },
+   {
+    "cokey": "28770996",
+    "chkey": "86436974",
+    "hzname": "B'w",
+    "hzdept_r": "102",
+    "hzdepb_r": "203",
+    "sandtotal_r": "10.6",
+    "silttotal_r": "71.2",
+    "claytotal_r": "18.2",
+    "om_r": "0.49",
+    "ph1to1h2o_r": "8",
+    "ksat_r": "9",
+    "lep_r": "2",
+    "awc_r": "0.2",
+    "dbthirdbar_r": "1.32",
+    "caco3_r": "21",
+    "cec7_r": "14.6",
+    "sar_r": "0",
+    "ec_r": "0.1"
+   }
+  ],
+  "restrictions": [],
+  "interpretations": [
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.833",
+    "interphrc": "Very low penetration"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "0.27",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "0.498",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.27",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.833",
+    "interphrc": "Very low penetration"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "0.5",
+    "interphrc": "Somewhat limited"
+   }
+  ]
+ },
+ "harrell15": {
+  "mapunits": [
+   {
+    "mukey": "576229",
+    "muname": "Woodville fine sandy loam, 5 to 12 percent slopes",
+    "musym": "WoD",
+    "areasymbol": "TX617",
+    "areaname": "Polk and San Jacinto Counties, Texas"
+   }
+  ],
+  "coverage_pct_by_mukey": {
+   "576229": 100.0
+  },
+  "muaggatt": [
+   {
+    "mukey": "576229",
+    "muname": "Woodville fine sandy loam, 5 to 12 percent slopes",
+    "drclassdcd": "Somewhat poorly drained",
+    "drclasswettest": "Somewhat poorly drained",
+    "hydgrpdcd": "D",
+    "flodfreqdcd": "None",
+    "flodfreqmax": "None",
+    "pondfreqprs": "0",
+    "wtdepannmin": "51",
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": "3.92",
+    "aws0100wta": "12.92",
+    "slopegraddcp": "9",
+    "slopegradwta": "9.1"
+   }
+  ],
+  "components": [
+   {
+    "mukey": "576229",
+    "cokey": "28691928",
+    "compname": "Woodville",
+    "comppct_r": "90",
+    "compkind": "Series",
+    "drainagecl": "Somewhat poorly drained",
+    "hydgrp": "D",
+    "taxclname": "Fine, smectitic, thermic Vertic Paleudalfs",
+    "taxorder": "Alfisols",
+    "taxsubgrp": "Vertic Paleudalfs",
+    "slope_l": "5",
+    "slope_r": "9",
+    "slope_h": "12",
+    "runoff": "Very high",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "6",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "Moderate",
+    "corsteel": "High"
+   }
+  ],
+  "horizons": [
+   {
+    "cokey": "28691928",
+    "chkey": "86171914",
+    "hzname": "A",
+    "hzdept_r": "0",
+    "hzdepb_r": "13",
+    "sandtotal_r": "67.5",
+    "silttotal_r": "21",
+    "claytotal_r": "11.5",
+    "om_r": "0.75",
+    "ph1to1h2o_r": "5.5",
+    "ksat_r": "9",
+    "lep_r": "1.5",
+    "awc_r": "0.16",
+    "dbthirdbar_r": "1.3",
+    "caco3_r": "0",
+    "cec7_r": "10.2",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28691928",
+    "chkey": "86171915",
+    "hzname": "E",
+    "hzdept_r": "13",
+    "hzdepb_r": "23",
+    "sandtotal_r": "67.5",
+    "silttotal_r": "21",
+    "claytotal_r": "11.5",
+    "om_r": "0.65",
+    "ph1to1h2o_r": "5.5",
+    "ksat_r": "9",
+    "lep_r": "1.5",
+    "awc_r": "0.16",
+    "dbthirdbar_r": "1.3",
+    "caco3_r": "0",
+    "cec7_r": "10.1",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28691928",
+    "chkey": "86171916",
+    "hzname": "Bt1",
+    "hzdept_r": "23",
+    "hzdepb_r": "51",
+    "sandtotal_r": "22",
+    "silttotal_r": "28",
+    "claytotal_r": "50",
+    "om_r": "0.3",
+    "ph1to1h2o_r": "5",
+    "ksat_r": "0.21",
+    "lep_r": "7.5",
+    "awc_r": "0.12",
+    "dbthirdbar_r": "1.28",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28691928",
+    "chkey": "86171917",
+    "hzname": "Bt2",
+    "hzdept_r": "51",
+    "hzdepb_r": "114",
+    "sandtotal_r": "22",
+    "silttotal_r": "28",
+    "claytotal_r": "50",
+    "om_r": "0.3",
+    "ph1to1h2o_r": "5",
+    "ksat_r": "0.21",
+    "lep_r": "7.5",
+    "awc_r": "0.12",
+    "dbthirdbar_r": "1.35",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28691928",
+    "chkey": "86171919",
+    "hzname": "Bt3",
+    "hzdept_r": "114",
+    "hzdepb_r": "165",
+    "sandtotal_r": "22",
+    "silttotal_r": "28",
+    "claytotal_r": "50",
+    "om_r": "0.2",
+    "ph1to1h2o_r": "5",
+    "ksat_r": "0.21",
+    "lep_r": "7.5",
+    "awc_r": "0.13",
+    "dbthirdbar_r": "1.5",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28691928",
+    "chkey": "86171918",
+    "hzname": "BCg",
+    "hzdept_r": "165",
+    "hzdepb_r": "203",
+    "sandtotal_r": "26",
+    "silttotal_r": "29",
+    "claytotal_r": "45",
+    "om_r": "0.1",
+    "ph1to1h2o_r": "5.8",
+    "ksat_r": "0.21",
+    "lep_r": "7.5",
+    "awc_r": "0.15",
+    "dbthirdbar_r": "1.5",
+    "caco3_r": "0",
+    "cec7_r": "30.9",
+    "sar_r": "0",
+    "ec_r": "1"
+   }
+  ],
+  "restrictions": [],
+  "interpretations": [
+   {
+    "cokey": "28691928",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28691928",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "0.563",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28691928",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28691928",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28691928",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28691928",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28691928",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28691928",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.667",
+    "interphrc": "Low penetration"
+   },
+   {
+    "cokey": "28691928",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   }
+  ]
+ },
+ "arrowhead2883": {
+  "mapunits": [
+   {
+    "mukey": "363878",
+    "muname": "Kamay silt loam, 1 to 3 percent slopes",
+    "musym": "26",
+    "areasymbol": "TX077",
+    "areaname": "Clay County, Texas"
+   },
+   {
+    "mukey": "363915",
+    "muname": "Bluegrove-Stoneburg association, gently sloping",
+    "musym": "6",
+    "areasymbol": "TX077",
+    "areaname": "Clay County, Texas"
+   }
+  ],
+  "coverage_pct_by_mukey": {
+   "363915": 50.0,
+   "363878": 50.0
+  },
+  "muaggatt": [
+   {
+    "mukey": "363878",
+    "muname": "Kamay silt loam, 1 to 3 percent slopes",
+    "drclassdcd": "Well drained",
+    "drclasswettest": "Well drained",
+    "hydgrpdcd": "D",
+    "flodfreqdcd": "None",
+    "flodfreqmax": "None",
+    "pondfreqprs": "0",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": "160",
+    "aws025wta": "3.25",
+    "aws0100wta": "13",
+    "slopegraddcp": "2",
+    "slopegradwta": "2"
+   },
+   {
+    "mukey": "363915",
+    "muname": "Bluegrove-Stoneburg association, gently sloping",
+    "drclassdcd": "Well drained",
+    "drclasswettest": "Well drained",
+    "hydgrpdcd": "C",
+    "flodfreqdcd": "None",
+    "flodfreqmax": "None",
+    "pondfreqprs": "0",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": "76",
+    "aws025wta": "4.27",
+    "aws0100wta": "13.97",
+    "slopegraddcp": "3",
+    "slopegradwta": "3"
+   }
+  ],
+  "components": [
+   {
+    "mukey": "363878",
+    "cokey": "28101828",
+    "compname": "Kamay",
+    "comppct_r": "100",
+    "compkind": "Series",
+    "drainagecl": "Well drained",
+    "hydgrp": "D",
+    "taxclname": "Fine, smectitic, thermic Typic Paleustalfs",
+    "taxorder": "Alfisols",
+    "taxsubgrp": "Typic Paleustalfs",
+    "slope_l": "1",
+    "slope_r": "2",
+    "slope_h": "3",
+    "runoff": "Very high",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "3",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "Moderate",
+    "corsteel": "High"
+   },
+   {
+    "mukey": "363915",
+    "cokey": "28101777",
+    "compname": "Bluegrove",
+    "comppct_r": "70",
+    "compkind": "Series",
+    "drainagecl": "Well drained",
+    "hydgrp": "C",
+    "taxclname": "Fine, mixed, active, thermic Typic Haplustalfs",
+    "taxorder": "Alfisols",
+    "taxsubgrp": "Typic Haplustalfs",
+    "slope_l": "1",
+    "slope_r": "3",
+    "slope_h": "5",
+    "runoff": "Medium",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "3",
+    "nirrcapcl": "3",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "Low",
+    "corsteel": "High"
+   },
+   {
+    "mukey": "363915",
+    "cokey": "28101778",
+    "compname": "Stoneburg",
+    "comppct_r": "20",
+    "compkind": "Series",
+    "drainagecl": "Well drained",
+    "hydgrp": "C",
+    "taxclname": "Fine-loamy, mixed, thermic Udic Argiustolls",
+    "taxorder": "Mollisols",
+    "taxsubgrp": "Udic Argiustolls",
+    "slope_l": "1",
+    "slope_r": "3",
+    "slope_h": "5",
+    "runoff": "Medium",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "3",
+    "nirrcapcl": "3",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "Low",
+    "corsteel": "Moderate"
+   }
+  ],
+  "horizons": [
+   {
+    "cokey": "28101777",
+    "chkey": "84366130",
+    "hzname": "H1",
+    "hzdept_r": "0",
+    "hzdepb_r": "15",
+    "sandtotal_r": "42.1",
+    "silttotal_r": "37.9",
+    "claytotal_r": "20",
+    "om_r": "1.75",
+    "ph1to1h2o_r": "6.5",
+    "ksat_r": "9",
+    "lep_r": "1.5",
+    "awc_r": "0.17",
+    "dbthirdbar_r": "1.43",
+    "caco3_r": "0",
+    "cec7_r": "15",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28101777",
+    "chkey": "84366131",
+    "hzname": "H2",
+    "hzdept_r": "15",
+    "hzdepb_r": "76",
+    "sandtotal_r": "26.8",
+    "silttotal_r": "29.7",
+    "claytotal_r": "43.5",
+    "om_r": "1.25",
+    "ph1to1h2o_r": "7",
+    "ksat_r": "2.7",
+    "lep_r": "4.5",
+    "awc_r": "0.18",
+    "dbthirdbar_r": "1.48",
+    "caco3_r": "3",
+    "cec7_r": "22.5",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28101777",
+    "chkey": "84366129",
+    "hzname": "H3",
+    "hzdept_r": "76",
+    "hzdepb_r": "122",
+    "sandtotal_r": null,
+    "silttotal_r": null,
+    "claytotal_r": null,
+    "om_r": null,
+    "ph1to1h2o_r": null,
+    "ksat_r": "7.7",
+    "lep_r": null,
+    "awc_r": null,
+    "dbthirdbar_r": null,
+    "caco3_r": null,
+    "cec7_r": null,
+    "sar_r": null,
+    "ec_r": null
+   },
+   {
+    "cokey": "28101778",
+    "chkey": "84366133",
+    "hzname": "H1",
+    "hzdept_r": "0",
+    "hzdepb_r": "30",
+    "sandtotal_r": "43.8",
+    "silttotal_r": "40.2",
+    "claytotal_r": "16",
+    "om_r": "2",
+    "ph1to1h2o_r": "6.5",
+    "ksat_r": "28",
+    "lep_r": "1.5",
+    "awc_r": "0.16",
+    "dbthirdbar_r": "1.48",
+    "caco3_r": "0",
+    "cec7_r": "10",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28101778",
+    "chkey": "84366134",
+    "hzname": "H2",
+    "hzdept_r": "30",
+    "hzdepb_r": "43",
+    "sandtotal_r": "59.6",
+    "silttotal_r": "17.9",
+    "claytotal_r": "22.5",
+    "om_r": "0.75",
+    "ph1to1h2o_r": "6.5",
+    "ksat_r": "9",
+    "lep_r": "1.5",
+    "awc_r": "0.16",
+    "dbthirdbar_r": "1.53",
+    "caco3_r": "0",
+    "cec7_r": "12.5",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28101778",
+    "chkey": "84366135",
+    "hzname": "H3",
+    "hzdept_r": "43",
+    "hzdepb_r": "71",
+    "sandtotal_r": "33.5",
+    "silttotal_r": "36.5",
+    "claytotal_r": "30",
+    "om_r": "0.75",
+    "ph1to1h2o_r": "6.5",
+    "ksat_r": "2.7",
+    "lep_r": "4.5",
+    "awc_r": "0.16",
+    "dbthirdbar_r": "1.53",
+    "caco3_r": "0",
+    "cec7_r": "17.5",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28101778",
+    "chkey": "84366136",
+    "hzname": "H4",
+    "hzdept_r": "71",
+    "hzdepb_r": "97",
+    "sandtotal_r": "33.5",
+    "silttotal_r": "36.5",
+    "claytotal_r": "30",
+    "om_r": "0.75",
+    "ph1to1h2o_r": "6.7",
+    "ksat_r": "2.7",
+    "lep_r": "4.5",
+    "awc_r": "0.16",
+    "dbthirdbar_r": "1.58",
+    "caco3_r": "0",
+    "cec7_r": "17.5",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28101778",
+    "chkey": "84366132",
+    "hzname": "H5",
+    "hzdept_r": "97",
+    "hzdepb_r": "127",
+    "sandtotal_r": null,
+    "silttotal_r": null,
+    "claytotal_r": null,
+    "om_r": null,
+    "ph1to1h2o_r": null,
+    "ksat_r": "7.7",
+    "lep_r": null,
+    "awc_r": null,
+    "dbthirdbar_r": null,
+    "caco3_r": null,
+    "cec7_r": null,
+    "sar_r": null,
+    "ec_r": null
+   },
+   {
+    "cokey": "28101828",
+    "chkey": "84366189",
+    "hzname": "H1",
+    "hzdept_r": "0",
+    "hzdepb_r": "23",
+    "sandtotal_r": "26.5",
+    "silttotal_r": "53.5",
+    "claytotal_r": "20",
+    "om_r": "2",
+    "ph1to1h2o_r": "6.2",
+    "ksat_r": "9",
+    "lep_r": "1.5",
+    "awc_r": "0.13",
+    "dbthirdbar_r": "1.5",
+    "caco3_r": "0",
+    "cec7_r": "13.5",
+    "sar_r": "1",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28101828",
+    "chkey": "84366188",
+    "hzname": "H2",
+    "hzdept_r": "23",
+    "hzdepb_r": "160",
+    "sandtotal_r": "28.1",
+    "silttotal_r": "29.4",
+    "claytotal_r": "42.5",
+    "om_r": "1.25",
+    "ph1to1h2o_r": "7.9",
+    "ksat_r": "0.21",
+    "lep_r": "7.5",
+    "awc_r": "0.13",
+    "dbthirdbar_r": "1.5",
+    "caco3_r": "1",
+    "cec7_r": "20",
+    "sar_r": "15",
+    "ec_r": "6"
+   },
+   {
+    "cokey": "28101828",
+    "chkey": "84366187",
+    "hzname": "H3",
+    "hzdept_r": "160",
+    "hzdepb_r": "203",
+    "sandtotal_r": "29.6",
+    "silttotal_r": "30.4",
+    "claytotal_r": "40",
+    "om_r": "0.25",
+    "ph1to1h2o_r": "8.2",
+    "ksat_r": "1",
+    "lep_r": "7.5",
+    "awc_r": "0.13",
+    "dbthirdbar_r": "1.58",
+    "caco3_r": "1",
+    "cec7_r": "12",
+    "sar_r": "15",
+    "ec_r": "6"
+   }
+  ],
+  "restrictions": [
+   {
+    "cokey": "28101777",
+    "reskind": "Paralithic bedrock",
+    "reshard": "Weakly coherent",
+    "resdept_r": "76",
+    "resdepb_r": null
+   },
+   {
+    "cokey": "28101778",
+    "reskind": "Paralithic bedrock",
+    "reshard": "Weakly coherent",
+    "resdept_r": "97",
+    "resdepb_r": null
+   },
+   {
+    "cokey": "28101828",
+    "reskind": "Densic bedrock",
+    "reshard": "noncoherent",
+    "resdept_r": "160",
+    "resdepb_r": null
+   }
+  ],
+  "interpretations": [
+   {
+    "cokey": "28101777",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "0.5",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101777",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "0.461",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101777",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28101777",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28101777",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "0.973",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101777",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.457",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101777",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "0.497",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101777",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.667",
+    "interphrc": "Low penetration"
+   },
+   {
+    "cokey": "28101777",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "0.154",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101778",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "0.125",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101778",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "0.5",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101778",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28101778",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "0.591",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101778",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "0.773",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101778",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.212",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101778",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "0.124",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101778",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.5",
+    "interphrc": "Moderate penetration"
+   },
+   {
+    "cokey": "28101778",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "0.125",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101828",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28101828",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28101828",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28101828",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28101828",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "0",
+    "interphrc": "Not limited"
+   },
+   {
+    "cokey": "28101828",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.51",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28101828",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28101828",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "1",
+    "interphrc": "Unsuited"
+   },
+   {
+    "cokey": "28101828",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "0.875",
+    "interphrc": "Somewhat limited"
+   }
+  ]
+ },
+ "stlawrence0": {
+  "mapunits": [
+   {
+    "mukey": "575576",
+    "muname": "Conroe loamy fine sand, 5 to 12 percent slopes",
+    "musym": "CoD",
+    "areasymbol": "TX339",
+    "areaname": "Montgomery County, Texas"
+   },
+   {
+    "mukey": "575605",
+    "muname": "Woodville fine sandy loam, 1 to 5 percent slopes",
+    "musym": "SuC",
+    "areasymbol": "TX339",
+    "areaname": "Montgomery County, Texas"
+   }
+  ],
+  "coverage_pct_by_mukey": {
+   "575605": 100.0
+  },
+  "muaggatt": [
+   {
+    "mukey": "575576",
+    "muname": "Conroe loamy fine sand, 5 to 12 percent slopes",
+    "drclassdcd": "Moderately well drained",
+    "drclasswettest": "Moderately well drained",
+    "hydgrpdcd": "B",
+    "flodfreqdcd": "None",
+    "flodfreqmax": "None",
+    "pondfreqprs": "0",
+    "wtdepannmin": "84",
+    "wtdepaprjunmin": "84",
+    "brockdepmin": null,
+    "aws025wta": "2.25",
+    "aws0100wta": "9.9",
+    "slopegraddcp": "9",
+    "slopegradwta": "9"
+   },
+   {
+    "mukey": "575605",
+    "muname": "Woodville fine sandy loam, 1 to 5 percent slopes",
+    "drclassdcd": "Somewhat poorly drained",
+    "drclasswettest": "Somewhat poorly drained",
+    "hydgrpdcd": "D",
+    "flodfreqdcd": "None",
+    "flodfreqmax": "None",
+    "pondfreqprs": "0",
+    "wtdepannmin": "86",
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": "3.9",
+    "aws0100wta": "15.15",
+    "slopegraddcp": "3",
+    "slopegradwta": "3.5"
+   }
+  ],
+  "components": [
+   {
+    "mukey": "575576",
+    "cokey": "28399661",
+    "compname": "Conroe",
+    "comppct_r": "100",
+    "compkind": "Series",
+    "drainagecl": "Moderately well drained",
+    "hydgrp": "B",
+    "taxclname": "Clayey, kaolinitic, thermic Arenic Plinthic Paleudults",
+    "taxorder": "Ultisols",
+    "taxsubgrp": "Arenic Plinthic Paleudults",
+    "slope_l": "5",
+    "slope_r": "9",
+    "slope_h": "12",
+    "runoff": "High",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "4",
+    "nirrcapcl": "6",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "Moderate",
+    "corsteel": "High"
+   },
+   {
+    "mukey": "575605",
+    "cokey": "28399795",
+    "compname": "Woodville",
+    "comppct_r": "90",
+    "compkind": "Series",
+    "drainagecl": "Somewhat poorly drained",
+    "hydgrp": "D",
+    "taxclname": "Fine, smectitic, thermic Vertic Paleudalfs",
+    "taxorder": "Alfisols",
+    "taxsubgrp": "Vertic Paleudalfs",
+    "slope_l": "1",
+    "slope_r": "3",
+    "slope_h": "5",
+    "runoff": "Very high",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "4",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "Moderate",
+    "corsteel": "High"
+   }
+  ],
+  "horizons": [
+   {
+    "cokey": "28399661",
+    "chkey": "85268501",
+    "hzname": "H1",
+    "hzdept_r": "0",
+    "hzdepb_r": "64",
+    "sandtotal_r": "77.9",
+    "silttotal_r": "16.1",
+    "claytotal_r": "6",
+    "om_r": "1.5",
+    "ph1to1h2o_r": "5.5",
+    "ksat_r": "28",
+    "lep_r": "1.5",
+    "awc_r": "0.09",
+    "dbthirdbar_r": "1.4",
+    "caco3_r": "0",
+    "cec7_r": "3",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28399661",
+    "chkey": "85268499",
+    "hzname": "H2",
+    "hzdept_r": "64",
+    "hzdepb_r": "79",
+    "sandtotal_r": "51.5",
+    "silttotal_r": "13.5",
+    "claytotal_r": "35",
+    "om_r": "0.75",
+    "ph1to1h2o_r": "5",
+    "ksat_r": "1",
+    "lep_r": "4.5",
+    "awc_r": "0.15",
+    "dbthirdbar_r": "1.58",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28399661",
+    "chkey": "85268498",
+    "hzname": "H3",
+    "hzdept_r": "79",
+    "hzdepb_r": "198",
+    "sandtotal_r": "28.1",
+    "silttotal_r": "29.4",
+    "claytotal_r": "42.5",
+    "om_r": "0.75",
+    "ph1to1h2o_r": "5",
+    "ksat_r": "1",
+    "lep_r": "4.5",
+    "awc_r": "0.09",
+    "dbthirdbar_r": "1.65",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28399661",
+    "chkey": "85268500",
+    "hzname": "H4",
+    "hzdept_r": "198",
+    "hzdepb_r": "203",
+    "sandtotal_r": "50.8",
+    "silttotal_r": "11.7",
+    "claytotal_r": "37.5",
+    "om_r": "0.3",
+    "ph1to1h2o_r": "5",
+    "ksat_r": "1",
+    "lep_r": "4.5",
+    "awc_r": "0.1",
+    "dbthirdbar_r": "1.68",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28399795",
+    "chkey": "85268776",
+    "hzname": "A",
+    "hzdept_r": "0",
+    "hzdepb_r": "8",
+    "sandtotal_r": "67.5",
+    "silttotal_r": "21",
+    "claytotal_r": "11.5",
+    "om_r": "0.75",
+    "ph1to1h2o_r": "5.5",
+    "ksat_r": "9",
+    "lep_r": "1.5",
+    "awc_r": "0.16",
+    "dbthirdbar_r": "1.3",
+    "caco3_r": "0",
+    "cec7_r": "10.2",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28399795",
+    "chkey": "85268777",
+    "hzname": "E",
+    "hzdept_r": "8",
+    "hzdepb_r": "15",
+    "sandtotal_r": "67.5",
+    "silttotal_r": "21",
+    "claytotal_r": "11.5",
+    "om_r": "0.65",
+    "ph1to1h2o_r": "5.5",
+    "ksat_r": "9",
+    "lep_r": "1.5",
+    "awc_r": "0.16",
+    "dbthirdbar_r": "1.3",
+    "caco3_r": "0",
+    "cec7_r": "10.1",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28399795",
+    "chkey": "85268778",
+    "hzname": "Bt1",
+    "hzdept_r": "15",
+    "hzdepb_r": "86",
+    "sandtotal_r": "22",
+    "silttotal_r": "28",
+    "claytotal_r": "50",
+    "om_r": "0.4",
+    "ph1to1h2o_r": "5",
+    "ksat_r": "0.21",
+    "lep_r": "7.5",
+    "awc_r": "0.15",
+    "dbthirdbar_r": "1.28",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28399795",
+    "chkey": "85268779",
+    "hzname": "Bt2",
+    "hzdept_r": "86",
+    "hzdepb_r": "117",
+    "sandtotal_r": "22",
+    "silttotal_r": "28",
+    "claytotal_r": "50",
+    "om_r": "0.3",
+    "ph1to1h2o_r": "5",
+    "ksat_r": "0.21",
+    "lep_r": "7.5",
+    "awc_r": "0.15",
+    "dbthirdbar_r": "1.35",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28399795",
+    "chkey": "85268781",
+    "hzname": "Bt3",
+    "hzdept_r": "117",
+    "hzdepb_r": "165",
+    "sandtotal_r": "22",
+    "silttotal_r": "28",
+    "claytotal_r": "50",
+    "om_r": "0.2",
+    "ph1to1h2o_r": "5",
+    "ksat_r": "0.21",
+    "lep_r": "7.5",
+    "awc_r": "0.15",
+    "dbthirdbar_r": "1.5",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28399795",
+    "chkey": "85268780",
+    "hzname": "BC",
+    "hzdept_r": "165",
+    "hzdepb_r": "203",
+    "sandtotal_r": "26",
+    "silttotal_r": "29",
+    "claytotal_r": "45",
+    "om_r": "0.1",
+    "ph1to1h2o_r": "5.8",
+    "ksat_r": "0.21",
+    "lep_r": "7.5",
+    "awc_r": "0.15",
+    "dbthirdbar_r": "1.5",
+    "caco3_r": "0",
+    "cec7_r": "30.9",
+    "sar_r": "0",
+    "ec_r": "1"
+   }
+  ],
+  "restrictions": [],
+  "interpretations": [
+   {
+    "cokey": "28399661",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "0.986",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28399661",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28399661",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28399661",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "0.245",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28399661",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28399661",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.986",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28399661",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "0.041",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28399661",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.667",
+    "interphrc": "Low penetration"
+   },
+   {
+    "cokey": "28399661",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28399795",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28399795",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "0.115",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28399795",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28399795",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28399795",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28399795",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.978",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28399795",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28399795",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.667",
+    "interphrc": "Low penetration"
+   },
+   {
+    "cokey": "28399795",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   }
+  ]
+ },
+ "pr52415": {
+  "mapunits": [
+   {
+    "mukey": "576108",
+    "muname": "Kirvin very fine sandy loam, 3 to 8 percent slopes",
+    "musym": "KfC",
+    "areasymbol": "TX603",
+    "areaname": "Camp, Franklin, Morris, and Titus Counties, Texas"
+   },
+   {
+    "mukey": "576122",
+    "muname": "Sacul fine sandy loam, 5 to 15 percent slopes",
+    "musym": "SaD",
+    "areasymbol": "TX603",
+    "areaname": "Camp, Franklin, Morris, and Titus Counties, Texas"
+   }
+  ],
+  "coverage_pct_by_mukey": {
+   "576108": 85.7,
+   "576122": 14.3
+  },
+  "muaggatt": [
+   {
+    "mukey": "576108",
+    "muname": "Kirvin very fine sandy loam, 3 to 8 percent slopes",
+    "drclassdcd": "Well drained",
+    "drclasswettest": "Well drained",
+    "hydgrpdcd": "C",
+    "flodfreqdcd": "None",
+    "flodfreqmax": "None",
+    "pondfreqprs": "0",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": "107",
+    "aws025wta": "2.75",
+    "aws0100wta": "12.28",
+    "slopegraddcp": "6",
+    "slopegradwta": "6.1"
+   },
+   {
+    "mukey": "576122",
+    "muname": "Sacul fine sandy loam, 5 to 15 percent slopes",
+    "drclassdcd": "Moderately well drained",
+    "drclasswettest": "Moderately well drained",
+    "hydgrpdcd": "D",
+    "flodfreqdcd": "None",
+    "flodfreqmax": "None",
+    "pondfreqprs": "0",
+    "wtdepannmin": "84",
+    "wtdepaprjunmin": "84",
+    "brockdepmin": null,
+    "aws025wta": "3.65",
+    "aws0100wta": "16.24",
+    "slopegraddcp": "10",
+    "slopegradwta": "10.4"
+   }
+  ],
+  "components": [
+   {
+    "mukey": "576108",
+    "cokey": "28685336",
+    "compname": "Kirvin",
+    "comppct_r": "85",
+    "compkind": "Series",
+    "drainagecl": "Well drained",
+    "hydgrp": "C",
+    "taxclname": "Clayey, mixed, thermic Typic Hapludults",
+    "taxorder": "Ultisols",
+    "taxsubgrp": "Typic Hapludults",
+    "slope_l": "3",
+    "slope_r": "6",
+    "slope_h": "8",
+    "runoff": "High",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "4",
+    "nirrcapcl": "4",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "High",
+    "corsteel": "Moderate"
+   },
+   {
+    "mukey": "576122",
+    "cokey": "28685426",
+    "compname": "Sacul",
+    "comppct_r": "90",
+    "compkind": "Series",
+    "drainagecl": "Moderately well drained",
+    "hydgrp": "D",
+    "taxclname": "Fine, mixed, active, thermic Aquic Hapludults",
+    "taxorder": "Ultisols",
+    "taxsubgrp": "Aquic Hapludults",
+    "slope_l": "5",
+    "slope_r": "10",
+    "slope_h": "15",
+    "runoff": "Very high",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "6",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "High",
+    "corsteel": "High"
+   }
+  ],
+  "horizons": [
+   {
+    "cokey": "28685336",
+    "chkey": "86150996",
+    "hzname": "H1",
+    "hzdept_r": "0",
+    "hzdepb_r": "36",
+    "sandtotal_r": "64.8",
+    "silttotal_r": "26.7",
+    "claytotal_r": "8.5",
+    "om_r": "1.25",
+    "ph1to1h2o_r": "6.2",
+    "ksat_r": "28",
+    "lep_r": "1.5",
+    "awc_r": "0.11",
+    "dbthirdbar_r": "1.3",
+    "caco3_r": "0",
+    "cec7_r": "5.5",
+    "sar_r": "0",
+    "ec_r": "0"
+   },
+   {
+    "cokey": "28685336",
+    "chkey": "86150995",
+    "hzname": "H2",
+    "hzdept_r": "36",
+    "hzdepb_r": "107",
+    "sandtotal_r": "23.3",
+    "silttotal_r": "29.2",
+    "claytotal_r": "47.5",
+    "om_r": "0.55",
+    "ph1to1h2o_r": "4.6",
+    "ksat_r": "2.7",
+    "lep_r": "4.5",
+    "awc_r": "0.13",
+    "dbthirdbar_r": "1.35",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "0"
+   },
+   {
+    "cokey": "28685336",
+    "chkey": "86150994",
+    "hzname": "H3",
+    "hzdept_r": "107",
+    "hzdepb_r": "183",
+    "sandtotal_r": "34.7",
+    "silttotal_r": "32.8",
+    "claytotal_r": "32.5",
+    "om_r": "0.55",
+    "ph1to1h2o_r": "4.3",
+    "ksat_r": "2.7",
+    "lep_r": "4.5",
+    "awc_r": "0.11",
+    "dbthirdbar_r": "1.53",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "0"
+   },
+   {
+    "cokey": "28685426",
+    "chkey": "86151175",
+    "hzname": "A",
+    "hzdept_r": "0",
+    "hzdepb_r": "10",
+    "sandtotal_r": "70.9",
+    "silttotal_r": "16.6",
+    "claytotal_r": "12.5",
+    "om_r": "2",
+    "ph1to1h2o_r": "5.3",
+    "ksat_r": "9",
+    "lep_r": "1.5",
+    "awc_r": "0.11",
+    "dbthirdbar_r": "1.4",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "0.5"
+   },
+   {
+    "cokey": "28685426",
+    "chkey": "86151176",
+    "hzname": "Bt",
+    "hzdept_r": "10",
+    "hzdepb_r": "84",
+    "sandtotal_r": "23.3",
+    "silttotal_r": "29.2",
+    "claytotal_r": "47.5",
+    "om_r": "0.75",
+    "ph1to1h2o_r": "4.6",
+    "ksat_r": "1",
+    "lep_r": "7.5",
+    "awc_r": "0.17",
+    "dbthirdbar_r": "1.33",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "0.5"
+   },
+   {
+    "cokey": "28685426",
+    "chkey": "86151177",
+    "hzname": "BC",
+    "hzdept_r": "84",
+    "hzdepb_r": "107",
+    "sandtotal_r": "37.4",
+    "silttotal_r": "36.6",
+    "claytotal_r": "26",
+    "om_r": "0.2",
+    "ph1to1h2o_r": "4.6",
+    "ksat_r": "2.7",
+    "lep_r": "1.5",
+    "awc_r": "0.16",
+    "dbthirdbar_r": "1.38",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "0.5"
+   },
+   {
+    "cokey": "28685426",
+    "chkey": "86151178",
+    "hzname": "C",
+    "hzdept_r": "107",
+    "hzdepb_r": "203",
+    "sandtotal_r": "37.4",
+    "silttotal_r": "36.6",
+    "claytotal_r": "26",
+    "om_r": "0.1",
+    "ph1to1h2o_r": "4.6",
+    "ksat_r": "2.7",
+    "lep_r": "1.5",
+    "awc_r": "0.16",
+    "dbthirdbar_r": "1.38",
+    "caco3_r": "0",
+    "cec7_r": null,
+    "sar_r": "0",
+    "ec_r": "0.5"
+   }
+  ],
+  "restrictions": [
+   {
+    "cokey": "28685336",
+    "reskind": "Densic bedrock",
+    "reshard": "noncoherent",
+    "resdept_r": "107",
+    "resdepb_r": null
+   }
+  ],
+  "interpretations": [
+   {
+    "cokey": "28685336",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "0.268",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28685336",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "0.75",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28685336",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28685336",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28685336",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "0.609",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28685336",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.281",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28685336",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28685336",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.667",
+    "interphrc": "Low penetration"
+   },
+   {
+    "cokey": "28685336",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28685426",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "0.986",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28685426",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "0.163",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28685426",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28685426",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28685426",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28685426",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.986",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28685426",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28685426",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.667",
+    "interphrc": "Low penetration"
+   },
+   {
+    "cokey": "28685426",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   }
+  ]
+ },
+ "ward141": {
+  "mapunits": [
+   {
+    "mukey": "378347",
+    "muname": "Olton clay loam, 1 to 3 percent slopes",
+    "musym": "OcB",
+    "areasymbol": "TX169",
+    "areaname": "Garza County, Texas"
+   }
+  ],
+  "coverage_pct_by_mukey": {
+   "378347": 100.0
+  },
+  "muaggatt": [
+   {
+    "mukey": "378347",
+    "muname": "Olton clay loam, 1 to 3 percent slopes",
+    "drclassdcd": "Well drained",
+    "drclasswettest": "Well drained",
+    "hydgrpdcd": "C",
+    "flodfreqdcd": "None",
+    "flodfreqmax": "None",
+    "pondfreqprs": "0",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": "4.5",
+    "aws0100wta": "18",
+    "slopegraddcp": "2",
+    "slopegradwta": "2"
+   }
+  ],
+  "components": [
+   {
+    "mukey": "378347",
+    "cokey": "28119332",
+    "compname": "Olton",
+    "comppct_r": "100",
+    "compkind": "Series",
+    "drainagecl": "Well drained",
+    "hydgrp": "C",
+    "taxclname": "Fine, mixed, superactive, thermic Aridic Paleustolls",
+    "taxorder": "Mollisols",
+    "taxsubgrp": "Aridic Paleustolls",
+    "slope_l": "1",
+    "slope_r": "2",
+    "slope_h": "3",
+    "runoff": "Medium",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "3",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "Low",
+    "corsteel": "High"
+   }
+  ],
+  "horizons": [
+   {
+    "cokey": "28119332",
+    "chkey": "84414297",
+    "hzname": "H1",
+    "hzdept_r": "0",
+    "hzdepb_r": "20",
+    "sandtotal_r": "34.2",
+    "silttotal_r": "37.3",
+    "claytotal_r": "28.5",
+    "om_r": "1.5",
+    "ph1to1h2o_r": "7",
+    "ksat_r": "9",
+    "lep_r": "4.5",
+    "awc_r": "0.18",
+    "dbthirdbar_r": "1.35",
+    "caco3_r": "0",
+    "cec7_r": "17.5",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28119332",
+    "chkey": "84414299",
+    "hzname": "H2",
+    "hzdept_r": "20",
+    "hzdepb_r": "112",
+    "sandtotal_r": "29",
+    "silttotal_r": "31",
+    "claytotal_r": "40",
+    "om_r": "0.55",
+    "ph1to1h2o_r": "7.6",
+    "ksat_r": "2.7",
+    "lep_r": "4.5",
+    "awc_r": "0.18",
+    "dbthirdbar_r": "1.4",
+    "caco3_r": "10",
+    "cec7_r": "17.5",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28119332",
+    "chkey": "84414298",
+    "hzname": "H3",
+    "hzdept_r": "112",
+    "hzdepb_r": "165",
+    "sandtotal_r": "34.7",
+    "silttotal_r": "32.8",
+    "claytotal_r": "32.5",
+    "om_r": "0.3",
+    "ph1to1h2o_r": "8.2",
+    "ksat_r": "2.7",
+    "lep_r": "4.5",
+    "awc_r": "0.13",
+    "dbthirdbar_r": "1.5",
+    "caco3_r": "40",
+    "cec7_r": "17.5",
+    "sar_r": "0",
+    "ec_r": "1"
+   }
+  ],
+  "restrictions": [],
+  "interpretations": [
+   {
+    "cokey": "28119332",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "0.5",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28119332",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "0.389",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28119332",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28119332",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28119332",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "0",
+    "interphrc": "Not limited"
+   },
+   {
+    "cokey": "28119332",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.389",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28119332",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "0.991",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28119332",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.667",
+    "interphrc": "Low penetration"
+   },
+   {
+    "cokey": "28119332",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "0.125",
+    "interphrc": "Somewhat limited"
+   }
+  ]
+ },
+ "ward80": {
+  "mapunits": [
+   {
+    "mukey": "368472",
+    "muname": "Berda fine sandy loam, moist, 3 to 5 percent slopes",
+    "musym": "BdC",
+    "areasymbol": "TX263",
+    "areaname": "Kent County, Texas"
+   },
+   {
+    "mukey": "368477",
+    "muname": "Miles-Cobb complex, 1 to 3 percent slopes",
+    "musym": "CmB",
+    "areasymbol": "TX263",
+    "areaname": "Kent County, Texas"
+   },
+   {
+    "mukey": "368502",
+    "muname": "Rough broken land",
+    "musym": "Ro",
+    "areasymbol": "TX263",
+    "areaname": "Kent County, Texas"
+   }
+  ],
+  "coverage_pct_by_mukey": {
+   "368477": 41.7,
+   "368502": 41.7,
+   "368472": 16.7
+  },
+  "muaggatt": [
+   {
+    "mukey": "368472",
+    "muname": "Berda fine sandy loam, moist, 3 to 5 percent slopes",
+    "drclassdcd": "Well drained",
+    "drclasswettest": "Well drained",
+    "hydgrpdcd": "B",
+    "flodfreqdcd": "None",
+    "flodfreqmax": "None",
+    "pondfreqprs": "0",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": "2.5",
+    "aws0100wta": "11.31",
+    "slopegraddcp": "4",
+    "slopegradwta": "4"
+   },
+   {
+    "mukey": "368477",
+    "muname": "Miles-Cobb complex, 1 to 3 percent slopes",
+    "drclassdcd": "Well drained",
+    "drclasswettest": "Well drained",
+    "hydgrpdcd": "B",
+    "flodfreqdcd": "None",
+    "flodfreqmax": "None",
+    "pondfreqprs": "0",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": "97",
+    "aws025wta": "3.25",
+    "aws0100wta": "14.33",
+    "slopegraddcp": "2",
+    "slopegradwta": "2"
+   },
+   {
+    "mukey": "368502",
+    "muname": "Rough broken land",
+    "drclassdcd": "Well drained",
+    "drclasswettest": "Well drained",
+    "hydgrpdcd": "C",
+    "flodfreqdcd": "None",
+    "flodfreqmax": "None",
+    "pondfreqprs": "0",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": "3",
+    "aws0100wta": "12",
+    "slopegraddcp": "38",
+    "slopegradwta": "38"
+   }
+  ],
+  "components": [
+   {
+    "mukey": "368472",
+    "cokey": "28363172",
+    "compname": "Berda",
+    "comppct_r": "90",
+    "compkind": "Series",
+    "drainagecl": "Well drained",
+    "hydgrp": "B",
+    "taxclname": "Fine-loamy, mixed, superactive, thermic Aridic Haplustepts",
+    "taxorder": "Inceptisols",
+    "taxsubgrp": "Aridic Haplustepts",
+    "slope_l": "3",
+    "slope_r": "4",
+    "slope_h": "5",
+    "runoff": "Low",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "3",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "Low",
+    "corsteel": "Moderate"
+   },
+   {
+    "mukey": "368477",
+    "cokey": "28363122",
+    "compname": "Miles",
+    "comppct_r": "57",
+    "compkind": "Series",
+    "drainagecl": "Well drained",
+    "hydgrp": "B",
+    "taxclname": "Fine-loamy, mixed, superactive, thermic Typic Paleustalfs",
+    "taxorder": "Alfisols",
+    "taxsubgrp": "Typic Paleustalfs",
+    "slope_l": "1",
+    "slope_r": "2",
+    "slope_h": "3",
+    "runoff": "Low",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "3",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "Low",
+    "corsteel": "Moderate"
+   },
+   {
+    "mukey": "368477",
+    "cokey": "28363123",
+    "compname": "Cobb",
+    "comppct_r": "35",
+    "compkind": "Series",
+    "drainagecl": "Well drained",
+    "hydgrp": "C",
+    "taxclname": "Fine-loamy, mixed, active, thermic Typic Haplustalfs",
+    "taxorder": "Alfisols",
+    "taxsubgrp": "Typic Haplustalfs",
+    "slope_l": "1",
+    "slope_r": "2",
+    "slope_h": "3",
+    "runoff": "Medium",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "3",
+    "nirrcapcl": "3",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "Low",
+    "corsteel": "Moderate"
+   },
+   {
+    "mukey": "368502",
+    "cokey": "28363080",
+    "compname": "Rough broken land",
+    "comppct_r": "100",
+    "compkind": "Miscellaneous area",
+    "drainagecl": "Well drained",
+    "hydgrp": "C",
+    "taxclname": null,
+    "taxorder": null,
+    "taxsubgrp": null,
+    "slope_l": "15",
+    "slope_r": "38",
+    "slope_h": "60",
+    "runoff": "Medium",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "7",
+    "nirrcapscl": "e",
+    "frostact": null,
+    "corcon": null,
+    "corsteel": null
+   }
+  ],
+  "horizons": [
+   {
+    "cokey": "28363080",
+    "chkey": "85170189",
+    "hzname": "H1",
+    "hzdept_r": "0",
+    "hzdepb_r": "203",
+    "sandtotal_r": null,
+    "silttotal_r": null,
+    "claytotal_r": "18.5",
+    "om_r": "0.55",
+    "ph1to1h2o_r": "7.9",
+    "ksat_r": "28",
+    "lep_r": "1.5",
+    "awc_r": "0.12",
+    "dbthirdbar_r": "1.38",
+    "caco3_r": "3",
+    "cec7_r": "12.5",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28363122",
+    "chkey": "85170242",
+    "hzname": "A",
+    "hzdept_r": "0",
+    "hzdepb_r": "25",
+    "sandtotal_r": "71",
+    "silttotal_r": "16",
+    "claytotal_r": "13",
+    "om_r": "0.75",
+    "ph1to1h2o_r": "7",
+    "ksat_r": "28",
+    "lep_r": "1.2",
+    "awc_r": "0.13",
+    "dbthirdbar_r": "1.49",
+    "caco3_r": "0",
+    "cec7_r": "11.1",
+    "sar_r": "0",
+    "ec_r": "0"
+   },
+   {
+    "cokey": "28363122",
+    "chkey": "85170243",
+    "hzname": "Bt",
+    "hzdept_r": "25",
+    "hzdepb_r": "94",
+    "sandtotal_r": "55",
+    "silttotal_r": "17",
+    "claytotal_r": "28",
+    "om_r": "0.25",
+    "ph1to1h2o_r": "7.5",
+    "ksat_r": "9",
+    "lep_r": "2.8",
+    "awc_r": "0.15",
+    "dbthirdbar_r": "1.58",
+    "caco3_r": "0",
+    "cec7_r": "21.3",
+    "sar_r": "0",
+    "ec_r": "0"
+   },
+   {
+    "cokey": "28363122",
+    "chkey": "85170244",
+    "hzname": "Btk",
+    "hzdept_r": "94",
+    "hzdepb_r": "178",
+    "sandtotal_r": "55",
+    "silttotal_r": "17",
+    "claytotal_r": "28",
+    "om_r": "0.25",
+    "ph1to1h2o_r": "7.5",
+    "ksat_r": "9",
+    "lep_r": "2.7",
+    "awc_r": "0.15",
+    "dbthirdbar_r": "1.58",
+    "caco3_r": "2",
+    "cec7_r": "20.6",
+    "sar_r": "0",
+    "ec_r": "0.5"
+   },
+   {
+    "cokey": "28363122",
+    "chkey": "85170245",
+    "hzname": "Bk",
+    "hzdept_r": "178",
+    "hzdepb_r": "203",
+    "sandtotal_r": "59",
+    "silttotal_r": "17",
+    "claytotal_r": "24",
+    "om_r": "0.25",
+    "ph1to1h2o_r": "7.9",
+    "ksat_r": "9",
+    "lep_r": "1.6",
+    "awc_r": "0.14",
+    "dbthirdbar_r": "1.54",
+    "caco3_r": "15",
+    "cec7_r": "16.4",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28363123",
+    "chkey": "85170247",
+    "hzname": "A",
+    "hzdept_r": "0",
+    "hzdepb_r": "25",
+    "sandtotal_r": "71",
+    "silttotal_r": "16",
+    "claytotal_r": "13",
+    "om_r": "0.75",
+    "ph1to1h2o_r": "7",
+    "ksat_r": "28",
+    "lep_r": "1",
+    "awc_r": "0.13",
+    "dbthirdbar_r": "1.49",
+    "caco3_r": "0",
+    "cec7_r": "7",
+    "sar_r": "0",
+    "ec_r": "0"
+   },
+   {
+    "cokey": "28363123",
+    "chkey": "85170248",
+    "hzname": "Bt",
+    "hzdept_r": "25",
+    "hzdepb_r": "97",
+    "sandtotal_r": "55",
+    "silttotal_r": "17",
+    "claytotal_r": "28",
+    "om_r": "0.25",
+    "ph1to1h2o_r": "7.5",
+    "ksat_r": "9",
+    "lep_r": "2.6",
+    "awc_r": "0.15",
+    "dbthirdbar_r": "1.58",
+    "caco3_r": "1",
+    "cec7_r": "14.6",
+    "sar_r": "0",
+    "ec_r": "0"
+   },
+   {
+    "cokey": "28363123",
+    "chkey": "85170246",
+    "hzname": "Cr",
+    "hzdept_r": "97",
+    "hzdepb_r": "203",
+    "sandtotal_r": null,
+    "silttotal_r": null,
+    "claytotal_r": null,
+    "om_r": null,
+    "ph1to1h2o_r": null,
+    "ksat_r": "1",
+    "lep_r": null,
+    "awc_r": null,
+    "dbthirdbar_r": null,
+    "caco3_r": null,
+    "cec7_r": null,
+    "sar_r": null,
+    "ec_r": null
+   },
+   {
+    "cokey": "28363172",
+    "chkey": "85170292",
+    "hzname": "A",
+    "hzdept_r": "0",
+    "hzdepb_r": "30",
+    "sandtotal_r": "67",
+    "silttotal_r": "17",
+    "claytotal_r": "16",
+    "om_r": "0.9",
+    "ph1to1h2o_r": "8",
+    "ksat_r": "28",
+    "lep_r": "1.3",
+    "awc_r": "0.1",
+    "dbthirdbar_r": "1.48",
+    "caco3_r": "6",
+    "cec7_r": "10",
+    "sar_r": "0",
+    "ec_r": "0.3"
+   },
+   {
+    "cokey": "28363172",
+    "chkey": "85170293",
+    "hzname": "Bk1",
+    "hzdept_r": "30",
+    "hzdepb_r": "91",
+    "sandtotal_r": "58",
+    "silttotal_r": "21",
+    "claytotal_r": "21",
+    "om_r": "0.45",
+    "ph1to1h2o_r": "8.2",
+    "ksat_r": "9",
+    "lep_r": "1.8",
+    "awc_r": "0.12",
+    "dbthirdbar_r": "1.52",
+    "caco3_r": "10",
+    "cec7_r": "12",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28363172",
+    "chkey": "85170294",
+    "hzname": "Bk2",
+    "hzdept_r": "91",
+    "hzdepb_r": "203",
+    "sandtotal_r": "60",
+    "silttotal_r": "22",
+    "claytotal_r": "18",
+    "om_r": "0.3",
+    "ph1to1h2o_r": "8",
+    "ksat_r": "28",
+    "lep_r": "1.3",
+    "awc_r": "0.11",
+    "dbthirdbar_r": "1.5",
+    "caco3_r": "10",
+    "cec7_r": "10",
+    "sar_r": "2",
+    "ec_r": "1"
+   }
+  ],
+  "restrictions": [
+   {
+    "cokey": "28363123",
+    "reskind": "Paralithic bedrock",
+    "reshard": "Weakly coherent",
+    "resdept_r": "97",
+    "resdepb_r": "203"
+   }
+  ],
+  "interpretations": [
+   {
+    "cokey": "28363080",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28363080",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": null,
+    "interphrc": "Not rated"
+   },
+   {
+    "cokey": "28363080",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28363080",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28363080",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28363080",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": null,
+    "interphrc": "Not rated"
+   },
+   {
+    "cokey": "28363080",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": null,
+    "interphrc": "Not rated"
+   },
+   {
+    "cokey": "28363080",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.333",
+    "interphrc": "High penetration"
+   },
+   {
+    "cokey": "28363080",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28363122",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "0",
+    "interphrc": "Not limited"
+   },
+   {
+    "cokey": "28363122",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "0.07",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363122",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "0.498",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363122",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "0",
+    "interphrc": "Not limited"
+   },
+   {
+    "cokey": "28363122",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "0",
+    "interphrc": "Not limited"
+   },
+   {
+    "cokey": "28363122",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.07",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363122",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "0.035",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363122",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.5",
+    "interphrc": "Moderate penetration"
+   },
+   {
+    "cokey": "28363122",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "0",
+    "interphrc": "Not limited"
+   },
+   {
+    "cokey": "28363123",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "0.007",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363123",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "0.5",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363123",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28363123",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "0.591",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363123",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "0.773",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363123",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.07",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363123",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "0.035",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363123",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.5",
+    "interphrc": "Moderate penetration"
+   },
+   {
+    "cokey": "28363123",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "0.002",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363172",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "0",
+    "interphrc": "Not limited"
+   },
+   {
+    "cokey": "28363172",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "0.5",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363172",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "0.498",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363172",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "0",
+    "interphrc": "Not limited"
+   },
+   {
+    "cokey": "28363172",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "0",
+    "interphrc": "Not limited"
+   },
+   {
+    "cokey": "28363172",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.066",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363172",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "0.033",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28363172",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.5",
+    "interphrc": "Moderate penetration"
+   },
+   {
+    "cokey": "28363172",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "0.125",
+    "interphrc": "Somewhat limited"
+   }
+  ]
+ },
+ "pony543": {
+  "mapunits": [
+   {
+    "mukey": "363042",
+    "muname": "Brazoria clay, 1 to 3 percent slopes, rarely flooded",
+    "musym": "11",
+    "areasymbol": "TX039",
+    "areaname": "Brazoria County, Texas"
+   },
+   {
+    "mukey": "363062",
+    "muname": "Asa silty clay loam, 0 to 1 percent slopes, rarely flooded",
+    "musym": "3",
+    "areasymbol": "TX039",
+    "areaname": "Brazoria County, Texas"
+   },
+   {
+    "mukey": "363069",
+    "muname": "Pledger clay, 0 to 1 percent slopes, rarely flooded",
+    "musym": "36",
+    "areasymbol": "TX039",
+    "areaname": "Brazoria County, Texas"
+   }
+  ],
+  "coverage_pct_by_mukey": {
+   "363062": 75.0,
+   "363069": 25.0
+  },
+  "muaggatt": [
+   {
+    "mukey": "363042",
+    "muname": "Brazoria clay, 1 to 3 percent slopes, rarely flooded",
+    "drclassdcd": "Moderately well drained",
+    "drclasswettest": "Moderately well drained",
+    "hydgrpdcd": "D",
+    "flodfreqdcd": "Rare",
+    "flodfreqmax": "Rare",
+    "pondfreqprs": "7",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": "3",
+    "aws0100wta": "12.1",
+    "slopegraddcp": "2",
+    "slopegradwta": "1.7"
+   },
+   {
+    "mukey": "363062",
+    "muname": "Asa silty clay loam, 0 to 1 percent slopes, rarely flooded",
+    "drclassdcd": "Well drained",
+    "drclasswettest": "Well drained",
+    "hydgrpdcd": "B",
+    "flodfreqdcd": "Rare",
+    "flodfreqmax": "Rare",
+    "pondfreqprs": "0",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": "4.5",
+    "aws0100wta": "19.05",
+    "slopegraddcp": "0.5",
+    "slopegradwta": "0.5"
+   },
+   {
+    "mukey": "363069",
+    "muname": "Pledger clay, 0 to 1 percent slopes, rarely flooded",
+    "drclassdcd": "Moderately well drained",
+    "drclasswettest": "Moderately well drained",
+    "hydgrpdcd": "D",
+    "flodfreqdcd": "Rare",
+    "flodfreqmax": "Rare",
+    "pondfreqprs": "1",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": "3.5",
+    "aws0100wta": "14",
+    "slopegraddcp": "0.1",
+    "slopegradwta": "0.1"
+   }
+  ],
+  "components": [
+   {
+    "mukey": "363042",
+    "cokey": "28771009",
+    "compname": "Brazoria",
+    "comppct_r": "80",
+    "compkind": "Series",
+    "drainagecl": "Moderately well drained",
+    "hydgrp": "D",
+    "taxclname": "Very-fine, smectitic, hyperthermic Chromic Hapluderts",
+    "taxorder": "Vertisols",
+    "taxsubgrp": "Chromic Hapluderts",
+    "slope_l": "1",
+    "slope_r": "2",
+    "slope_h": "3",
+    "runoff": "Very high",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "3",
+    "nirrcapscl": "s",
+    "frostact": "None",
+    "corcon": "Moderate",
+    "corsteel": "High"
+   },
+   {
+    "mukey": "363062",
+    "cokey": "28770996",
+    "compname": "Asa",
+    "comppct_r": "85",
+    "compkind": "Series",
+    "drainagecl": "Well drained",
+    "hydgrp": "B",
+    "taxclname": "Fine-silty, mixed, superactive, hyperthermic Fluventic Hapludolls",
+    "taxorder": "Mollisols",
+    "taxsubgrp": "Fluventic Hapludolls",
+    "slope_l": "0",
+    "slope_r": "0.5",
+    "slope_h": "1",
+    "runoff": "Negligible",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "2",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "Low",
+    "corsteel": "Low"
+   },
+   {
+    "mukey": "363069",
+    "cokey": "28770971",
+    "compname": "Pledger",
+    "comppct_r": "85",
+    "compkind": "Series",
+    "drainagecl": "Moderately well drained",
+    "hydgrp": "D",
+    "taxclname": "Very-fine, smectitic, hyperthermic Typic Hapluderts",
+    "taxorder": "Vertisols",
+    "taxsubgrp": "Typic Hapluderts",
+    "slope_l": "0",
+    "slope_r": "0.1",
+    "slope_h": "1",
+    "runoff": "High",
+    "erocl": "None - deposition",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "3",
+    "nirrcapscl": "s",
+    "frostact": "None",
+    "corcon": "Low",
+    "corsteel": "High"
+   }
+  ],
+  "horizons": [
+   {
+    "cokey": "28770971",
+    "chkey": "86436949",
+    "hzname": "A",
+    "hzdept_r": "0",
+    "hzdepb_r": "44",
+    "sandtotal_r": "1.6",
+    "silttotal_r": "28.9",
+    "claytotal_r": "69.5",
+    "om_r": "6.5",
+    "ph1to1h2o_r": "7",
+    "ksat_r": "0.21",
+    "lep_r": "19",
+    "awc_r": "0.14",
+    "dbthirdbar_r": "1.06",
+    "caco3_r": "1",
+    "cec7_r": "60.6",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28770971",
+    "chkey": "86436946",
+    "hzname": "Bss",
+    "hzdept_r": "44",
+    "hzdepb_r": "133",
+    "sandtotal_r": "1.1",
+    "silttotal_r": "25.8",
+    "claytotal_r": "73.1",
+    "om_r": "3.5",
+    "ph1to1h2o_r": "7.2",
+    "ksat_r": "0.21",
+    "lep_r": "18.3",
+    "awc_r": "0.14",
+    "dbthirdbar_r": "1.16",
+    "caco3_r": "1",
+    "cec7_r": "58.6",
+    "sar_r": "1",
+    "ec_r": "0.5"
+   },
+   {
+    "cokey": "28770971",
+    "chkey": "86436947",
+    "hzname": "Bkss1",
+    "hzdept_r": "133",
+    "hzdepb_r": "171",
+    "sandtotal_r": "2.2",
+    "silttotal_r": "45.1",
+    "claytotal_r": "52.7",
+    "om_r": "0.4",
+    "ph1to1h2o_r": "7.7",
+    "ksat_r": "0.21",
+    "lep_r": "10.6",
+    "awc_r": "0.14",
+    "dbthirdbar_r": "1.43",
+    "caco3_r": "24",
+    "cec7_r": "30.6",
+    "sar_r": "2",
+    "ec_r": "1.5"
+   },
+   {
+    "cokey": "28770971",
+    "chkey": "86436948",
+    "hzname": "Bkss2",
+    "hzdept_r": "171",
+    "hzdepb_r": "203",
+    "sandtotal_r": "0.8",
+    "silttotal_r": "44.1",
+    "claytotal_r": "55.1",
+    "om_r": "0.33",
+    "ph1to1h2o_r": "7.7",
+    "ksat_r": "0.21",
+    "lep_r": "7.6",
+    "awc_r": "0.18",
+    "dbthirdbar_r": "1.45",
+    "caco3_r": "19",
+    "cec7_r": "31.6",
+    "sar_r": "2",
+    "ec_r": "1.5"
+   },
+   {
+    "cokey": "28770996",
+    "chkey": "86436977",
+    "hzname": "Ap",
+    "hzdept_r": "0",
+    "hzdepb_r": "42",
+    "sandtotal_r": "14.5",
+    "silttotal_r": "49",
+    "claytotal_r": "36.5",
+    "om_r": "3.07",
+    "ph1to1h2o_r": "6.8",
+    "ksat_r": "9",
+    "lep_r": "4.5",
+    "awc_r": "0.18",
+    "dbthirdbar_r": "1.43",
+    "caco3_r": "5",
+    "cec7_r": "31",
+    "sar_r": "0",
+    "ec_r": "0.1"
+   },
+   {
+    "cokey": "28770996",
+    "chkey": "86436975",
+    "hzname": "Bw",
+    "hzdept_r": "42",
+    "hzdepb_r": "89",
+    "sandtotal_r": "5.2",
+    "silttotal_r": "66.2",
+    "claytotal_r": "28.6",
+    "om_r": "0.71",
+    "ph1to1h2o_r": "7.9",
+    "ksat_r": "9",
+    "lep_r": "3.1",
+    "awc_r": "0.2",
+    "dbthirdbar_r": "1.33",
+    "caco3_r": "26",
+    "cec7_r": "19.6",
+    "sar_r": "0",
+    "ec_r": "0.1"
+   },
+   {
+    "cokey": "28770996",
+    "chkey": "86436976",
+    "hzname": "Bk",
+    "hzdept_r": "89",
+    "hzdepb_r": "102",
+    "sandtotal_r": "8.6",
+    "silttotal_r": "56.4",
+    "claytotal_r": "35",
+    "om_r": "0.58",
+    "ph1to1h2o_r": "8",
+    "ksat_r": "9",
+    "lep_r": "4.5",
+    "awc_r": "0.19",
+    "dbthirdbar_r": "1.33",
+    "caco3_r": "31",
+    "cec7_r": "21.4",
+    "sar_r": "0",
+    "ec_r": "0.1"
+   },
+   {
+    "cokey": "28770996",
+    "chkey": "86436974",
+    "hzname": "B'w",
+    "hzdept_r": "102",
+    "hzdepb_r": "203",
+    "sandtotal_r": "10.6",
+    "silttotal_r": "71.2",
+    "claytotal_r": "18.2",
+    "om_r": "0.49",
+    "ph1to1h2o_r": "8",
+    "ksat_r": "9",
+    "lep_r": "2",
+    "awc_r": "0.2",
+    "dbthirdbar_r": "1.32",
+    "caco3_r": "21",
+    "cec7_r": "14.6",
+    "sar_r": "0",
+    "ec_r": "0.1"
+   },
+   {
+    "cokey": "28771009",
+    "chkey": "86436984",
+    "hzname": "A",
+    "hzdept_r": "0",
+    "hzdepb_r": "14",
+    "sandtotal_r": "1.1",
+    "silttotal_r": "25.4",
+    "claytotal_r": "73.5",
+    "om_r": "5.9",
+    "ph1to1h2o_r": "7.7",
+    "ksat_r": "0.2",
+    "lep_r": "15.5",
+    "awc_r": "0.12",
+    "dbthirdbar_r": "1.12",
+    "caco3_r": "5",
+    "cec7_r": "48.5",
+    "sar_r": "0",
+    "ec_r": "0.8"
+   },
+   {
+    "cokey": "28771009",
+    "chkey": "86436985",
+    "hzname": "Bss1",
+    "hzdept_r": "14",
+    "hzdepb_r": "90",
+    "sandtotal_r": "1.5",
+    "silttotal_r": "26.2",
+    "claytotal_r": "72.3",
+    "om_r": "3.5",
+    "ph1to1h2o_r": "7.9",
+    "ksat_r": "0.2",
+    "lep_r": "14.3",
+    "awc_r": "0.12",
+    "dbthirdbar_r": "1.16",
+    "caco3_r": "4",
+    "cec7_r": "44.4",
+    "sar_r": "2",
+    "ec_r": "0.5"
+   },
+   {
+    "cokey": "28771009",
+    "chkey": "86436982",
+    "hzname": "Bss2",
+    "hzdept_r": "90",
+    "hzdepb_r": "146",
+    "sandtotal_r": "2.2",
+    "silttotal_r": "27.4",
+    "claytotal_r": "70.4",
+    "om_r": "3.2",
+    "ph1to1h2o_r": "8.1",
+    "ksat_r": "0.2",
+    "lep_r": "13.3",
+    "awc_r": "0.13",
+    "dbthirdbar_r": "1.21",
+    "caco3_r": "8",
+    "cec7_r": "41.4",
+    "sar_r": "4",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28771009",
+    "chkey": "86436983",
+    "hzname": "Bkss",
+    "hzdept_r": "146",
+    "hzdepb_r": "203",
+    "sandtotal_r": "1.7",
+    "silttotal_r": "34.3",
+    "claytotal_r": "64",
+    "om_r": "3.2",
+    "ph1to1h2o_r": "7.7",
+    "ksat_r": "0.2",
+    "lep_r": "11.2",
+    "awc_r": "0.13",
+    "dbthirdbar_r": "1.26",
+    "caco3_r": "11",
+    "cec7_r": "35.5",
+    "sar_r": "8",
+    "ec_r": "3.2"
+   }
+  ],
+  "restrictions": [],
+  "interpretations": [
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.833",
+    "interphrc": "Very low penetration"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "0.27",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "0.498",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.27",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.833",
+    "interphrc": "Very low penetration"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "0.5",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28771009",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28771009",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28771009",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28771009",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28771009",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28771009",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28771009",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28771009",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.833",
+    "interphrc": "Very low penetration"
+   },
+   {
+    "cokey": "28771009",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   }
+  ]
+ },
+ "pony274": {
+  "mapunits": [
+   {
+    "mukey": "363069",
+    "muname": "Pledger clay, 0 to 1 percent slopes, rarely flooded",
+    "musym": "36",
+    "areasymbol": "TX039",
+    "areaname": "Brazoria County, Texas"
+   },
+   {
+    "mukey": "3246133",
+    "muname": "Water, fresh",
+    "musym": "Wf",
+    "areasymbol": "TX039",
+    "areaname": "Brazoria County, Texas"
+   }
+  ],
+  "coverage_pct_by_mukey": {
+   "363069": 100.0
+  },
+  "muaggatt": [
+   {
+    "mukey": "363069",
+    "muname": "Pledger clay, 0 to 1 percent slopes, rarely flooded",
+    "drclassdcd": "Moderately well drained",
+    "drclasswettest": "Moderately well drained",
+    "hydgrpdcd": "D",
+    "flodfreqdcd": "Rare",
+    "flodfreqmax": "Rare",
+    "pondfreqprs": "1",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": "3.5",
+    "aws0100wta": "14",
+    "slopegraddcp": "0.1",
+    "slopegradwta": "0.1"
+   },
+   {
+    "mukey": "3246133",
+    "muname": "Water, fresh",
+    "drclassdcd": null,
+    "drclasswettest": null,
+    "hydgrpdcd": "D",
+    "flodfreqdcd": null,
+    "flodfreqmax": null,
+    "pondfreqprs": "0",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": null,
+    "aws0100wta": null,
+    "slopegraddcp": null,
+    "slopegradwta": null
+   }
+  ],
+  "components": [
+   {
+    "mukey": "363069",
+    "cokey": "28770971",
+    "compname": "Pledger",
+    "comppct_r": "85",
+    "compkind": "Series",
+    "drainagecl": "Moderately well drained",
+    "hydgrp": "D",
+    "taxclname": "Very-fine, smectitic, hyperthermic Typic Hapluderts",
+    "taxorder": "Vertisols",
+    "taxsubgrp": "Typic Hapluderts",
+    "slope_l": "0",
+    "slope_r": "0.1",
+    "slope_h": "1",
+    "runoff": "High",
+    "erocl": "None - deposition",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "3",
+    "nirrcapscl": "s",
+    "frostact": "None",
+    "corcon": "Low",
+    "corsteel": "High"
+   },
+   {
+    "mukey": "3246133",
+    "cokey": "28771114",
+    "compname": "Water",
+    "comppct_r": "100",
+    "compkind": "Miscellaneous area",
+    "drainagecl": null,
+    "hydgrp": "D",
+    "taxclname": null,
+    "taxorder": null,
+    "taxsubgrp": null,
+    "slope_l": null,
+    "slope_r": null,
+    "slope_h": null,
+    "runoff": null,
+    "erocl": null,
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "8",
+    "nirrcapscl": null,
+    "frostact": null,
+    "corcon": null,
+    "corsteel": null
+   }
+  ],
+  "horizons": [
+   {
+    "cokey": "28770971",
+    "chkey": "86436949",
+    "hzname": "A",
+    "hzdept_r": "0",
+    "hzdepb_r": "44",
+    "sandtotal_r": "1.6",
+    "silttotal_r": "28.9",
+    "claytotal_r": "69.5",
+    "om_r": "6.5",
+    "ph1to1h2o_r": "7",
+    "ksat_r": "0.21",
+    "lep_r": "19",
+    "awc_r": "0.14",
+    "dbthirdbar_r": "1.06",
+    "caco3_r": "1",
+    "cec7_r": "60.6",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28770971",
+    "chkey": "86436946",
+    "hzname": "Bss",
+    "hzdept_r": "44",
+    "hzdepb_r": "133",
+    "sandtotal_r": "1.1",
+    "silttotal_r": "25.8",
+    "claytotal_r": "73.1",
+    "om_r": "3.5",
+    "ph1to1h2o_r": "7.2",
+    "ksat_r": "0.21",
+    "lep_r": "18.3",
+    "awc_r": "0.14",
+    "dbthirdbar_r": "1.16",
+    "caco3_r": "1",
+    "cec7_r": "58.6",
+    "sar_r": "1",
+    "ec_r": "0.5"
+   },
+   {
+    "cokey": "28770971",
+    "chkey": "86436947",
+    "hzname": "Bkss1",
+    "hzdept_r": "133",
+    "hzdepb_r": "171",
+    "sandtotal_r": "2.2",
+    "silttotal_r": "45.1",
+    "claytotal_r": "52.7",
+    "om_r": "0.4",
+    "ph1to1h2o_r": "7.7",
+    "ksat_r": "0.21",
+    "lep_r": "10.6",
+    "awc_r": "0.14",
+    "dbthirdbar_r": "1.43",
+    "caco3_r": "24",
+    "cec7_r": "30.6",
+    "sar_r": "2",
+    "ec_r": "1.5"
+   },
+   {
+    "cokey": "28770971",
+    "chkey": "86436948",
+    "hzname": "Bkss2",
+    "hzdept_r": "171",
+    "hzdepb_r": "203",
+    "sandtotal_r": "0.8",
+    "silttotal_r": "44.1",
+    "claytotal_r": "55.1",
+    "om_r": "0.33",
+    "ph1to1h2o_r": "7.7",
+    "ksat_r": "0.21",
+    "lep_r": "7.6",
+    "awc_r": "0.18",
+    "dbthirdbar_r": "1.45",
+    "caco3_r": "19",
+    "cec7_r": "31.6",
+    "sar_r": "2",
+    "ec_r": "1.5"
+   }
+  ],
+  "restrictions": [],
+  "interpretations": [
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.833",
+    "interphrc": "Very low penetration"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28771114",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": null,
+    "interphrc": "Not rated"
+   },
+   {
+    "cokey": "28771114",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": null,
+    "interphrc": "Not rated"
+   },
+   {
+    "cokey": "28771114",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": null,
+    "interphrc": "Not rated"
+   },
+   {
+    "cokey": "28771114",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": null,
+    "interphrc": "Not rated"
+   },
+   {
+    "cokey": "28771114",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": null,
+    "interphrc": "Not rated"
+   },
+   {
+    "cokey": "28771114",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": null,
+    "interphrc": "Not rated"
+   },
+   {
+    "cokey": "28771114",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": null,
+    "interphrc": "Not rated"
+   },
+   {
+    "cokey": "28771114",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": null,
+    "interphrc": "Not rated"
+   },
+   {
+    "cokey": "28771114",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": null,
+    "interphrc": "Not rated"
+   }
+  ]
+ },
+ "pony220": {
+  "mapunits": [
+   {
+    "mukey": "363062",
+    "muname": "Asa silty clay loam, 0 to 1 percent slopes, rarely flooded",
+    "musym": "3",
+    "areasymbol": "TX039",
+    "areaname": "Brazoria County, Texas"
+   }
+  ],
+  "coverage_pct_by_mukey": {
+   "363062": 100.0
+  },
+  "muaggatt": [
+   {
+    "mukey": "363062",
+    "muname": "Asa silty clay loam, 0 to 1 percent slopes, rarely flooded",
+    "drclassdcd": "Well drained",
+    "drclasswettest": "Well drained",
+    "hydgrpdcd": "B",
+    "flodfreqdcd": "Rare",
+    "flodfreqmax": "Rare",
+    "pondfreqprs": "0",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": "4.5",
+    "aws0100wta": "19.05",
+    "slopegraddcp": "0.5",
+    "slopegradwta": "0.5"
+   }
+  ],
+  "components": [
+   {
+    "mukey": "363062",
+    "cokey": "28770996",
+    "compname": "Asa",
+    "comppct_r": "85",
+    "compkind": "Series",
+    "drainagecl": "Well drained",
+    "hydgrp": "B",
+    "taxclname": "Fine-silty, mixed, superactive, hyperthermic Fluventic Hapludolls",
+    "taxorder": "Mollisols",
+    "taxsubgrp": "Fluventic Hapludolls",
+    "slope_l": "0",
+    "slope_r": "0.5",
+    "slope_h": "1",
+    "runoff": "Negligible",
+    "erocl": "Class 1",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "2",
+    "nirrcapscl": "e",
+    "frostact": "None",
+    "corcon": "Low",
+    "corsteel": "Low"
+   }
+  ],
+  "horizons": [
+   {
+    "cokey": "28770996",
+    "chkey": "86436977",
+    "hzname": "Ap",
+    "hzdept_r": "0",
+    "hzdepb_r": "42",
+    "sandtotal_r": "14.5",
+    "silttotal_r": "49",
+    "claytotal_r": "36.5",
+    "om_r": "3.07",
+    "ph1to1h2o_r": "6.8",
+    "ksat_r": "9",
+    "lep_r": "4.5",
+    "awc_r": "0.18",
+    "dbthirdbar_r": "1.43",
+    "caco3_r": "5",
+    "cec7_r": "31",
+    "sar_r": "0",
+    "ec_r": "0.1"
+   },
+   {
+    "cokey": "28770996",
+    "chkey": "86436975",
+    "hzname": "Bw",
+    "hzdept_r": "42",
+    "hzdepb_r": "89",
+    "sandtotal_r": "5.2",
+    "silttotal_r": "66.2",
+    "claytotal_r": "28.6",
+    "om_r": "0.71",
+    "ph1to1h2o_r": "7.9",
+    "ksat_r": "9",
+    "lep_r": "3.1",
+    "awc_r": "0.2",
+    "dbthirdbar_r": "1.33",
+    "caco3_r": "26",
+    "cec7_r": "19.6",
+    "sar_r": "0",
+    "ec_r": "0.1"
+   },
+   {
+    "cokey": "28770996",
+    "chkey": "86436976",
+    "hzname": "Bk",
+    "hzdept_r": "89",
+    "hzdepb_r": "102",
+    "sandtotal_r": "8.6",
+    "silttotal_r": "56.4",
+    "claytotal_r": "35",
+    "om_r": "0.58",
+    "ph1to1h2o_r": "8",
+    "ksat_r": "9",
+    "lep_r": "4.5",
+    "awc_r": "0.19",
+    "dbthirdbar_r": "1.33",
+    "caco3_r": "31",
+    "cec7_r": "21.4",
+    "sar_r": "0",
+    "ec_r": "0.1"
+   },
+   {
+    "cokey": "28770996",
+    "chkey": "86436974",
+    "hzname": "B'w",
+    "hzdept_r": "102",
+    "hzdepb_r": "203",
+    "sandtotal_r": "10.6",
+    "silttotal_r": "71.2",
+    "claytotal_r": "18.2",
+    "om_r": "0.49",
+    "ph1to1h2o_r": "8",
+    "ksat_r": "9",
+    "lep_r": "2",
+    "awc_r": "0.2",
+    "dbthirdbar_r": "1.32",
+    "caco3_r": "21",
+    "cec7_r": "14.6",
+    "sar_r": "0",
+    "ec_r": "0.1"
+   }
+  ],
+  "restrictions": [],
+  "interpretations": [
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "0.27",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "0.498",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "0.27",
+    "interphrc": "Somewhat limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.833",
+    "interphrc": "Very low penetration"
+   },
+   {
+    "cokey": "28770996",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "0.5",
+    "interphrc": "Somewhat limited"
+   }
+  ]
+ },
+ "oldhenry1601": {
+  "mapunits": [
+   {
+    "mukey": "363069",
+    "muname": "Pledger clay, 0 to 1 percent slopes, rarely flooded",
+    "musym": "36",
+    "areasymbol": "TX039",
+    "areaname": "Brazoria County, Texas"
+   }
+  ],
+  "coverage_pct_by_mukey": {
+   "363069": 100.0
+  },
+  "muaggatt": [
+   {
+    "mukey": "363069",
+    "muname": "Pledger clay, 0 to 1 percent slopes, rarely flooded",
+    "drclassdcd": "Moderately well drained",
+    "drclasswettest": "Moderately well drained",
+    "hydgrpdcd": "D",
+    "flodfreqdcd": "Rare",
+    "flodfreqmax": "Rare",
+    "pondfreqprs": "1",
+    "wtdepannmin": null,
+    "wtdepaprjunmin": null,
+    "brockdepmin": null,
+    "aws025wta": "3.5",
+    "aws0100wta": "14",
+    "slopegraddcp": "0.1",
+    "slopegradwta": "0.1"
+   }
+  ],
+  "components": [
+   {
+    "mukey": "363069",
+    "cokey": "28770971",
+    "compname": "Pledger",
+    "comppct_r": "85",
+    "compkind": "Series",
+    "drainagecl": "Moderately well drained",
+    "hydgrp": "D",
+    "taxclname": "Very-fine, smectitic, hyperthermic Typic Hapluderts",
+    "taxorder": "Vertisols",
+    "taxsubgrp": "Typic Hapluderts",
+    "slope_l": "0",
+    "slope_r": "0.1",
+    "slope_h": "1",
+    "runoff": "High",
+    "erocl": "None - deposition",
+    "hydricrating": "No",
+    "tfact": "5",
+    "nirrcapcl": "3",
+    "nirrcapscl": "s",
+    "frostact": "None",
+    "corcon": "Low",
+    "corsteel": "High"
+   }
+  ],
+  "horizons": [
+   {
+    "cokey": "28770971",
+    "chkey": "86436949",
+    "hzname": "A",
+    "hzdept_r": "0",
+    "hzdepb_r": "44",
+    "sandtotal_r": "1.6",
+    "silttotal_r": "28.9",
+    "claytotal_r": "69.5",
+    "om_r": "6.5",
+    "ph1to1h2o_r": "7",
+    "ksat_r": "0.21",
+    "lep_r": "19",
+    "awc_r": "0.14",
+    "dbthirdbar_r": "1.06",
+    "caco3_r": "1",
+    "cec7_r": "60.6",
+    "sar_r": "0",
+    "ec_r": "1"
+   },
+   {
+    "cokey": "28770971",
+    "chkey": "86436946",
+    "hzname": "Bss",
+    "hzdept_r": "44",
+    "hzdepb_r": "133",
+    "sandtotal_r": "1.1",
+    "silttotal_r": "25.8",
+    "claytotal_r": "73.1",
+    "om_r": "3.5",
+    "ph1to1h2o_r": "7.2",
+    "ksat_r": "0.21",
+    "lep_r": "18.3",
+    "awc_r": "0.14",
+    "dbthirdbar_r": "1.16",
+    "caco3_r": "1",
+    "cec7_r": "58.6",
+    "sar_r": "1",
+    "ec_r": "0.5"
+   },
+   {
+    "cokey": "28770971",
+    "chkey": "86436947",
+    "hzname": "Bkss1",
+    "hzdept_r": "133",
+    "hzdepb_r": "171",
+    "sandtotal_r": "2.2",
+    "silttotal_r": "45.1",
+    "claytotal_r": "52.7",
+    "om_r": "0.4",
+    "ph1to1h2o_r": "7.7",
+    "ksat_r": "0.21",
+    "lep_r": "10.6",
+    "awc_r": "0.14",
+    "dbthirdbar_r": "1.43",
+    "caco3_r": "24",
+    "cec7_r": "30.6",
+    "sar_r": "2",
+    "ec_r": "1.5"
+   },
+   {
+    "cokey": "28770971",
+    "chkey": "86436948",
+    "hzname": "Bkss2",
+    "hzdept_r": "171",
+    "hzdepb_r": "203",
+    "sandtotal_r": "0.8",
+    "silttotal_r": "44.1",
+    "claytotal_r": "55.1",
+    "om_r": "0.33",
+    "ph1to1h2o_r": "7.7",
+    "ksat_r": "0.21",
+    "lep_r": "7.6",
+    "awc_r": "0.18",
+    "dbthirdbar_r": "1.45",
+    "caco3_r": "19",
+    "cec7_r": "31.6",
+    "sar_r": "2",
+    "ec_r": "1.5"
+   }
+  ],
+  "restrictions": [],
+  "interpretations": [
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Dwellings With Basements",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Lawn, Landscape, Golf Fairway",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Septic Tank Absorption Fields",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Septic Tank Leaching Chamber (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Septic Tank, Subsurface Drip Irrigation (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Shallow Excavations",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "ENG - Unpaved Local Roads and Streets",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "Ground Penetrating Radar Penetration",
+    "interphr": "0.833",
+    "interphrc": "Very low penetration"
+   },
+   {
+    "cokey": "28770971",
+    "mrulename": "URB - Commercial Metal Bldg; w/Reinforced Concrete Slab (TX)",
+    "interphr": "1",
+    "interphrc": "Very limited"
+   }
+  ]
+ }
+}

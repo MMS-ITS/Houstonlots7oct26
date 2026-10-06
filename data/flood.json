@@ -1,0 +1,987 @@
+{
+ "harrell15": {
+  "queried": {
+   "parcel_polygon": true,
+   "centroid": {
+    "lon": -95.1768454,
+    "lat": 30.7029491
+   }
+  },
+  "zones_intersecting_parcel": [
+   {
+    "FLD_ZONE": "A",
+    "ZONE_SUBTY": null,
+    "SFHA_TF": "T",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "VELOCITY": -9999.0,
+    "V_DATUM": null,
+    "LEN_UNIT": null,
+    "DFIRM_ID": "48407C",
+    "FLD_AR_ID": "48407C_53"
+   },
+   {
+    "FLD_ZONE": "X",
+    "ZONE_SUBTY": "AREA OF MINIMAL FLOOD HAZARD",
+    "SFHA_TF": "F",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "VELOCITY": -9999.0,
+    "V_DATUM": null,
+    "LEN_UNIT": null,
+    "DFIRM_ID": "48407C",
+    "FLD_AR_ID": "48407C_20"
+   }
+  ],
+  "zone_at_centroid": [
+   {
+    "FLD_ZONE": "X",
+    "ZONE_SUBTY": "AREA OF MINIMAL FLOOD HAZARD",
+    "SFHA_TF": "F",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "DFIRM_ID": "48407C"
+   }
+  ],
+  "firm_panels": [
+   {
+    "FIRM_PAN": "48407C0150C",
+    "PANEL": "0150",
+    "SUFFIX": "C",
+    "EFF_DATE": 1288828800000,
+    "DFIRM_ID": "48407C",
+    "PRE_DATE": 253392451200000,
+    "SCALE": "24000",
+    "PANEL_TYP": "Countywide, Panel Printed"
+   },
+   {
+    "FIRM_PAN": "48373C0425C",
+    "PANEL": "0425",
+    "SUFFIX": "C",
+    "EFF_DATE": 1283472000000,
+    "DFIRM_ID": "48373C",
+    "PRE_DATE": 253392451200000,
+    "SCALE": "24000",
+    "PANEL_TYP": "Countywide, Not Printed"
+   }
+  ],
+  "bfe_lines_within_2000ft": [],
+  "summary": {
+   "zones": [
+    "A",
+    "X"
+   ],
+   "split_zone": true,
+   "in_sfha": true,
+   "static_bfe_ft": null,
+   "notes": [
+    "Special Flood Hazard Area. 1%-annual-chance floodplain, no detailed study; no published BFE.",
+    "Outside the 1%-annual-chance floodplain."
+   ],
+   "source": "FEMA NFHL (hazards.fema.gov), queried against the parcel polygon"
+  },
+  "coverage": {
+   "nfhl_availability": {
+    "error": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+   },
+   "zones_within_1mi": [
+    {
+     "FLD_ZONE": "A",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "X",
+     "ZONE_SUBTY": "AREA OF MINIMAL FLOOD HAZARD",
+     "SFHA_TF": "F"
+    }
+   ],
+   "interpretation": "Parcel intersects mapped FEMA flood-hazard polygon(s); see zones above."
+  }
+ },
+ "arrowhead2883": {
+  "queried": {
+   "parcel_polygon": true,
+   "centroid": {
+    "lon": -98.3821367,
+    "lat": 33.7441029
+   }
+  },
+  "zones_intersecting_parcel": [],
+  "zone_at_centroid": [],
+  "firm_panels": [
+   {
+    "FIRM_PAN": "48009C0250C",
+    "PANEL": "0250",
+    "SUFFIX": "C",
+    "EFF_DATE": 1613088000000,
+    "DFIRM_ID": "48009C",
+    "PRE_DATE": 1555632000000,
+    "SCALE": "24000",
+    "PANEL_TYP": "Countywide, Panel Printed"
+   }
+  ],
+  "bfe_lines_within_2000ft": [],
+  "summary": {
+   "zones": [],
+   "split_zone": false,
+   "in_sfha": false,
+   "static_bfe_ft": null,
+   "notes": [],
+   "source": "FEMA NFHL (hazards.fema.gov), queried against the parcel polygon"
+  },
+  "coverage": {
+   "nfhl_availability": {
+    "error": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+   },
+   "zones_within_1mi": [],
+   "interpretation": "No FEMA flood-hazard polygon intersects this parcel, but mapped flood zones exist within 5 mile(s), so the area carries effective NFHL coverage. This is consistent with unshaded Zone X - outside the 0.2%-annual-chance floodplain. Confirm against the effective FIRM panel.",
+   "zones_within_radius": {
+    "1": [],
+    "5": [
+     "A",
+     "X"
+    ]
+   },
+   "verdict": "likely Zone X (unshaded) - area is mapped"
+  }
+ },
+ "stlawrence0": {
+  "queried": {
+   "parcel_polygon": true,
+   "centroid": {
+    "lon": -95.6071971,
+    "lat": 30.3499853
+   }
+  },
+  "zones_intersecting_parcel": [
+   {
+    "FLD_ZONE": "AE",
+    "ZONE_SUBTY": "FLOODWAY",
+    "SFHA_TF": "T",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "VELOCITY": -9999.0,
+    "V_DATUM": null,
+    "LEN_UNIT": null,
+    "DFIRM_ID": "48339C",
+    "FLD_AR_ID": "48339C_6952"
+   },
+   {
+    "FLD_ZONE": "X",
+    "ZONE_SUBTY": "AREA OF MINIMAL FLOOD HAZARD",
+    "SFHA_TF": "F",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "VELOCITY": -9999.0,
+    "V_DATUM": null,
+    "LEN_UNIT": null,
+    "DFIRM_ID": "48339C",
+    "FLD_AR_ID": "48339C_11555"
+   }
+  ],
+  "zone_at_centroid": [
+   {
+    "FLD_ZONE": "AE",
+    "ZONE_SUBTY": "FLOODWAY",
+    "SFHA_TF": "T",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "DFIRM_ID": "48339C"
+   }
+  ],
+  "firm_panels": [
+   {
+    "FIRM_PAN": "48339C0375G",
+    "PANEL": "0375",
+    "SUFFIX": "G",
+    "EFF_DATE": 1408320000000,
+    "DFIRM_ID": "48339C",
+    "PRE_DATE": 253392451200000,
+    "SCALE": "24000",
+    "PANEL_TYP": "Countywide, Panel Printed"
+   }
+  ],
+  "bfe_lines_within_2000ft": [
+   {
+    "ELEV": 234.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48339C"
+   },
+   {
+    "ELEV": 250.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48339C"
+   },
+   {
+    "ELEV": 244.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48339C"
+   },
+   {
+    "ELEV": 240.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48339C"
+   },
+   {
+    "ELEV": 249.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48339C"
+   },
+   {
+    "ELEV": 240.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48339C"
+   },
+   {
+    "ELEV": 243.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48339C"
+   },
+   {
+    "ELEV": 240.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48339C"
+   },
+   {
+    "ELEV": 241.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48339C"
+   }
+  ],
+  "summary": {
+   "zones": [
+    "AE",
+    "X"
+   ],
+   "split_zone": true,
+   "in_sfha": true,
+   "static_bfe_ft": null,
+   "notes": [
+    "Special Flood Hazard Area. 1%-annual-chance floodplain with a published Base Flood Elevation.",
+    "Outside the 1%-annual-chance floodplain."
+   ],
+   "source": "FEMA NFHL (hazards.fema.gov), queried against the parcel polygon"
+  },
+  "coverage": {
+   "nfhl_availability": {
+    "error": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+   },
+   "zones_within_1mi": [
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "X",
+     "ZONE_SUBTY": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD",
+     "SFHA_TF": "F"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": "FLOODWAY",
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": "FLOODWAY",
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": "FLOODWAY",
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "X",
+     "ZONE_SUBTY": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD",
+     "SFHA_TF": "F"
+    },
+    {
+     "FLD_ZONE": "X",
+     "ZONE_SUBTY": "AREA OF MINIMAL FLOOD HAZARD",
+     "SFHA_TF": "F"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "X",
+     "ZONE_SUBTY": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD",
+     "SFHA_TF": "F"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": "FLOODWAY",
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    },
+    {
+     "FLD_ZONE": "X",
+     "ZONE_SUBTY": "AREA OF MINIMAL FLOOD HAZARD",
+     "SFHA_TF": "F"
+    }
+   ],
+   "interpretation": "Parcel intersects mapped FEMA flood-hazard polygon(s); see zones above."
+  }
+ },
+ "pr52415": {
+  "queried": {
+   "parcel_polygon": true,
+   "centroid": {
+    "lon": -95.1143199,
+    "lat": 33.0235594
+   }
+  },
+  "zones_intersecting_parcel": [],
+  "zone_at_centroid_error": "{'code': 500, 'message': 'Error performing query operation', 'details': []}",
+  "firm_panels": [
+   {
+    "FIRM_PAN": "48449C0350D",
+    "PANEL": "0350",
+    "SUFFIX": "D",
+    "EFF_DATE": 1285718400000,
+    "DFIRM_ID": "48449C",
+    "PRE_DATE": 253392451200000,
+    "SCALE": "24000",
+    "PANEL_TYP": "Countywide, Panel Printed"
+   }
+  ],
+  "bfe_lines_within_2000ft": [],
+  "summary": {
+   "zones": [],
+   "split_zone": false,
+   "in_sfha": false,
+   "static_bfe_ft": null,
+   "notes": [],
+   "source": "FEMA NFHL (hazards.fema.gov), queried against the parcel polygon"
+  },
+  "coverage": {
+   "nfhl_availability": {
+    "error": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+   },
+   "zones_within_1mi": [
+    {
+     "FLD_ZONE": "A",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    }
+   ],
+   "interpretation": "No FEMA flood-hazard polygon intersects this parcel, but mapped flood zones exist within 1 mile(s), so the area carries effective NFHL coverage. This is consistent with unshaded Zone X - outside the 0.2%-annual-chance floodplain. Confirm against the effective FIRM panel.",
+   "zones_within_radius": {
+    "1": [
+     "A"
+    ]
+   },
+   "verdict": "likely Zone X (unshaded) - area is mapped"
+  }
+ },
+ "ward141": {
+  "queried": {
+   "parcel_polygon": true,
+   "centroid": {
+    "lon": -101.0425106,
+    "lat": 33.0345468
+   }
+  },
+  "zones_intersecting_parcel": [],
+  "zone_at_centroid": [],
+  "firm_panels": [],
+  "bfe_lines_within_2000ft": [],
+  "summary": {
+   "zones": [],
+   "split_zone": false,
+   "in_sfha": false,
+   "static_bfe_ft": null,
+   "notes": [],
+   "source": "FEMA NFHL (hazards.fema.gov), queried against the parcel polygon"
+  },
+  "coverage": {
+   "nfhl_availability": {
+    "error": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+   },
+   "zones_within_1mi": [],
+   "interpretation": "No effective NFHL flood-hazard polygons were returned within 15 miles. This location appears to lie outside FEMA's digital mapping. The flood zone is UNDETERMINED (functionally Zone D); obtain a county floodplain determination before relying on any flood conclusion.",
+   "zones_within_radius": {
+    "1": [],
+    "5": [],
+    "15": []
+   },
+   "verdict": "unmapped / Zone D - undetermined"
+  }
+ },
+ "ward80": {
+  "queried": {
+   "parcel_polygon": true,
+   "centroid": {
+    "lon": -101.0364271,
+    "lat": 33.0197033
+   }
+  },
+  "zones_intersecting_parcel": [],
+  "zone_at_centroid_error": "fetch failed https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query: <urlopen error [Errno 104] Connection reset by peer>",
+  "firm_panels": [],
+  "bfe_lines_within_2000ft": [],
+  "summary": {
+   "zones": [],
+   "split_zone": false,
+   "in_sfha": false,
+   "static_bfe_ft": null,
+   "notes": [],
+   "source": "FEMA NFHL (hazards.fema.gov), queried against the parcel polygon"
+  },
+  "coverage": {
+   "nfhl_availability": {
+    "error": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+   },
+   "zones_within_1mi": [],
+   "interpretation": "No effective NFHL flood-hazard polygons were returned within 15 miles. This location appears to lie outside FEMA's digital mapping. The flood zone is UNDETERMINED (functionally Zone D); obtain a county floodplain determination before relying on any flood conclusion.",
+   "zones_within_radius": {
+    "1": [],
+    "5": [],
+    "15": null
+   },
+   "verdict": "unmapped / Zone D - undetermined"
+  }
+ },
+ "pony652": {
+  "queried": {
+   "parcel_polygon": true,
+   "centroid": {
+    "lon": -95.5635065,
+    "lat": 29.1132018
+   }
+  },
+  "zones_intersecting_parcel": [
+   {
+    "FLD_ZONE": "AE",
+    "ZONE_SUBTY": null,
+    "SFHA_TF": "T",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "VELOCITY": -9999.0,
+    "V_DATUM": "",
+    "LEN_UNIT": "",
+    "DFIRM_ID": "48039C",
+    "FLD_AR_ID": "48039C_1434"
+   }
+  ],
+  "zone_at_centroid": [
+   {
+    "FLD_ZONE": "AE",
+    "ZONE_SUBTY": null,
+    "SFHA_TF": "T",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "DFIRM_ID": "48039C"
+   }
+  ],
+  "firm_panels": [
+   {
+    "FIRM_PAN": "48039C0580K",
+    "PANEL": "0580",
+    "SUFFIX": "K",
+    "EFF_DATE": 1609286400000,
+    "DFIRM_ID": "48039C",
+    "PRE_DATE": 253392451200000,
+    "SCALE": "12000",
+    "PANEL_TYP": "Countywide, Panel Printed"
+   }
+  ],
+  "bfe_lines_within_2000ft": [
+   {
+    "ELEV": 27.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48039C"
+   }
+  ],
+  "summary": {
+   "zones": [
+    "AE"
+   ],
+   "split_zone": false,
+   "in_sfha": true,
+   "static_bfe_ft": null,
+   "notes": [
+    "Special Flood Hazard Area. 1%-annual-chance floodplain with a published Base Flood Elevation."
+   ],
+   "source": "FEMA NFHL (hazards.fema.gov), queried against the parcel polygon"
+  },
+  "coverage": {
+   "nfhl_availability": {
+    "error": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+   },
+   "zones_within_1mi": [
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    }
+   ],
+   "interpretation": "Parcel intersects mapped FEMA flood-hazard polygon(s); see zones above."
+  }
+ },
+ "pony543": {
+  "queried": {
+   "parcel_polygon": true,
+   "centroid": {
+    "lon": -95.5688489,
+    "lat": 29.1147485
+   }
+  },
+  "zones_intersecting_parcel": [
+   {
+    "FLD_ZONE": "AE",
+    "ZONE_SUBTY": null,
+    "SFHA_TF": "T",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "VELOCITY": -9999.0,
+    "V_DATUM": "",
+    "LEN_UNIT": "",
+    "DFIRM_ID": "48039C",
+    "FLD_AR_ID": "48039C_1434"
+   }
+  ],
+  "zone_at_centroid": [
+   {
+    "FLD_ZONE": "AE",
+    "ZONE_SUBTY": null,
+    "SFHA_TF": "T",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "DFIRM_ID": "48039C"
+   }
+  ],
+  "firm_panels": [
+   {
+    "FIRM_PAN": "48039C0580K",
+    "PANEL": "0580",
+    "SUFFIX": "K",
+    "EFF_DATE": 1609286400000,
+    "DFIRM_ID": "48039C",
+    "PRE_DATE": 253392451200000,
+    "SCALE": "12000",
+    "PANEL_TYP": "Countywide, Panel Printed"
+   }
+  ],
+  "bfe_lines_within_2000ft": [
+   {
+    "ELEV": 27.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48039C"
+   }
+  ],
+  "summary": {
+   "zones": [
+    "AE"
+   ],
+   "split_zone": false,
+   "in_sfha": true,
+   "static_bfe_ft": null,
+   "notes": [
+    "Special Flood Hazard Area. 1%-annual-chance floodplain with a published Base Flood Elevation."
+   ],
+   "source": "FEMA NFHL (hazards.fema.gov), queried against the parcel polygon"
+  },
+  "coverage": {
+   "nfhl_availability": {
+    "error": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+   },
+   "zones_within_1mi": [
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    }
+   ],
+   "interpretation": "Parcel intersects mapped FEMA flood-hazard polygon(s); see zones above."
+  }
+ },
+ "pony274": {
+  "queried": {
+   "parcel_polygon": true,
+   "centroid": {
+    "lon": -95.5755188,
+    "lat": 29.1232512
+   }
+  },
+  "zones_intersecting_parcel": [
+   {
+    "FLD_ZONE": "AE",
+    "ZONE_SUBTY": null,
+    "SFHA_TF": "T",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "VELOCITY": -9999.0,
+    "V_DATUM": "",
+    "LEN_UNIT": "",
+    "DFIRM_ID": "48039C",
+    "FLD_AR_ID": "48039C_1434"
+   }
+  ],
+  "zone_at_centroid": [
+   {
+    "FLD_ZONE": "AE",
+    "ZONE_SUBTY": null,
+    "SFHA_TF": "T",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "DFIRM_ID": "48039C"
+   }
+  ],
+  "firm_panels": [
+   {
+    "FIRM_PAN": "48039C0580K",
+    "PANEL": "0580",
+    "SUFFIX": "K",
+    "EFF_DATE": 1609286400000,
+    "DFIRM_ID": "48039C",
+    "PRE_DATE": 253392451200000,
+    "SCALE": "12000",
+    "PANEL_TYP": "Countywide, Panel Printed"
+   }
+  ],
+  "bfe_lines_within_2000ft": [
+   {
+    "ELEV": 28.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48039C"
+   },
+   {
+    "ELEV": 28.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48039C"
+   }
+  ],
+  "summary": {
+   "zones": [
+    "AE"
+   ],
+   "split_zone": false,
+   "in_sfha": true,
+   "static_bfe_ft": null,
+   "notes": [
+    "Special Flood Hazard Area. 1%-annual-chance floodplain with a published Base Flood Elevation."
+   ],
+   "source": "FEMA NFHL (hazards.fema.gov), queried against the parcel polygon"
+  },
+  "coverage": {
+   "nfhl_availability": {
+    "error": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+   },
+   "zones_within_1mi": [
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    }
+   ],
+   "interpretation": "Parcel intersects mapped FEMA flood-hazard polygon(s); see zones above."
+  }
+ },
+ "pony220": {
+  "queried": {
+   "parcel_polygon": true,
+   "centroid": {
+    "lon": -95.5755355,
+    "lat": 29.1255823
+   }
+  },
+  "zones_intersecting_parcel": [
+   {
+    "FLD_ZONE": "AE",
+    "ZONE_SUBTY": null,
+    "SFHA_TF": "T",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "VELOCITY": -9999.0,
+    "V_DATUM": "",
+    "LEN_UNIT": "",
+    "DFIRM_ID": "48039C",
+    "FLD_AR_ID": "48039C_1434"
+   }
+  ],
+  "zone_at_centroid_error": "fetch failed https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query: <urlopen error [Errno 104] Connection reset by peer>",
+  "firm_panels": [
+   {
+    "FIRM_PAN": "48039C0415K",
+    "PANEL": "0415",
+    "SUFFIX": "K",
+    "EFF_DATE": 1609286400000,
+    "DFIRM_ID": "48039C",
+    "PRE_DATE": 253392451200000,
+    "SCALE": "12000",
+    "PANEL_TYP": "Countywide, Panel Printed"
+   }
+  ],
+  "bfe_lines_within_2000ft": [
+   {
+    "ELEV": 28.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48039C"
+   },
+   {
+    "ELEV": 28.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48039C"
+   }
+  ],
+  "summary": {
+   "zones": [
+    "AE"
+   ],
+   "split_zone": false,
+   "in_sfha": true,
+   "static_bfe_ft": null,
+   "notes": [
+    "Special Flood Hazard Area. 1%-annual-chance floodplain with a published Base Flood Elevation."
+   ],
+   "source": "FEMA NFHL (hazards.fema.gov), queried against the parcel polygon"
+  },
+  "coverage": {
+   "nfhl_availability": {
+    "error": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+   },
+   "zones_within_1mi": [
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    }
+   ],
+   "interpretation": "Parcel intersects mapped FEMA flood-hazard polygon(s); see zones above."
+  }
+ },
+ "oldhenry1601": {
+  "queried": {
+   "parcel_polygon": true,
+   "centroid": {
+    "lon": -95.5723859,
+    "lat": 29.1258626
+   }
+  },
+  "zones_intersecting_parcel": [
+   {
+    "FLD_ZONE": "AE",
+    "ZONE_SUBTY": null,
+    "SFHA_TF": "T",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "VELOCITY": -9999.0,
+    "V_DATUM": "",
+    "LEN_UNIT": "",
+    "DFIRM_ID": "48039C",
+    "FLD_AR_ID": "48039C_1434"
+   }
+  ],
+  "zone_at_centroid": [
+   {
+    "FLD_ZONE": "AE",
+    "ZONE_SUBTY": null,
+    "SFHA_TF": "T",
+    "STATIC_BFE": -9999.0,
+    "DEPTH": -9999.0,
+    "DFIRM_ID": "48039C"
+   }
+  ],
+  "firm_panels": [
+   {
+    "FIRM_PAN": "48039C0415K",
+    "PANEL": "0415",
+    "SUFFIX": "K",
+    "EFF_DATE": 1609286400000,
+    "DFIRM_ID": "48039C",
+    "PRE_DATE": 253392451200000,
+    "SCALE": "12000",
+    "PANEL_TYP": "Countywide, Panel Printed"
+   }
+  ],
+  "bfe_lines_within_2000ft": [
+   {
+    "ELEV": 28.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48039C"
+   },
+   {
+    "ELEV": 28.0,
+    "LEN_UNIT": "Feet",
+    "V_DATUM": "NAVD88",
+    "DFIRM_ID": "48039C"
+   }
+  ],
+  "summary": {
+   "zones": [
+    "AE"
+   ],
+   "split_zone": false,
+   "in_sfha": true,
+   "static_bfe_ft": null,
+   "notes": [
+    "Special Flood Hazard Area. 1%-annual-chance floodplain with a published Base Flood Elevation."
+   ],
+   "source": "FEMA NFHL (hazards.fema.gov), queried against the parcel polygon"
+  },
+  "coverage": {
+   "nfhl_availability": {
+    "error": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+   },
+   "zones_within_1mi": [
+    {
+     "FLD_ZONE": "AE",
+     "ZONE_SUBTY": null,
+     "SFHA_TF": "T"
+    }
+   ],
+   "interpretation": "Parcel intersects mapped FEMA flood-hazard polygon(s); see zones above."
+  }
+ }
+}

@@ -1,0 +1,1763 @@
+{
+ "harrell15": {
+  "water": {
+   "intersects_parcel": [],
+   "nearby": [
+    {
+     "name": "Lake Livingston",
+     "ftype": 390,
+     "area_sqkm": 336.74578813,
+     "distance_ft": 24.5
+    }
+   ],
+   "search_radius_ft": 500
+  },
+  "climate": {
+   "period": "1994-2023 (30 years)",
+   "source": "ERA5 daily reanalysis via Open-Meteo archive API",
+   "mean_annual_temp_c": 20.9,
+   "mean_summer_high_c": 33.3,
+   "mean_winter_low_c": 8.1,
+   "record_high_c": 42.5,
+   "record_low_c": -11.1,
+   "mean_annual_precip_mm": 1204.1,
+   "mean_annual_precip_in": 47.4,
+   "mean_growing_season_days": 335,
+   "mean_days_at_or_below_0c_per_year": 4.1,
+   "monthly": [
+    {
+     "month": 1,
+     "tmax_c": 15.5,
+     "tmin_c": 7.2,
+     "precip_mm": 104.5
+    },
+    {
+     "month": 2,
+     "tmax_c": 17.4,
+     "tmin_c": 8.7,
+     "precip_mm": 90.4
+    },
+    {
+     "month": 3,
+     "tmax_c": 21.2,
+     "tmin_c": 12.3,
+     "precip_mm": 101.4
+    },
+    {
+     "month": 4,
+     "tmax_c": 25.1,
+     "tmin_c": 16.0,
+     "precip_mm": 115.0
+    },
+    {
+     "month": 5,
+     "tmax_c": 29.2,
+     "tmin_c": 20.4,
+     "precip_mm": 108.4
+    },
+    {
+     "month": 6,
+     "tmax_c": 32.2,
+     "tmin_c": 23.6,
+     "precip_mm": 105.7
+    },
+    {
+     "month": 7,
+     "tmax_c": 33.6,
+     "tmin_c": 24.8,
+     "precip_mm": 83.7
+    },
+    {
+     "month": 8,
+     "tmax_c": 34.0,
+     "tmin_c": 25.0,
+     "precip_mm": 90.9
+    },
+    {
+     "month": 9,
+     "tmax_c": 31.0,
+     "tmin_c": 22.5,
+     "precip_mm": 87.9
+    },
+    {
+     "month": 10,
+     "tmax_c": 26.2,
+     "tmin_c": 17.5,
+     "precip_mm": 119.1
+    },
+    {
+     "month": 11,
+     "tmax_c": 20.4,
+     "tmin_c": 12.2,
+     "precip_mm": 92.7
+    },
+    {
+     "month": 12,
+     "tmax_c": 16.5,
+     "tmin_c": 8.5,
+     "precip_mm": 104.3
+    }
+   ]
+  },
+  "census_geo": {
+   "Counties": {
+    "NAME": "San Jacinto County",
+    "BASENAME": "San Jacinto",
+    "GEOID": "48407",
+    "STATE": "48",
+    "COUNTY": "407",
+    "LSADC": "06"
+   },
+   "Census Tracts": {
+    "NAME": "Census Tract 2003.01",
+    "BASENAME": "2003.01",
+    "GEOID": "48407200301",
+    "STATE": "48",
+    "COUNTY": "407",
+    "TRACT": "200301",
+    "LSADC": "CT"
+   },
+   "States": {
+    "NAME": "Texas",
+    "BASENAME": "Texas",
+    "GEOID": "48",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "County Subdivisions": {
+    "NAME": "Point Blank CCD",
+    "BASENAME": "Point Blank",
+    "GEOID": "4840793080",
+    "STATE": "48",
+    "COUNTY": "407",
+    "LSADC": "22"
+   },
+   "Unified School Districts": {
+    "NAME": "Coldspring-Oakhurst Consolidated Independent School District",
+    "BASENAME": "Coldspring-Oakhurst Consolidated Independent School District",
+    "GEOID": "4814520",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "2020 Census Blocks": {
+    "NAME": "Block 1003",
+    "BASENAME": "1003",
+    "GEOID": "484072003011003",
+    "STATE": "48",
+    "COUNTY": "407",
+    "TRACT": "200301",
+    "LSADC": "BK"
+   }
+  },
+  "acs": {
+   "status": "not_retrieved",
+   "reason": "Census API requires an API key (keyless request rejected)",
+   "how_to_obtain": "Free key from https://api.census.gov/data/key_signup.html, then set CENSUS_API_KEY and re-run 05_context.py. Or read the figures directly from data.census.gov.",
+   "source": "US Census Bureau ACS 5-year"
+  }
+ },
+ "arrowhead2883": {
+  "water": {
+   "intersects_parcel": [],
+   "nearby": [
+    {
+     "name": "Lake Arrowhead",
+     "ftype": 390,
+     "area_sqkm": 55.774,
+     "distance_ft": 26.4
+    }
+   ],
+   "search_radius_ft": 500
+  },
+  "climate": {
+   "period": "1994-2023 (30 years)",
+   "source": "ERA5 daily reanalysis via Open-Meteo archive API",
+   "mean_annual_temp_c": 19.1,
+   "mean_summer_high_c": 34.5,
+   "mean_winter_low_c": 2.9,
+   "record_high_c": 44.8,
+   "record_low_c": -18.9,
+   "mean_annual_precip_mm": 730.8,
+   "mean_annual_precip_in": 28.8,
+   "mean_growing_season_days": 262,
+   "mean_days_at_or_below_0c_per_year": 31.2,
+   "monthly": [
+    {
+     "month": 1,
+     "tmax_c": 12.9,
+     "tmin_c": 2.1,
+     "precip_mm": 35.2
+    },
+    {
+     "month": 2,
+     "tmax_c": 14.9,
+     "tmin_c": 3.4,
+     "precip_mm": 46.7
+    },
+    {
+     "month": 3,
+     "tmax_c": 19.8,
+     "tmin_c": 8.3,
+     "precip_mm": 71.2
+    },
+    {
+     "month": 4,
+     "tmax_c": 24.4,
+     "tmin_c": 12.9,
+     "precip_mm": 83.1
+    },
+    {
+     "month": 5,
+     "tmax_c": 28.6,
+     "tmin_c": 18.1,
+     "precip_mm": 100.1
+    },
+    {
+     "month": 6,
+     "tmax_c": 32.9,
+     "tmin_c": 22.8,
+     "precip_mm": 81.9
+    },
+    {
+     "month": 7,
+     "tmax_c": 35.3,
+     "tmin_c": 25.3,
+     "precip_mm": 37.3
+    },
+    {
+     "month": 8,
+     "tmax_c": 35.2,
+     "tmin_c": 25.2,
+     "precip_mm": 42.1
+    },
+    {
+     "month": 9,
+     "tmax_c": 30.9,
+     "tmin_c": 21.0,
+     "precip_mm": 58.2
+    },
+    {
+     "month": 10,
+     "tmax_c": 24.9,
+     "tmin_c": 14.5,
+     "precip_mm": 81.6
+    },
+    {
+     "month": 11,
+     "tmax_c": 18.5,
+     "tmin_c": 8.4,
+     "precip_mm": 48.0
+    },
+    {
+     "month": 12,
+     "tmax_c": 13.4,
+     "tmin_c": 3.2,
+     "precip_mm": 45.3
+    }
+   ]
+  },
+  "census_geo": {
+   "Counties": {
+    "NAME": "Clay County",
+    "BASENAME": "Clay",
+    "GEOID": "48077",
+    "STATE": "48",
+    "COUNTY": "077",
+    "LSADC": "06"
+   },
+   "Census Tracts": {
+    "NAME": "Census Tract 303.02",
+    "BASENAME": "303.02",
+    "GEOID": "48077030302",
+    "STATE": "48",
+    "COUNTY": "077",
+    "TRACT": "030302",
+    "LSADC": "CT"
+   },
+   "States": {
+    "NAME": "Texas",
+    "BASENAME": "Texas",
+    "GEOID": "48",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "County Subdivisions": {
+    "NAME": "Henrietta CCD",
+    "BASENAME": "Henrietta",
+    "GEOID": "4807791780",
+    "STATE": "48",
+    "COUNTY": "077",
+    "LSADC": "22"
+   },
+   "Unified School Districts": {
+    "NAME": "Henrietta Independent School District",
+    "BASENAME": "Henrietta Independent School District",
+    "GEOID": "4822980",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "2020 Census Blocks": {
+    "NAME": "Block 3107",
+    "BASENAME": "3107",
+    "GEOID": "480770303023107",
+    "STATE": "48",
+    "COUNTY": "077",
+    "TRACT": "030302",
+    "LSADC": "BK"
+   }
+  },
+  "acs": {
+   "status": "not_retrieved",
+   "reason": "Census API requires an API key (keyless request rejected)",
+   "how_to_obtain": "Free key from https://api.census.gov/data/key_signup.html, then set CENSUS_API_KEY and re-run 05_context.py. Or read the figures directly from data.census.gov.",
+   "source": "US Census Bureau ACS 5-year"
+  }
+ },
+ "stlawrence0": {
+  "water": {
+   "intersects_parcel": [],
+   "nearby": [
+    {
+     "name": "Rushing Springs Lake",
+     "ftype": 390,
+     "area_sqkm": 0.07400000000000001,
+     "distance_ft": 335.7
+    }
+   ],
+   "search_radius_ft": 500
+  },
+  "climate": {
+   "period": "1994-2023 (30 years)",
+   "source": "ERA5 daily reanalysis via Open-Meteo archive API",
+   "mean_annual_temp_c": 20.7,
+   "mean_summer_high_c": 33.1,
+   "mean_winter_low_c": 7.7,
+   "record_high_c": 41.9,
+   "record_low_c": -12.3,
+   "mean_annual_precip_mm": 1221.6,
+   "mean_annual_precip_in": 48.1,
+   "mean_growing_season_days": 324,
+   "mean_days_at_or_below_0c_per_year": 5.5,
+   "monthly": [
+    {
+     "month": 1,
+     "tmax_c": 15.8,
+     "tmin_c": 6.8,
+     "precip_mm": 96.2
+    },
+    {
+     "month": 2,
+     "tmax_c": 17.6,
+     "tmin_c": 8.3,
+     "precip_mm": 85.9
+    },
+    {
+     "month": 3,
+     "tmax_c": 21.3,
+     "tmin_c": 11.8,
+     "precip_mm": 93.4
+    },
+    {
+     "month": 4,
+     "tmax_c": 25.1,
+     "tmin_c": 15.4,
+     "precip_mm": 113.7
+    },
+    {
+     "month": 5,
+     "tmax_c": 29.1,
+     "tmin_c": 19.9,
+     "precip_mm": 111.0
+    },
+    {
+     "month": 6,
+     "tmax_c": 32.1,
+     "tmin_c": 23.0,
+     "precip_mm": 114.1
+    },
+    {
+     "month": 7,
+     "tmax_c": 33.3,
+     "tmin_c": 24.1,
+     "precip_mm": 90.0
+    },
+    {
+     "month": 8,
+     "tmax_c": 33.8,
+     "tmin_c": 24.4,
+     "precip_mm": 96.4
+    },
+    {
+     "month": 9,
+     "tmax_c": 30.9,
+     "tmin_c": 21.8,
+     "precip_mm": 103.3
+    },
+    {
+     "month": 10,
+     "tmax_c": 26.2,
+     "tmin_c": 16.9,
+     "precip_mm": 113.8
+    },
+    {
+     "month": 11,
+     "tmax_c": 20.6,
+     "tmin_c": 11.7,
+     "precip_mm": 98.1
+    },
+    {
+     "month": 12,
+     "tmax_c": 16.7,
+     "tmin_c": 8.0,
+     "precip_mm": 105.8
+    }
+   ]
+  },
+  "census_geo": {
+   "Counties": {
+    "NAME": "Montgomery County",
+    "BASENAME": "Montgomery",
+    "GEOID": "48339",
+    "STATE": "48",
+    "COUNTY": "339",
+    "LSADC": "06"
+   },
+   "Census Tracts": {
+    "NAME": "Census Tract 6944.02",
+    "BASENAME": "6944.02",
+    "GEOID": "48339694402",
+    "STATE": "48",
+    "COUNTY": "339",
+    "TRACT": "694402",
+    "LSADC": "CT"
+   },
+   "States": {
+    "NAME": "Texas",
+    "BASENAME": "Texas",
+    "GEOID": "48",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "Incorporated Places": {
+    "NAME": "Conroe city",
+    "BASENAME": "Conroe",
+    "GEOID": "4816432",
+    "STATE": "48",
+    "LSADC": "25"
+   },
+   "County Subdivisions": {
+    "NAME": "Montgomery CCD",
+    "BASENAME": "Montgomery",
+    "GEOID": "4833992625",
+    "STATE": "48",
+    "COUNTY": "339",
+    "LSADC": "22"
+   },
+   "Unified School Districts": {
+    "NAME": "Montgomery Independent School District",
+    "BASENAME": "Montgomery Independent School District",
+    "GEOID": "4831260",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "2020 Census Blocks": {
+    "NAME": "Block 1032",
+    "BASENAME": "1032",
+    "GEOID": "483396944021032",
+    "STATE": "48",
+    "COUNTY": "339",
+    "TRACT": "694402",
+    "LSADC": "BK"
+   }
+  },
+  "acs": {
+   "status": "not_retrieved",
+   "reason": "Census API requires an API key (keyless request rejected)",
+   "how_to_obtain": "Free key from https://api.census.gov/data/key_signup.html, then set CENSUS_API_KEY and re-run 05_context.py. Or read the figures directly from data.census.gov.",
+   "source": "US Census Bureau ACS 5-year"
+  }
+ },
+ "pr52415": {
+  "water": {
+   "intersects_parcel": [],
+   "nearby": [
+    {
+     "name": "Monticello Reservoir",
+     "ftype": 390,
+     "area_sqkm": 42.928000000000004,
+     "distance_ft": 652.0
+    }
+   ],
+   "search_radius_ft": 1500
+  },
+  "climate": {
+   "period": "1994-2023 (30 years)",
+   "source": "ERA5 daily reanalysis via Open-Meteo archive API",
+   "mean_annual_temp_c": 19.2,
+   "mean_summer_high_c": 33.5,
+   "mean_winter_low_c": 4.7,
+   "record_high_c": 43.1,
+   "record_low_c": -17.3,
+   "mean_annual_precip_mm": 1146.9,
+   "mean_annual_precip_in": 45.2,
+   "mean_growing_season_days": 285,
+   "mean_days_at_or_below_0c_per_year": 19.4,
+   "monthly": [
+    {
+     "month": 1,
+     "tmax_c": 12.7,
+     "tmin_c": 3.8,
+     "precip_mm": 87.3
+    },
+    {
+     "month": 2,
+     "tmax_c": 14.6,
+     "tmin_c": 5.3,
+     "precip_mm": 102.2
+    },
+    {
+     "month": 3,
+     "tmax_c": 19.1,
+     "tmin_c": 9.3,
+     "precip_mm": 117.3
+    },
+    {
+     "month": 4,
+     "tmax_c": 23.6,
+     "tmin_c": 13.5,
+     "precip_mm": 117.3
+    },
+    {
+     "month": 5,
+     "tmax_c": 27.8,
+     "tmin_c": 18.3,
+     "precip_mm": 128.2
+    },
+    {
+     "month": 6,
+     "tmax_c": 31.8,
+     "tmin_c": 22.5,
+     "precip_mm": 86.3
+    },
+    {
+     "month": 7,
+     "tmax_c": 34.2,
+     "tmin_c": 24.6,
+     "precip_mm": 60.3
+    },
+    {
+     "month": 8,
+     "tmax_c": 34.5,
+     "tmin_c": 24.6,
+     "precip_mm": 66.6
+    },
+    {
+     "month": 9,
+     "tmax_c": 30.8,
+     "tmin_c": 21.0,
+     "precip_mm": 75.8
+    },
+    {
+     "month": 10,
+     "tmax_c": 25.0,
+     "tmin_c": 15.2,
+     "precip_mm": 111.5
+    },
+    {
+     "month": 11,
+     "tmax_c": 18.4,
+     "tmin_c": 9.4,
+     "precip_mm": 93.1
+    },
+    {
+     "month": 12,
+     "tmax_c": 13.8,
+     "tmin_c": 5.2,
+     "precip_mm": 100.8
+    }
+   ]
+  },
+  "census_geo": {
+   "Counties": {
+    "NAME": "Camp County",
+    "BASENAME": "Camp",
+    "GEOID": "48063",
+    "STATE": "48",
+    "COUNTY": "063",
+    "LSADC": "06"
+   },
+   "Census Tracts": {
+    "NAME": "Census Tract 9501.02",
+    "BASENAME": "9501.02",
+    "GEOID": "48063950102",
+    "STATE": "48",
+    "COUNTY": "063",
+    "TRACT": "950102",
+    "LSADC": "CT"
+   },
+   "States": {
+    "NAME": "Texas",
+    "BASENAME": "Texas",
+    "GEOID": "48",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "County Subdivisions": {
+    "NAME": "Leesburg-Newsome CCD",
+    "BASENAME": "Leesburg-Newsome",
+    "GEOID": "4806392170",
+    "STATE": "48",
+    "COUNTY": "063",
+    "LSADC": "22"
+   },
+   "Unified School Districts": {
+    "NAME": "Pittsburg Independent School District",
+    "BASENAME": "Pittsburg Independent School District",
+    "GEOID": "4835010",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "2020 Census Blocks": {
+    "NAME": "Block 4010",
+    "BASENAME": "4010",
+    "GEOID": "480639501024010",
+    "STATE": "48",
+    "COUNTY": "063",
+    "TRACT": "950102",
+    "LSADC": "BK"
+   }
+  },
+  "acs": {
+   "status": "not_retrieved",
+   "reason": "Census API requires an API key (keyless request rejected)",
+   "how_to_obtain": "Free key from https://api.census.gov/data/key_signup.html, then set CENSUS_API_KEY and re-run 05_context.py. Or read the figures directly from data.census.gov.",
+   "source": "US Census Bureau ACS 5-year"
+  }
+ },
+ "ward141": {
+  "water": {
+   "intersects_parcel": [],
+   "nearby": [
+    {
+     "name": "Lake Alan Henry",
+     "ftype": 390,
+     "area_sqkm": 10.77546872,
+     "distance_ft": 587.0
+    }
+   ],
+   "search_radius_ft": 1500
+  },
+  "climate": {
+   "period": "1994-2023 (30 years)",
+   "source": "ERA5 daily reanalysis via Open-Meteo archive API",
+   "mean_annual_temp_c": 18.7,
+   "mean_summer_high_c": 34.0,
+   "mean_winter_low_c": 2.4,
+   "record_high_c": 45.4,
+   "record_low_c": -16.7,
+   "mean_annual_precip_mm": 517.6,
+   "mean_annual_precip_in": 20.4,
+   "mean_growing_season_days": 254,
+   "mean_days_at_or_below_0c_per_year": 34.3,
+   "monthly": [
+    {
+     "month": 1,
+     "tmax_c": 14.0,
+     "tmin_c": 1.7,
+     "precip_mm": 20.2
+    },
+    {
+     "month": 2,
+     "tmax_c": 16.1,
+     "tmin_c": 3.0,
+     "precip_mm": 26.4
+    },
+    {
+     "month": 3,
+     "tmax_c": 20.9,
+     "tmin_c": 7.6,
+     "precip_mm": 42.5
+    },
+    {
+     "month": 4,
+     "tmax_c": 25.5,
+     "tmin_c": 12.1,
+     "precip_mm": 48.7
+    },
+    {
+     "month": 5,
+     "tmax_c": 29.6,
+     "tmin_c": 17.2,
+     "precip_mm": 75.6
+    },
+    {
+     "month": 6,
+     "tmax_c": 33.4,
+     "tmin_c": 21.7,
+     "precip_mm": 56.2
+    },
+    {
+     "month": 7,
+     "tmax_c": 34.6,
+     "tmin_c": 23.7,
+     "precip_mm": 36.4
+    },
+    {
+     "month": 8,
+     "tmax_c": 34.1,
+     "tmin_c": 23.5,
+     "precip_mm": 47.6
+    },
+    {
+     "month": 9,
+     "tmax_c": 30.1,
+     "tmin_c": 19.3,
+     "precip_mm": 52.6
+    },
+    {
+     "month": 10,
+     "tmax_c": 24.9,
+     "tmin_c": 13.3,
+     "precip_mm": 49.7
+    },
+    {
+     "month": 11,
+     "tmax_c": 18.7,
+     "tmin_c": 7.2,
+     "precip_mm": 34.5
+    },
+    {
+     "month": 12,
+     "tmax_c": 14.2,
+     "tmin_c": 2.5,
+     "precip_mm": 27.3
+    }
+   ]
+  },
+  "census_geo": {
+   "Counties": {
+    "NAME": "Garza County",
+    "BASENAME": "Garza",
+    "GEOID": "48169",
+    "STATE": "48",
+    "COUNTY": "169",
+    "LSADC": "06"
+   },
+   "Census Tracts": {
+    "NAME": "Census Tract 9501.02",
+    "BASENAME": "9501.02",
+    "GEOID": "48169950102",
+    "STATE": "48",
+    "COUNTY": "169",
+    "TRACT": "950102",
+    "LSADC": "CT"
+   },
+   "States": {
+    "NAME": "Texas",
+    "BASENAME": "Texas",
+    "GEOID": "48",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "County Subdivisions": {
+    "NAME": "Post East CCD",
+    "BASENAME": "Post East",
+    "GEOID": "4816993108",
+    "STATE": "48",
+    "COUNTY": "169",
+    "LSADC": "22"
+   },
+   "Unified School Districts": {
+    "NAME": "Post Independent School District",
+    "BASENAME": "Post Independent School District",
+    "GEOID": "4835490",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "2020 Census Blocks": {
+    "NAME": "Block 1423",
+    "BASENAME": "1423",
+    "GEOID": "481699501021423",
+    "STATE": "48",
+    "COUNTY": "169",
+    "TRACT": "950102",
+    "LSADC": "BK"
+   }
+  },
+  "acs": {
+   "status": "not_retrieved",
+   "reason": "Census API requires an API key (keyless request rejected)",
+   "how_to_obtain": "Free key from https://api.census.gov/data/key_signup.html, then set CENSUS_API_KEY and re-run 05_context.py. Or read the figures directly from data.census.gov.",
+   "source": "US Census Bureau ACS 5-year"
+  }
+ },
+ "ward80": {
+  "water": {
+   "intersects_parcel": [],
+   "nearby": [
+    {
+     "name": "Lake Alan Henry",
+     "ftype": 390,
+     "area_sqkm": 10.77546872,
+     "distance_ft": 56.2
+    }
+   ],
+   "search_radius_ft": 500
+  },
+  "climate": {
+   "period": "1994-2023 (30 years)",
+   "source": "ERA5 daily reanalysis via Open-Meteo archive API",
+   "mean_annual_temp_c": 18.7,
+   "mean_summer_high_c": 34.0,
+   "mean_winter_low_c": 2.4,
+   "record_high_c": 45.4,
+   "record_low_c": -16.7,
+   "mean_annual_precip_mm": 517.6,
+   "mean_annual_precip_in": 20.4,
+   "mean_growing_season_days": 254,
+   "mean_days_at_or_below_0c_per_year": 34.3,
+   "monthly": [
+    {
+     "month": 1,
+     "tmax_c": 14.0,
+     "tmin_c": 1.7,
+     "precip_mm": 20.2
+    },
+    {
+     "month": 2,
+     "tmax_c": 16.1,
+     "tmin_c": 3.0,
+     "precip_mm": 26.4
+    },
+    {
+     "month": 3,
+     "tmax_c": 20.9,
+     "tmin_c": 7.6,
+     "precip_mm": 42.5
+    },
+    {
+     "month": 4,
+     "tmax_c": 25.5,
+     "tmin_c": 12.1,
+     "precip_mm": 48.7
+    },
+    {
+     "month": 5,
+     "tmax_c": 29.6,
+     "tmin_c": 17.2,
+     "precip_mm": 75.6
+    },
+    {
+     "month": 6,
+     "tmax_c": 33.4,
+     "tmin_c": 21.7,
+     "precip_mm": 56.2
+    },
+    {
+     "month": 7,
+     "tmax_c": 34.6,
+     "tmin_c": 23.7,
+     "precip_mm": 36.4
+    },
+    {
+     "month": 8,
+     "tmax_c": 34.1,
+     "tmin_c": 23.5,
+     "precip_mm": 47.6
+    },
+    {
+     "month": 9,
+     "tmax_c": 30.1,
+     "tmin_c": 19.3,
+     "precip_mm": 52.6
+    },
+    {
+     "month": 10,
+     "tmax_c": 24.9,
+     "tmin_c": 13.3,
+     "precip_mm": 49.7
+    },
+    {
+     "month": 11,
+     "tmax_c": 18.7,
+     "tmin_c": 7.2,
+     "precip_mm": 34.5
+    },
+    {
+     "month": 12,
+     "tmax_c": 14.2,
+     "tmin_c": 2.5,
+     "precip_mm": 27.3
+    }
+   ]
+  },
+  "census_geo": {
+   "Counties": {
+    "NAME": "Kent County",
+    "BASENAME": "Kent",
+    "GEOID": "48263",
+    "STATE": "48",
+    "COUNTY": "263",
+    "LSADC": "06"
+   },
+   "Census Tracts": {
+    "NAME": "Census Tract 9501",
+    "BASENAME": "9501",
+    "GEOID": "48263950100",
+    "STATE": "48",
+    "COUNTY": "263",
+    "TRACT": "950100",
+    "LSADC": "CT"
+   },
+   "States": {
+    "NAME": "Texas",
+    "BASENAME": "Texas",
+    "GEOID": "48",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "County Subdivisions": {
+    "NAME": "Jayton South CCD",
+    "BASENAME": "Jayton South",
+    "GEOID": "4826391930",
+    "STATE": "48",
+    "COUNTY": "263",
+    "LSADC": "22"
+   },
+   "Unified School Districts": {
+    "NAME": "Snyder Independent School District",
+    "BASENAME": "Snyder Independent School District",
+    "GEOID": "4840650",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "2020 Census Blocks": {
+    "NAME": "Block 1468",
+    "BASENAME": "1468",
+    "GEOID": "482639501001468",
+    "STATE": "48",
+    "COUNTY": "263",
+    "TRACT": "950100",
+    "LSADC": "BK"
+   }
+  },
+  "acs": {
+   "status": "not_retrieved",
+   "reason": "Census API requires an API key (keyless request rejected)",
+   "how_to_obtain": "Free key from https://api.census.gov/data/key_signup.html, then set CENSUS_API_KEY and re-run 05_context.py. Or read the figures directly from data.census.gov.",
+   "source": "US Census Bureau ACS 5-year"
+  }
+ },
+ "pony652": {
+  "water": {
+   "intersects_parcel": [],
+   "nearby": [
+    {
+     "name": null,
+     "ftype": 390,
+     "area_sqkm": 0.002,
+     "distance_ft": 3369.9
+    },
+    {
+     "name": null,
+     "ftype": 466,
+     "area_sqkm": 0.007,
+     "distance_ft": 4776.3
+    }
+   ],
+   "search_radius_ft": 5280
+  },
+  "climate": {
+   "period": "1994-2023 (30 years)",
+   "source": "ERA5 daily reanalysis via Open-Meteo archive API",
+   "mean_annual_temp_c": 21.7,
+   "mean_summer_high_c": 32.4,
+   "mean_winter_low_c": 9.9,
+   "record_high_c": 41.8,
+   "record_low_c": -9.4,
+   "mean_annual_precip_mm": 1188.7,
+   "mean_annual_precip_in": 46.8,
+   "mean_growing_season_days": 342,
+   "mean_days_at_or_below_0c_per_year": 2.7,
+   "monthly": [
+    {
+     "month": 1,
+     "tmax_c": 17.6,
+     "tmin_c": 9.0,
+     "precip_mm": 93.0
+    },
+    {
+     "month": 2,
+     "tmax_c": 19.2,
+     "tmin_c": 10.5,
+     "precip_mm": 68.8
+    },
+    {
+     "month": 3,
+     "tmax_c": 22.3,
+     "tmin_c": 13.8,
+     "precip_mm": 89.5
+    },
+    {
+     "month": 4,
+     "tmax_c": 25.7,
+     "tmin_c": 17.2,
+     "precip_mm": 90.5
+    },
+    {
+     "month": 5,
+     "tmax_c": 29.2,
+     "tmin_c": 21.3,
+     "precip_mm": 98.1
+    },
+    {
+     "month": 6,
+     "tmax_c": 31.8,
+     "tmin_c": 24.1,
+     "precip_mm": 103.5
+    },
+    {
+     "month": 7,
+     "tmax_c": 32.5,
+     "tmin_c": 24.9,
+     "precip_mm": 97.7
+    },
+    {
+     "month": 8,
+     "tmax_c": 33.0,
+     "tmin_c": 25.0,
+     "precip_mm": 107.3
+    },
+    {
+     "month": 9,
+     "tmax_c": 30.5,
+     "tmin_c": 22.8,
+     "precip_mm": 124.0
+    },
+    {
+     "month": 10,
+     "tmax_c": 26.9,
+     "tmin_c": 18.5,
+     "precip_mm": 115.4
+    },
+    {
+     "month": 11,
+     "tmax_c": 22.1,
+     "tmin_c": 13.8,
+     "precip_mm": 105.4
+    },
+    {
+     "month": 12,
+     "tmax_c": 18.6,
+     "tmin_c": 10.2,
+     "precip_mm": 95.5
+    }
+   ]
+  },
+  "census_geo": {
+   "Counties": {
+    "NAME": "Brazoria County",
+    "BASENAME": "Brazoria",
+    "GEOID": "48039",
+    "STATE": "48",
+    "COUNTY": "039",
+    "LSADC": "06"
+   },
+   "Census Tracts": {
+    "NAME": "Census Tract 6625",
+    "BASENAME": "6625",
+    "GEOID": "48039662500",
+    "STATE": "48",
+    "COUNTY": "039",
+    "TRACT": "662500",
+    "LSADC": "CT"
+   },
+   "States": {
+    "NAME": "Texas",
+    "BASENAME": "Texas",
+    "GEOID": "48",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "County Subdivisions": {
+    "NAME": "Angleton CCD",
+    "BASENAME": "Angleton",
+    "GEOID": "4803990094",
+    "STATE": "48",
+    "COUNTY": "039",
+    "LSADC": "22"
+   },
+   "Unified School Districts": {
+    "NAME": "Angleton Independent School District",
+    "BASENAME": "Angleton Independent School District",
+    "GEOID": "4808310",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "2020 Census Blocks": {
+    "NAME": "Block 1059",
+    "BASENAME": "1059",
+    "GEOID": "480396625001059",
+    "STATE": "48",
+    "COUNTY": "039",
+    "TRACT": "662500",
+    "LSADC": "BK"
+   }
+  },
+  "acs": {
+   "status": "not_retrieved",
+   "reason": "Census API requires an API key (keyless request rejected)",
+   "how_to_obtain": "Free key from https://api.census.gov/data/key_signup.html, then set CENSUS_API_KEY and re-run 05_context.py. Or read the figures directly from data.census.gov.",
+   "source": "US Census Bureau ACS 5-year"
+  }
+ },
+ "pony543": {
+  "water": {
+   "intersects_parcel": [],
+   "nearby": [
+    {
+     "name": null,
+     "ftype": 390,
+     "area_sqkm": 0.8230000000000001,
+     "distance_ft": 3687.7
+    },
+    {
+     "name": null,
+     "ftype": 466,
+     "area_sqkm": 0.007,
+     "distance_ft": 4559.7
+    },
+    {
+     "name": null,
+     "ftype": 390,
+     "area_sqkm": 0.002,
+     "distance_ft": 5020.5
+    }
+   ],
+   "search_radius_ft": 5280
+  },
+  "climate": {
+   "period": "1994-2023 (30 years)",
+   "source": "ERA5 daily reanalysis via Open-Meteo archive API",
+   "mean_annual_temp_c": 21.8,
+   "mean_summer_high_c": 32.5,
+   "mean_winter_low_c": 9.9,
+   "record_high_c": 41.8,
+   "record_low_c": -9.4,
+   "mean_annual_precip_mm": 1188.7,
+   "mean_annual_precip_in": 46.8,
+   "mean_growing_season_days": 342,
+   "mean_days_at_or_below_0c_per_year": 2.6,
+   "monthly": [
+    {
+     "month": 1,
+     "tmax_c": 17.6,
+     "tmin_c": 9.0,
+     "precip_mm": 93.0
+    },
+    {
+     "month": 2,
+     "tmax_c": 19.2,
+     "tmin_c": 10.6,
+     "precip_mm": 68.8
+    },
+    {
+     "month": 3,
+     "tmax_c": 22.3,
+     "tmin_c": 13.9,
+     "precip_mm": 89.5
+    },
+    {
+     "month": 4,
+     "tmax_c": 25.7,
+     "tmin_c": 17.2,
+     "precip_mm": 90.5
+    },
+    {
+     "month": 5,
+     "tmax_c": 29.3,
+     "tmin_c": 21.3,
+     "precip_mm": 98.1
+    },
+    {
+     "month": 6,
+     "tmax_c": 31.8,
+     "tmin_c": 24.2,
+     "precip_mm": 103.5
+    },
+    {
+     "month": 7,
+     "tmax_c": 32.6,
+     "tmin_c": 25.0,
+     "precip_mm": 97.7
+    },
+    {
+     "month": 8,
+     "tmax_c": 33.0,
+     "tmin_c": 25.1,
+     "precip_mm": 107.3
+    },
+    {
+     "month": 9,
+     "tmax_c": 30.6,
+     "tmin_c": 22.8,
+     "precip_mm": 124.0
+    },
+    {
+     "month": 10,
+     "tmax_c": 26.9,
+     "tmin_c": 18.6,
+     "precip_mm": 115.4
+    },
+    {
+     "month": 11,
+     "tmax_c": 22.1,
+     "tmin_c": 13.8,
+     "precip_mm": 105.4
+    },
+    {
+     "month": 12,
+     "tmax_c": 18.6,
+     "tmin_c": 10.3,
+     "precip_mm": 95.5
+    }
+   ]
+  },
+  "census_geo": {
+   "Counties": {
+    "NAME": "Brazoria County",
+    "BASENAME": "Brazoria",
+    "GEOID": "48039",
+    "STATE": "48",
+    "COUNTY": "039",
+    "LSADC": "06"
+   },
+   "Census Tracts": {
+    "NAME": "Census Tract 6625",
+    "BASENAME": "6625",
+    "GEOID": "48039662500",
+    "STATE": "48",
+    "COUNTY": "039",
+    "TRACT": "662500",
+    "LSADC": "CT"
+   },
+   "States": {
+    "NAME": "Texas",
+    "BASENAME": "Texas",
+    "GEOID": "48",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "County Subdivisions": {
+    "NAME": "Angleton CCD",
+    "BASENAME": "Angleton",
+    "GEOID": "4803990094",
+    "STATE": "48",
+    "COUNTY": "039",
+    "LSADC": "22"
+   },
+   "Unified School Districts": {
+    "NAME": "Angleton Independent School District",
+    "BASENAME": "Angleton Independent School District",
+    "GEOID": "4808310",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "2020 Census Blocks": {
+    "NAME": "Block 1059",
+    "BASENAME": "1059",
+    "GEOID": "480396625001059",
+    "STATE": "48",
+    "COUNTY": "039",
+    "TRACT": "662500",
+    "LSADC": "BK"
+   }
+  },
+  "acs": {
+   "status": "not_retrieved",
+   "reason": "Census API requires an API key (keyless request rejected)",
+   "how_to_obtain": "Free key from https://api.census.gov/data/key_signup.html, then set CENSUS_API_KEY and re-run 05_context.py. Or read the figures directly from data.census.gov.",
+   "source": "US Census Bureau ACS 5-year"
+  }
+ },
+ "pony274": {
+  "water": {
+   "intersects_parcel": [],
+   "nearby": [
+    {
+     "name": null,
+     "ftype": 390,
+     "area_sqkm": 0.8230000000000001,
+     "distance_ft": 23.6
+    }
+   ],
+   "search_radius_ft": 500,
+   "query_retries": [
+    "r=500 try0: fetch failed https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/12/query: HT"
+   ]
+  },
+  "climate": {
+   "period": "1994-2023 (30 years)",
+   "source": "ERA5 daily reanalysis via Open-Meteo archive API",
+   "mean_annual_temp_c": 21.8,
+   "mean_summer_high_c": 32.5,
+   "mean_winter_low_c": 9.9,
+   "record_high_c": 41.8,
+   "record_low_c": -9.4,
+   "mean_annual_precip_mm": 1188.7,
+   "mean_annual_precip_in": 46.8,
+   "mean_growing_season_days": 342,
+   "mean_days_at_or_below_0c_per_year": 2.6,
+   "monthly": [
+    {
+     "month": 1,
+     "tmax_c": 17.6,
+     "tmin_c": 9.0,
+     "precip_mm": 93.0
+    },
+    {
+     "month": 2,
+     "tmax_c": 19.2,
+     "tmin_c": 10.6,
+     "precip_mm": 68.8
+    },
+    {
+     "month": 3,
+     "tmax_c": 22.3,
+     "tmin_c": 13.9,
+     "precip_mm": 89.5
+    },
+    {
+     "month": 4,
+     "tmax_c": 25.7,
+     "tmin_c": 17.2,
+     "precip_mm": 90.5
+    },
+    {
+     "month": 5,
+     "tmax_c": 29.3,
+     "tmin_c": 21.3,
+     "precip_mm": 98.1
+    },
+    {
+     "month": 6,
+     "tmax_c": 31.8,
+     "tmin_c": 24.2,
+     "precip_mm": 103.5
+    },
+    {
+     "month": 7,
+     "tmax_c": 32.6,
+     "tmin_c": 25.0,
+     "precip_mm": 97.7
+    },
+    {
+     "month": 8,
+     "tmax_c": 33.0,
+     "tmin_c": 25.1,
+     "precip_mm": 107.3
+    },
+    {
+     "month": 9,
+     "tmax_c": 30.6,
+     "tmin_c": 22.8,
+     "precip_mm": 124.0
+    },
+    {
+     "month": 10,
+     "tmax_c": 26.9,
+     "tmin_c": 18.6,
+     "precip_mm": 115.4
+    },
+    {
+     "month": 11,
+     "tmax_c": 22.1,
+     "tmin_c": 13.8,
+     "precip_mm": 105.4
+    },
+    {
+     "month": 12,
+     "tmax_c": 18.6,
+     "tmin_c": 10.3,
+     "precip_mm": 95.5
+    }
+   ]
+  },
+  "census_geo": {
+   "Counties": {
+    "NAME": "Brazoria County",
+    "BASENAME": "Brazoria",
+    "GEOID": "48039",
+    "STATE": "48",
+    "COUNTY": "039",
+    "LSADC": "06"
+   },
+   "Census Tracts": {
+    "NAME": "Census Tract 6625",
+    "BASENAME": "6625",
+    "GEOID": "48039662500",
+    "STATE": "48",
+    "COUNTY": "039",
+    "TRACT": "662500",
+    "LSADC": "CT"
+   },
+   "States": {
+    "NAME": "Texas",
+    "BASENAME": "Texas",
+    "GEOID": "48",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "County Subdivisions": {
+    "NAME": "Angleton CCD",
+    "BASENAME": "Angleton",
+    "GEOID": "4803990094",
+    "STATE": "48",
+    "COUNTY": "039",
+    "LSADC": "22"
+   },
+   "Unified School Districts": {
+    "NAME": "Columbia-Brazoria Independent School District",
+    "BASENAME": "Columbia-Brazoria Independent School District",
+    "GEOID": "4814670",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "2020 Census Blocks": {
+    "NAME": "Block 1062",
+    "BASENAME": "1062",
+    "GEOID": "480396625001062",
+    "STATE": "48",
+    "COUNTY": "039",
+    "TRACT": "662500",
+    "LSADC": "BK"
+   }
+  },
+  "acs": {
+   "status": "not_retrieved",
+   "reason": "Census API requires an API key (keyless request rejected)",
+   "how_to_obtain": "Free key from https://api.census.gov/data/key_signup.html, then set CENSUS_API_KEY and re-run 05_context.py. Or read the figures directly from data.census.gov.",
+   "source": "US Census Bureau ACS 5-year"
+  }
+ },
+ "pony220": {
+  "water": {
+   "intersects_parcel": [],
+   "nearby": [
+    {
+     "name": null,
+     "ftype": 390,
+     "area_sqkm": 0.8230000000000001,
+     "distance_ft": 29.0
+    }
+   ],
+   "search_radius_ft": 500
+  },
+  "climate": {
+   "period": "1994-2023 (30 years)",
+   "source": "ERA5 daily reanalysis via Open-Meteo archive API",
+   "mean_annual_temp_c": 21.8,
+   "mean_summer_high_c": 32.5,
+   "mean_winter_low_c": 9.9,
+   "record_high_c": 41.8,
+   "record_low_c": -9.4,
+   "mean_annual_precip_mm": 1190.9,
+   "mean_annual_precip_in": 46.9,
+   "mean_growing_season_days": 342,
+   "mean_days_at_or_below_0c_per_year": 2.6,
+   "monthly": [
+    {
+     "month": 1,
+     "tmax_c": 17.6,
+     "tmin_c": 9.0,
+     "precip_mm": 92.8
+    },
+    {
+     "month": 2,
+     "tmax_c": 19.2,
+     "tmin_c": 10.6,
+     "precip_mm": 71.3
+    },
+    {
+     "month": 3,
+     "tmax_c": 22.3,
+     "tmin_c": 13.9,
+     "precip_mm": 91.3
+    },
+    {
+     "month": 4,
+     "tmax_c": 25.7,
+     "tmin_c": 17.2,
+     "precip_mm": 92.5
+    },
+    {
+     "month": 5,
+     "tmax_c": 29.3,
+     "tmin_c": 21.3,
+     "precip_mm": 98.3
+    },
+    {
+     "month": 6,
+     "tmax_c": 31.8,
+     "tmin_c": 24.2,
+     "precip_mm": 104.0
+    },
+    {
+     "month": 7,
+     "tmax_c": 32.6,
+     "tmin_c": 25.0,
+     "precip_mm": 98.4
+    },
+    {
+     "month": 8,
+     "tmax_c": 33.0,
+     "tmin_c": 25.1,
+     "precip_mm": 104.5
+    },
+    {
+     "month": 9,
+     "tmax_c": 30.6,
+     "tmin_c": 22.8,
+     "precip_mm": 122.7
+    },
+    {
+     "month": 10,
+     "tmax_c": 26.9,
+     "tmin_c": 18.6,
+     "precip_mm": 113.5
+    },
+    {
+     "month": 11,
+     "tmax_c": 22.1,
+     "tmin_c": 13.8,
+     "precip_mm": 103.8
+    },
+    {
+     "month": 12,
+     "tmax_c": 18.6,
+     "tmin_c": 10.3,
+     "precip_mm": 97.6
+    }
+   ]
+  },
+  "census_geo": {
+   "Counties": {
+    "NAME": "Brazoria County",
+    "BASENAME": "Brazoria",
+    "GEOID": "48039",
+    "STATE": "48",
+    "COUNTY": "039",
+    "LSADC": "06"
+   },
+   "Census Tracts": {
+    "NAME": "Census Tract 6625",
+    "BASENAME": "6625",
+    "GEOID": "48039662500",
+    "STATE": "48",
+    "COUNTY": "039",
+    "TRACT": "662500",
+    "LSADC": "CT"
+   },
+   "States": {
+    "NAME": "Texas",
+    "BASENAME": "Texas",
+    "GEOID": "48",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "County Subdivisions": {
+    "NAME": "Angleton CCD",
+    "BASENAME": "Angleton",
+    "GEOID": "4803990094",
+    "STATE": "48",
+    "COUNTY": "039",
+    "LSADC": "22"
+   },
+   "Unified School Districts": {
+    "NAME": "Columbia-Brazoria Independent School District",
+    "BASENAME": "Columbia-Brazoria Independent School District",
+    "GEOID": "4814670",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "2020 Census Blocks": {
+    "NAME": "Block 1062",
+    "BASENAME": "1062",
+    "GEOID": "480396625001062",
+    "STATE": "48",
+    "COUNTY": "039",
+    "TRACT": "662500",
+    "LSADC": "BK"
+   }
+  },
+  "acs": {
+   "status": "not_retrieved",
+   "reason": "Census API requires an API key (keyless request rejected)",
+   "how_to_obtain": "Free key from https://api.census.gov/data/key_signup.html, then set CENSUS_API_KEY and re-run 05_context.py. Or read the figures directly from data.census.gov.",
+   "source": "US Census Bureau ACS 5-year"
+  }
+ },
+ "oldhenry1601": {
+  "water": {
+   "intersects_parcel": [],
+   "nearby": [
+    {
+     "name": null,
+     "ftype": 390,
+     "area_sqkm": 0.8230000000000001,
+     "distance_ft": 1066.3
+    },
+    {
+     "name": null,
+     "ftype": 390,
+     "area_sqkm": 0.002,
+     "distance_ft": 1263.9
+    }
+   ],
+   "search_radius_ft": 1500
+  },
+  "climate": {
+   "period": "1994-2023 (30 years)",
+   "source": "ERA5 daily reanalysis via Open-Meteo archive API",
+   "mean_annual_temp_c": 21.8,
+   "mean_summer_high_c": 32.5,
+   "mean_winter_low_c": 9.9,
+   "record_high_c": 41.8,
+   "record_low_c": -9.4,
+   "mean_annual_precip_mm": 1190.9,
+   "mean_annual_precip_in": 46.9,
+   "mean_growing_season_days": 342,
+   "mean_days_at_or_below_0c_per_year": 2.6,
+   "monthly": [
+    {
+     "month": 1,
+     "tmax_c": 17.6,
+     "tmin_c": 9.0,
+     "precip_mm": 92.8
+    },
+    {
+     "month": 2,
+     "tmax_c": 19.2,
+     "tmin_c": 10.6,
+     "precip_mm": 71.3
+    },
+    {
+     "month": 3,
+     "tmax_c": 22.3,
+     "tmin_c": 13.9,
+     "precip_mm": 91.3
+    },
+    {
+     "month": 4,
+     "tmax_c": 25.7,
+     "tmin_c": 17.2,
+     "precip_mm": 92.5
+    },
+    {
+     "month": 5,
+     "tmax_c": 29.3,
+     "tmin_c": 21.3,
+     "precip_mm": 98.3
+    },
+    {
+     "month": 6,
+     "tmax_c": 31.8,
+     "tmin_c": 24.2,
+     "precip_mm": 104.0
+    },
+    {
+     "month": 7,
+     "tmax_c": 32.6,
+     "tmin_c": 25.0,
+     "precip_mm": 98.4
+    },
+    {
+     "month": 8,
+     "tmax_c": 33.0,
+     "tmin_c": 25.1,
+     "precip_mm": 104.5
+    },
+    {
+     "month": 9,
+     "tmax_c": 30.6,
+     "tmin_c": 22.8,
+     "precip_mm": 122.7
+    },
+    {
+     "month": 10,
+     "tmax_c": 26.9,
+     "tmin_c": 18.6,
+     "precip_mm": 113.5
+    },
+    {
+     "month": 11,
+     "tmax_c": 22.1,
+     "tmin_c": 13.8,
+     "precip_mm": 103.8
+    },
+    {
+     "month": 12,
+     "tmax_c": 18.6,
+     "tmin_c": 10.3,
+     "precip_mm": 97.6
+    }
+   ]
+  },
+  "census_geo": {
+   "Counties": {
+    "NAME": "Brazoria County",
+    "BASENAME": "Brazoria",
+    "GEOID": "48039",
+    "STATE": "48",
+    "COUNTY": "039",
+    "LSADC": "06"
+   },
+   "Census Tracts": {
+    "NAME": "Census Tract 6625",
+    "BASENAME": "6625",
+    "GEOID": "48039662500",
+    "STATE": "48",
+    "COUNTY": "039",
+    "TRACT": "662500",
+    "LSADC": "CT"
+   },
+   "States": {
+    "NAME": "Texas",
+    "BASENAME": "Texas",
+    "GEOID": "48",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "County Subdivisions": {
+    "NAME": "Angleton CCD",
+    "BASENAME": "Angleton",
+    "GEOID": "4803990094",
+    "STATE": "48",
+    "COUNTY": "039",
+    "LSADC": "22"
+   },
+   "Unified School Districts": {
+    "NAME": "Columbia-Brazoria Independent School District",
+    "BASENAME": "Columbia-Brazoria Independent School District",
+    "GEOID": "4814670",
+    "STATE": "48",
+    "LSADC": "00"
+   },
+   "2020 Census Blocks": {
+    "NAME": "Block 1070",
+    "BASENAME": "1070",
+    "GEOID": "480396625001070",
+    "STATE": "48",
+    "COUNTY": "039",
+    "TRACT": "662500",
+    "LSADC": "BK"
+   }
+  },
+  "acs": {
+   "status": "not_retrieved",
+   "reason": "Census API requires an API key (keyless request rejected)",
+   "how_to_obtain": "Free key from https://api.census.gov/data/key_signup.html, then set CENSUS_API_KEY and re-run 05_context.py. Or read the figures directly from data.census.gov.",
+   "source": "US Census Bureau ACS 5-year"
+  }
+ }
+}

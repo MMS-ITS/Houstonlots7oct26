@@ -1,0 +1,1676 @@
+{
+ "dolly119": {
+  "subject": {
+   "key": "dolly119",
+   "label": "119 Dolly Rd, Sulphur Springs, TX 75482",
+   "num": "119",
+   "street": "DOLLY",
+   "seed": [
+    -95.539,
+    33.1234
+   ],
+   "county": "Hopkins"
+  },
+  "n_harvested": 2369,
+  "n_candidates": 0,
+  "nearby": [
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "TRACT: 39-02, ABST: 0146, SURVEY: COY MARIA J SANTOS"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABST: 0146, ABS: 146, TR: 6-01, SUR: COY MARIA J SANTOS"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABST: 0146, ABS: 146, TR: 39-01, SUR: COY MARIA J SANTOS"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABST: 0146, ABS: 146, TR: 44-14, SUR: COY MARIA J SANTOS, SER#PH078304"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABS: 146, TR: 44-12, SUR: COY MARIA J SANTOS"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABST: 0146, ABS: 146, TR: 40-01, SUR: COY MARIA J SANTOS"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABS: 146, TR: 44-13, SUR: COY MARIA J SANTOS"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "SUBD: HONEYSUCKLE CREEK (PHASE 1), TRACT: TR: LOT 7, ABST: ABS: 146-100"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "LOT: LOT: 57, SUBD: HONEYSUCKLE CREEK PHASE 3, ABST: ABS: 146-200"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABS: 146-100, TR: LOT 19, ADDN: HONEYSUCKLE CREEK, (PHASE 1)"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABS: 146-100, TR: LOT 6, ADDN: HONEYSUCKLE CREEK, (PHASE 1)"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABS: 146-100, TR: LOT 58(PHASE II), ADDN: HONEYSUCKLE CREEK, (PHASE II) & PHASE III"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABS: 146-100, TR: LOT 5, ADDN: REVISED HONEYSUCKLE CREEK, (PHASE 1)"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "TRACT: 36-03, ABST: 0146, SURVEY: COY MARIA J SANTOS"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABS: 146-100, TR: LOT 4, ADDN: HONEYSUCKLE CREEK, (PHASE 1)"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "LOT: 165.00X226.95, ABS: 146-100, TR: LOT 21, ADDN: HONEYSUCKLE CREEK, (PHASE 1)"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABS: 146-100, TR: LOT 22, ADDN: HONEYSUCKLE CREEK, (PHASE 1)"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "LOT: 165.01X225.57, ABS: 146-100, TR: LOT 3, ADDN: HONEYSUCKLE CREEK, (PHASE 1)"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABS: 146-100, TR: LOT 2, ADDN: HONEYSUCKLE CREEK, (PHASE 1)"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABS: 146-100, TR: LOT 23, ADDN: HONEYSUCKLE CREEK, (PHASE 1)"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABS: 146-100, TR: LOT 24, ADDN: HONEYSUCKLE CREEK, (PHASE 1)"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABS: 146-100, TR: LOT 1, ADDN: HONEYSUCKLE CREEK, (PHASE 1)"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABST: 0146, ABS: 146, TR: 39, SUR: COY MARIA J SANTOS"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "TRACT: TR: 36, ABST: 0146, SURVEY: COY MARIA J SANTOS"
+   },
+   {
+    "SITUS_ADDR": "Null",
+    "LEGAL_DESC": "ABST: 0146, ABS: 146, TR: 36-02, SUR: COY SANTOS"
+   }
+  ]
+ },
+ "harrell15": {
+  "subject": {
+   "key": "harrell15",
+   "label": "15 Harrell Cemetery Rd, Coldspring, TX 77331",
+   "num": "15",
+   "street": "HARRELL",
+   "seed": [
+    -95.1799,
+    30.6992
+   ],
+   "county": "San Jacinto"
+  },
+  "n_harvested": 3581,
+  "n_candidates": 1,
+  "best": {
+   "attributes": {
+    "objectid": "10756390",
+    "PROP_ID": "96750",
+    "GEO_ID": "1680-000-0150",
+    "OWNER_NAME": "Rutgers Adam Timothy & Jenkins Rose",
+    "NAME_CARE": "Rutgers Adam Timothy & Jenkins Rose",
+    "LEGAL_AREA": "1.399",
+    "GIS_AREA": "1.352108",
+    "LEGAL_DESC": "Creek Wood Bend, Lot 15, Acres 1.399",
+    "LAND_VALUE": "82110",
+    "IMP_VALUE": "0",
+    "MKT_VALUE": "82110",
+    "SITUS_ADDR": "15 Harrell Cemetery Rd, Coldspring, TX 77331",
+    "SITUS_NUM": "15",
+    "SITUS_STRE": "Null",
+    "SITUS_ST_1": "Harrell Cemetery",
+    "SITUS_ST_2": "Rd",
+    "SITUS_CITY": "Coldspring",
+    "SITUS_STAT": "TX",
+    "SITUS_ZIP": "77331",
+    "MAIL_ADDR": "4515 Nassau Dr , Sugar Land, TX 77479",
+    "MAIL_LINE1": "Null",
+    "MAIL_LINE2": "4515 Nassau Dr",
+    "MAIL_CITY": "Sugar Land",
+    "MAIL_STAT": "TX",
+    "MAIL_ZIP": "77479",
+    "SOURCE": "SAN JACINTO APPRAISAL DISTRICT",
+    "DATE_ACQ": "46082",
+    "FIPS": "48407",
+    "COUNTY": "SAN JACINTO",
+    "TAX_YEAR": "2026",
+    "YEAR_BUILT": "Null",
+    "shape": "Polygon",
+    "st_area(shape)": "7426.76908",
+    "st_perimeter(shape)": "395.08837",
+    "LGL_AREA_UNIT": "Null",
+    "GIS_AREA_UNIT": "Null",
+    "STAT_LAND_USE": "Null",
+    "LOC_LAND_USE": "Null"
+   },
+   "has_geometry": true,
+   "rings": [
+    [
+     [
+      -95.17628261231857,
+      30.702706415639554
+     ],
+     [
+      -95.1763254844155,
+      30.70265457003701
+     ],
+     [
+      -95.17636480457381,
+      30.7026006628774
+     ],
+     [
+      -95.17640044163944,
+      30.702544875670817
+     ],
+     [
+      -95.1764875243231,
+      30.702362088267655
+     ],
+     [
+      -95.17738312759334,
+      30.703108614159344
+     ],
+     [
+      -95.17717098594744,
+      30.70348777986489
+     ],
+     [
+      -95.17713368879515,
+      30.703539652053376
+     ],
+     [
+      -95.17628261231857,
+      30.702706415639554
+     ]
+    ]
+   ],
+   "ring": [
+    [
+     -95.17628261231857,
+     30.702706415639554
+    ],
+    [
+     -95.1763254844155,
+     30.70265457003701
+    ],
+    [
+     -95.17636480457381,
+     30.7026006628774
+    ],
+    [
+     -95.17640044163944,
+     30.702544875670817
+    ],
+    [
+     -95.1764875243231,
+     30.702362088267655
+    ],
+    [
+     -95.17738312759334,
+     30.703108614159344
+    ],
+    [
+     -95.17717098594744,
+     30.70348777986489
+    ],
+    [
+     -95.17713368879515,
+     30.703539652053376
+    ],
+    [
+     -95.17628261231857,
+     30.702706415639554
+    ]
+   ],
+   "centroid": {
+    "lon": -95.1768454,
+    "lat": 30.7029491
+   },
+   "computed_acres": 1.3568,
+   "bbox": [
+    -95.1773831,
+    30.7023621,
+    -95.1762826,
+    30.7035397
+   ],
+   "extent": {
+    "length_ft": 475.0,
+    "width_ft": 249.9,
+    "bearing_deg": 334.7
+   },
+   "centroid_inside": true
+  },
+  "alternates": []
+ },
+ "arrowhead2883": {
+  "subject": {
+   "key": "arrowhead2883",
+   "label": "2883 W Arrowhead Dr, Wichita Falls, TX 76310",
+   "num": "2883",
+   "street": "ARROWHEAD",
+   "seed": [
+    -98.3805,
+    33.7464
+   ],
+   "county": "Wichita"
+  },
+  "n_harvested": 1456,
+  "n_candidates": 1,
+  "best": {
+   "attributes": {
+    "objectid": "1536969",
+    "PROP_ID": "8297",
+    "GEO_ID": "04180-00001-51500-000000",
+    "OWNER_NAME": "LINDEMANN COREY & LAURA",
+    "NAME_CARE": "LINDEMANN COREY & LAURA",
+    "LEGAL_AREA": "0.23",
+    "GIS_AREA": "1.571105",
+    "LEGAL_DESC": "LT E-15 WEST BLK",
+    "LAND_VALUE": "9000",
+    "IMP_VALUE": "0",
+    "MKT_VALUE": "9000",
+    "SITUS_ADDR": "2883 W ARROWHEAD DR , WICHITA FALLS, TX 76310",
+    "SITUS_NUM": "2883",
+    "SITUS_STRE": "W",
+    "SITUS_ST_1": "ARROWHEAD DR",
+    "SITUS_ST_2": "Null",
+    "SITUS_CITY": "WICHITA FALLS",
+    "SITUS_STAT": "TX",
+    "SITUS_ZIP": "76310",
+    "MAIL_ADDR": "1001 E OLIVE , HOLLIDAY, TX 76366",
+    "MAIL_LINE1": "1001 E OLIVE",
+    "MAIL_LINE2": "Null",
+    "MAIL_CITY": "HOLLIDAY",
+    "MAIL_STAT": "TX",
+    "MAIL_ZIP": "76366",
+    "SOURCE": "CLAY APPRAISAL DISTRICT",
+    "DATE_ACQ": "46174",
+    "FIPS": "48077",
+    "COUNTY": "CLAY",
+    "TAX_YEAR": "2026",
+    "YEAR_BUILT": "Null",
+    "shape": "Polygon",
+    "st_area(shape)": "9220.201217",
+    "st_perimeter(shape)": "630.044737",
+    "LGL_AREA_UNIT": "Null",
+    "GIS_AREA_UNIT": "Null",
+    "STAT_LAND_USE": "Null",
+    "LOC_LAND_USE": "Null"
+   },
+   "has_geometry": true,
+   "rings": [
+    [
+     [
+      -98.38337482281916,
+      33.74402481637291
+     ],
+     [
+      -98.38335631482936,
+      33.74429681603111
+     ],
+     [
+      -98.3808251731758,
+      33.7441562679928
+     ],
+     [
+      -98.38084052897726,
+      33.743941206796066
+     ],
+     [
+      -98.38337482281916,
+      33.74402481637291
+     ]
+    ]
+   ],
+   "ring": [
+    [
+     -98.38337482281916,
+     33.74402481637291
+    ],
+    [
+     -98.38335631482936,
+     33.74429681603111
+    ],
+    [
+     -98.3808251731758,
+     33.7441562679928
+    ],
+    [
+     -98.38084052897726,
+     33.743941206796066
+    ],
+    [
+     -98.38337482281916,
+     33.74402481637291
+    ]
+   ],
+   "centroid": {
+    "lon": -98.3821367,
+    "lat": 33.7441029
+   },
+   "computed_acres": 1.5754,
+   "bbox": [
+    -98.3833748,
+    33.7439412,
+    -98.3808252,
+    33.7442968
+   ],
+   "extent": {
+    "length_ft": 774.9,
+    "width_ft": 176.9,
+    "bearing_deg": 86.5
+   },
+   "centroid_inside": true
+  },
+  "alternates": []
+ },
+ "stlawrence0": {
+  "subject": {
+   "key": "stlawrence0",
+   "label": "0 Saint Lawrence River Rd, Montgomery, TX 77316",
+   "num": null,
+   "street": "SAINT LAWRENCE",
+   "seed": [
+    -95.6054,
+    30.3531
+   ],
+   "county": "Montgomery"
+  },
+  "n_harvested": 3512,
+  "n_candidates": 37,
+  "best": {
+   "attributes": {
+    "objectid": "9448750",
+    "PROP_ID": "110944.00000000",
+    "GEO_ID": "6580-02-73200",
+    "OWNER_NAME": "ELV PROPERTY HOLDINGS LLC SERIES I",
+    "NAME_CARE": "Null",
+    "LEGAL_AREA": "0",
+    "GIS_AREA": "0",
+    "LEGAL_DESC": "LAKE CONROE FOREST 02, BLOCK 41, LOT 10",
+    "LAND_VALUE": "29850",
+    "IMP_VALUE": "265120",
+    "MKT_VALUE": "294970",
+    "SITUS_ADDR": "1202 SAINT LAWRENCE RIVER RD, MONTGOMERY, TX 77316",
+    "SITUS_NUM": "1202",
+    "SITUS_STRE": "Null",
+    "SITUS_ST_1": "SAINT LAWRENCE RIVER",
+    "SITUS_ST_2": "RD",
+    "SITUS_CITY": "MONTGOMERY",
+    "SITUS_STAT": "TX",
+    "SITUS_ZIP": "77316",
+    "MAIL_ADDR": "350 HAWKINS RUN RD STE 1, MIDLOTHIAN, TX 76065-6629",
+    "MAIL_LINE1": "350 HAWKINS RUN RD",
+    "MAIL_LINE2": "STE 1",
+    "MAIL_CITY": "MIDLOTHIAN",
+    "MAIL_STAT": "TX",
+    "MAIL_ZIP": "76065",
+    "SOURCE": "MONTGOMERY APPRAISAL DISTRICT",
+    "DATE_ACQ": "46204",
+    "FIPS": "48339",
+    "COUNTY": "MONTGOMERY",
+    "TAX_YEAR": "2026",
+    "YEAR_BUILT": "Null",
+    "shape": "Polygon",
+    "st_area(shape)": "1246.262251",
+    "st_perimeter(shape)": "155.069323",
+    "LGL_AREA_UNIT": "Null",
+    "GIS_AREA_UNIT": "Null",
+    "STAT_LAND_USE": "Null",
+    "LOC_LAND_USE": "Null"
+   },
+   "has_geometry": true,
+   "rings": [
+    [
+     [
+      -95.60672715674235,
+      30.349933619130717
+     ],
+     [
+      -95.60674063057331,
+      30.349872070844945
+     ],
+     [
+      -95.60674946909741,
+      30.34980989382748
+     ],
+     [
+      -95.60723864129547,
+      30.349854472877798
+     ],
+     [
+      -95.60723310587669,
+      30.349909246646728
+     ],
+     [
+      -95.60722323518834,
+      30.349966341351493
+     ],
+     [
+      -95.60720924662274,
+      30.350022784075115
+     ],
+     [
+      -95.6071918237978,
+      30.35007662207744
+     ],
+     [
+      -95.60672715674235,
+      30.349933619130717
+     ]
+    ]
+   ],
+   "ring": [
+    [
+     -95.60672715674235,
+     30.349933619130717
+    ],
+    [
+     -95.60674063057331,
+     30.349872070844945
+    ],
+    [
+     -95.60674946909741,
+     30.34980989382748
+    ],
+    [
+     -95.60723864129547,
+     30.349854472877798
+    ],
+    [
+     -95.60723310587669,
+     30.349909246646728
+    ],
+    [
+     -95.60722323518834,
+     30.349966341351493
+    ],
+    [
+     -95.60720924662274,
+     30.350022784075115
+    ],
+    [
+     -95.6071918237978,
+     30.35007662207744
+    ],
+    [
+     -95.60672715674235,
+     30.349933619130717
+    ]
+   ],
+   "centroid": {
+    "lon": -95.6071971,
+    "lat": 30.3499853
+   },
+   "computed_acres": 0.2291,
+   "bbox": [
+    -95.6072386,
+    30.3498099,
+    -95.6067272,
+    30.3500766
+   ],
+   "extent": {
+    "length_ft": 169.9,
+    "width_ft": 116.0,
+    "bearing_deg": 304.9
+   },
+   "centroid_inside": true
+  },
+  "alternates": [
+   {
+    "score": 50,
+    "SITUS_ADDR": "1301 SAINT LAWRENCE RIVER RD, MONTGOMERY, TX 77316",
+    "LEGAL_DESC": "LAKE CONROE FOREST 02, BLOCK 48, LOT 47",
+    "GEO_ID": "6580-02-95200"
+   },
+   {
+    "score": 50,
+    "SITUS_ADDR": "607 SAINT LAWRENCE RIVER RD, MONTGOMERY, TX 77316",
+    "LEGAL_DESC": "S658002 - Lake Conroe Forest 02, BLOCK 46, Lot 24, 25",
+    "GEO_ID": "6580-02-82300"
+   },
+   {
+    "score": 50,
+    "SITUS_ADDR": "620 SAINT LAWRENCE RIVER RD, MONTGOMERY, TX 77316",
+    "LEGAL_DESC": "S658002 - Lake Conroe Forest 02, BLOCK 43, Lot 6, 7",
+    "GEO_ID": "6580-02-76000"
+   },
+   {
+    "score": 50,
+    "SITUS_ADDR": "1210 SAINT LAWRENCE RIVER RD, MONTGOMERY, TX 77316",
+    "LEGAL_DESC": "S658002 - Lake Conroe Forest 02, BLOCK 41, Lot 4 - 7",
+    "GEO_ID": "6580-02-72800"
+   },
+   {
+    "score": 50,
+    "SITUS_ADDR": "1204 SAINT LAWRENCE RIVER RD, MONTGOMERY, TX 77316",
+    "LEGAL_DESC": "LAKE CONROE FOREST 02, BLOCK 41, LOT 8",
+    "GEO_ID": "6580-02-73000"
+   },
+   {
+    "score": 50,
+    "SITUS_ADDR": "1102 SAINT LAWRENCE RIVER RD, MONTGOMERY, TX 77316",
+    "LEGAL_DESC": "LAKE CONROE FOREST 02, BLOCK 41, LOT 14, 15, RES AREA 4, BLOCK 42, LOT 17-A",
+    "GEO_ID": "6580-02-73600"
+   },
+   {
+    "score": 50,
+    "SITUS_ADDR": "629 SAINT LAWRENCE RIVER RD, MONTGOMERY, TX 77316",
+    "LEGAL_DESC": "LAKE CONROE FOREST 02, BLOCK 46, LOT 32",
+    "GEO_ID": "6580-02-83100"
+   }
+  ]
+ },
+ "pr52415": {
+  "subject": {
+   "key": "pr52415",
+   "label": "Private Road 52415, Leesburg, TX 75451",
+   "num": null,
+   "street": "52415",
+   "seed": [
+    -95.1281,
+    32.9572
+   ],
+   "county": "Camp"
+  },
+  "resolved_by": "manual pin / legal-desc match",
+  "best": {
+   "attributes": {
+    "objectid": "1382443",
+    "PROP_ID": "9932303",
+    "GEO_ID": "21000-07000-00004-000005",
+    "OWNER_NAME": "YU YANG PING",
+    "NAME_CARE": "YU YANG PING",
+    "LEGAL_AREA": "5.746",
+    "GIS_AREA": "5.770725",
+    "LEGAL_DESC": "LOT 05 PARADISE SHORES LLC",
+    "LAND_VALUE": "80444",
+    "IMP_VALUE": "0",
+    "MKT_VALUE": "80444",
+    "SITUS_ADDR": "PR 52415 ,",
+    "SITUS_NUM": "Null",
+    "SITUS_STRE": "Null",
+    "SITUS_ST_1": "PR 52415",
+    "SITUS_ST_2": "Null",
+    "SITUS_CITY": "Null",
+    "SITUS_STAT": "Null",
+    "SITUS_ZIP": "Null",
+    "MAIL_ADDR": "102 ASTER LN , WYLIE, TX 75098",
+    "MAIL_LINE1": "Null",
+    "MAIL_LINE2": "102 ASTER LN",
+    "MAIL_CITY": "WYLIE",
+    "MAIL_STAT": "TX",
+    "MAIL_ZIP": "75098",
+    "SOURCE": "CAMP APPRAISAL DISTRICT",
+    "DATE_ACQ": "46082",
+    "FIPS": "48063",
+    "COUNTY": "CAMP",
+    "TAX_YEAR": "2026",
+    "YEAR_BUILT": "Null",
+    "shape": "Polygon",
+    "st_area(shape)": "33319.503622",
+    "st_perimeter(shape)": "837.688467",
+    "LGL_AREA_UNIT": "Null",
+    "GIS_AREA_UNIT": "Null",
+    "STAT_LAND_USE": "Null",
+    "LOC_LAND_USE": "Null"
+   },
+   "has_geometry": true,
+   "rings": [
+    [
+     [
+      -95.1139149303383,
+      33.02388670775185
+     ],
+     [
+      -95.11307796908976,
+      33.02291267474296
+     ],
+     [
+      -95.11313580891597,
+      33.02287279532495
+     ],
+     [
+      -95.11318925777707,
+      33.02282878235154
+     ],
+     [
+      -95.11364470182947,
+      33.0224361639646
+     ],
+     [
+      -95.11580379632666,
+      33.02421358107099
+     ],
+     [
+      -95.11440247838235,
+      33.02445409114661
+     ],
+     [
+      -95.1139149303383,
+      33.02388670775185
+     ]
+    ]
+   ],
+   "ring": [
+    [
+     -95.1139149303383,
+     33.02388670775185
+    ],
+    [
+     -95.11307796908976,
+     33.02291267474296
+    ],
+    [
+     -95.11313580891597,
+     33.02287279532495
+    ],
+    [
+     -95.11318925777707,
+     33.02282878235154
+    ],
+    [
+     -95.11364470182947,
+     33.0224361639646
+    ],
+    [
+     -95.11580379632666,
+     33.02421358107099
+    ],
+    [
+     -95.11440247838235,
+     33.02445409114661
+    ],
+    [
+     -95.1139149303383,
+     33.02388670775185
+    ]
+   ],
+   "centroid": {
+    "lon": -95.1143199,
+    "lat": 33.0235594
+   },
+   "computed_acres": 5.7881,
+   "bbox": [
+    -95.1158038,
+    33.0224362,
+    -95.113078,
+    33.0244541
+   ],
+   "extent": {
+    "length_ft": 959.4,
+    "width_ft": 525.7,
+    "bearing_deg": 299.6
+   },
+   "centroid_inside": true
+  }
+ },
+ "ward141": {
+  "subject": {
+   "key": "ward141",
+   "label": "141 Ward Rd, Justiceburg, TX 79330",
+   "num": "141",
+   "street": "WARD",
+   "seed": [
+    -101.0461,
+    33.0269
+   ],
+   "county": "Garza"
+  },
+  "resolved_by": "manual pin / legal-desc match",
+  "best": {
+   "attributes": {
+    "objectid": "4871858",
+    "PROP_ID": "24780",
+    "GEO_ID": "380-0000-0141-000-00-00",
+    "OWNER_NAME": "DEVIL DOG FISHING DYNASTY LLC OR",
+    "NAME_CARE": "DEVIL DOG FISHING DYNASTY LLC OR",
+    "LEGAL_AREA": "2",
+    "GIS_AREA": "1.9384",
+    "LEGAL_DESC": "LOT 141 OAK CANYON SUBDIVISION LOCATED IN AB 935 SEC 68 (PHASE 2) 2 ACRES OAK CANYON 50% INT .500000 INT IN 2 ACRES",
+    "LAND_VALUE": "0",
+    "IMP_VALUE": "0",
+    "MKT_VALUE": "0",
+    "SITUS_ADDR": ", , TX",
+    "SITUS_NUM": "Null",
+    "SITUS_STRE": "Null",
+    "SITUS_ST_1": "Null",
+    "SITUS_ST_2": "Null",
+    "SITUS_CITY": "Null",
+    "SITUS_STAT": "TX",
+    "SITUS_ZIP": "Null",
+    "MAIL_ADDR": "C/O STEVEN BECKER 17200 SE 59TH ST , CHOCTAW, OK 73020",
+    "MAIL_LINE1": "C/O STEVEN BECKER",
+    "MAIL_LINE2": "17200 SE 59TH ST",
+    "MAIL_CITY": "CHOCTAW",
+    "MAIL_STAT": "OK",
+    "MAIL_ZIP": "73020",
+    "SOURCE": "GARZA APPRAISAL DISTRICT",
+    "DATE_ACQ": "46082",
+    "FIPS": "48169",
+    "COUNTY": "GARZA",
+    "TAX_YEAR": "2026",
+    "YEAR_BUILT": "Null",
+    "shape": "Polygon",
+    "st_area(shape)": "11194.844219",
+    "st_perimeter(shape)": "482.821602",
+    "LGL_AREA_UNIT": "Null",
+    "GIS_AREA_UNIT": "Null",
+    "STAT_LAND_USE": "Null",
+    "LOC_LAND_USE": "Null"
+   },
+   "has_geometry": true,
+   "rings": [
+    [
+     [
+      -101.04212578180113,
+      33.03390064431524
+     ],
+     [
+      -101.04326398230039,
+      33.03485070996246
+     ],
+     [
+      -101.04286858343819,
+      33.03518295281684
+     ],
+     [
+      -101.0417266728968,
+      33.0342360048128
+     ],
+     [
+      -101.04212578180113,
+      33.03390064431524
+     ]
+    ]
+   ],
+   "ring": [
+    [
+     -101.04212578180113,
+     33.03390064431524
+    ],
+    [
+     -101.04326398230039,
+     33.03485070996246
+    ],
+    [
+     -101.04286858343819,
+     33.03518295281684
+    ],
+    [
+     -101.0417266728968,
+     33.0342360048128
+    ],
+    [
+     -101.04212578180113,
+     33.03390064431524
+    ]
+   ],
+   "centroid": {
+    "lon": -101.0425106,
+    "lat": 33.0345468
+   },
+   "computed_acres": 1.9442,
+   "bbox": [
+    -101.043264,
+    33.0339006,
+    -101.0417267,
+    33.035183
+   ],
+   "extent": {
+    "length_ft": 520.9,
+    "width_ft": 324.8,
+    "bearing_deg": 115.5
+   },
+   "centroid_inside": true
+  }
+ },
+ "ward80": {
+  "subject": {
+   "key": "ward80",
+   "label": "80 Ward Rd, Snyder, TX 79549",
+   "num": "80",
+   "street": "WARD",
+   "seed": [
+    -101.0367,
+    33.0379
+   ],
+   "county": "Scurry"
+  },
+  "n_harvested": 1151,
+  "n_candidates": 1,
+  "best": {
+   "attributes": {
+    "objectid": "8369365",
+    "PROP_ID": "51098",
+    "GEO_ID": "05059-00200-00122-000030",
+    "OWNER_NAME": "THOMPSON TYE ALAN & TARA",
+    "NAME_CARE": "THOMPSON TYE ALAN & TARA",
+    "LEGAL_AREA": "2",
+    "GIS_AREA": "1.912703",
+    "LEGAL_DESC": "OAK CANYON ESTATES LOT 80",
+    "LAND_VALUE": "15600",
+    "IMP_VALUE": "0",
+    "MKT_VALUE": "15600",
+    "SITUS_ADDR": "80 WARD RD , ,",
+    "SITUS_NUM": "80",
+    "SITUS_STRE": "Null",
+    "SITUS_ST_1": "WARD RD",
+    "SITUS_ST_2": "Null",
+    "SITUS_CITY": "Null",
+    "SITUS_STAT": "Null",
+    "SITUS_ZIP": "Null",
+    "MAIL_ADDR": "7314 E. CR 111 , MIDLAND, TX 79706",
+    "MAIL_LINE1": "7314 E. CR 111",
+    "MAIL_LINE2": "Null",
+    "MAIL_CITY": "MIDLAND",
+    "MAIL_STAT": "TX",
+    "MAIL_ZIP": "79706",
+    "SOURCE": "KENT APPRAISAL DISTRICT",
+    "DATE_ACQ": "46174",
+    "FIPS": "48263",
+    "COUNTY": "KENT",
+    "TAX_YEAR": "2026",
+    "YEAR_BUILT": "Null",
+    "shape": "Polygon",
+    "st_area(shape)": "11042.795764",
+    "st_perimeter(shape)": "577.334121",
+    "LGL_AREA_UNIT": "Null",
+    "GIS_AREA_UNIT": "Null",
+    "STAT_LAND_USE": "Null",
+    "LOC_LAND_USE": "Null"
+   },
+   "has_geometry": true,
+   "rings": [
+    [
+     [
+      -101.0372105580959,
+      33.01917484785992
+     ],
+     [
+      -101.03733134197574,
+      33.01960482934897
+     ],
+     [
+      -101.03565177536376,
+      33.02016297270547
+     ],
+     [
+      -101.0356179349287,
+      33.02008523375669
+     ],
+     [
+      -101.03540354659624,
+      33.01999314966902
+     ],
+     [
+      -101.0351594428925,
+      33.01998839835826
+     ],
+     [
+      -101.0372105580959,
+      33.01917484785992
+     ]
+    ]
+   ],
+   "ring": [
+    [
+     -101.0372105580959,
+     33.01917484785992
+    ],
+    [
+     -101.03733134197574,
+     33.01960482934897
+    ],
+    [
+     -101.03565177536376,
+     33.02016297270547
+    ],
+    [
+     -101.0356179349287,
+     33.02008523375669
+    ],
+    [
+     -101.03540354659624,
+     33.01999314966902
+    ],
+    [
+     -101.0351594428925,
+     33.01998839835826
+    ],
+    [
+     -101.0372105580959,
+     33.01917484785992
+    ]
+   ],
+   "centroid": {
+    "lon": -101.0364271,
+    "lat": 33.0197033
+   },
+   "computed_acres": 1.9185,
+   "bbox": [
+    -101.0373313,
+    33.0191748,
+    -101.0351594,
+    33.020163
+   ],
+   "extent": {
+    "length_ft": 694.1,
+    "width_ft": 157.8,
+    "bearing_deg": 64.7
+   },
+   "centroid_inside": true
+  },
+  "alternates": []
+ },
+ "pony652": {
+  "subject": {
+   "key": "pony652",
+   "label": "652 Pony Trl, Angleton, TX 77515",
+   "num": "652",
+   "street": "PONY",
+   "seed": [
+    -95.5657,
+    29.1139
+   ],
+   "county": "Brazoria"
+  },
+  "n_harvested": 2608,
+  "n_candidates": 1,
+  "best": {
+   "attributes": {
+    "objectid": "669788",
+    "PROP_ID": "185738",
+    "GEO_ID": "1543-0066-000",
+    "OWNER_NAME": "8 MILE PARK LP",
+    "NAME_CARE": "8 MILE PARK LP",
+    "LEGAL_AREA": "1.27",
+    "GIS_AREA": "1.24882",
+    "LEGAL_DESC": "BAR X RANCH SEC 11 (A0053 & A0097) BLK 3 LOT 66 ACRES 1.27",
+    "LAND_VALUE": "34190",
+    "IMP_VALUE": "0",
+    "MKT_VALUE": "34190",
+    "SITUS_ADDR": "652 PONY TRAIL , , TX 77515",
+    "SITUS_NUM": "652",
+    "SITUS_STRE": "Null",
+    "SITUS_ST_1": "PONY TRAIL",
+    "SITUS_ST_2": "Null",
+    "SITUS_CITY": "Null",
+    "SITUS_STAT": "TX",
+    "SITUS_ZIP": "77515",
+    "MAIL_ADDR": "1403 GILLINGHAM LN STE 200 , SUGAR LAND, TX 77478",
+    "MAIL_LINE1": "Null",
+    "MAIL_LINE2": "1403 GILLINGHAM LN STE 200",
+    "MAIL_CITY": "SUGAR LAND",
+    "MAIL_STAT": "TX",
+    "MAIL_ZIP": "77478",
+    "SOURCE": "BRAZORIA APPRAISAL DISTRICT",
+    "DATE_ACQ": "46082",
+    "FIPS": "48039",
+    "COUNTY": "BRAZORIA",
+    "TAX_YEAR": "2026",
+    "YEAR_BUILT": "Null",
+    "shape": "Polygon",
+    "st_area(shape)": "6646.401664",
+    "st_perimeter(shape)": "422.768685",
+    "LGL_AREA_UNIT": "Null",
+    "GIS_AREA_UNIT": "Null",
+    "STAT_LAND_USE": "Null",
+    "LOC_LAND_USE": "Null"
+   },
+   "has_geometry": true,
+   "rings": [
+    [
+     [
+      -95.56281349377855,
+      29.113681208259944
+     ],
+     [
+      -95.56382398079388,
+      29.11263574216608
+     ],
+     [
+      -95.56413398131359,
+      29.112767381043422
+     ],
+     [
+      -95.56416388083952,
+      29.112769067633582
+     ],
+     [
+      -95.56325970314985,
+      29.113713264955532
+     ],
+     [
+      -95.56281349377855,
+      29.113681208259944
+     ]
+    ]
+   ],
+   "ring": [
+    [
+     -95.56281349377855,
+     29.113681208259944
+    ],
+    [
+     -95.56382398079388,
+     29.11263574216608
+    ],
+    [
+     -95.56413398131359,
+     29.112767381043422
+    ],
+    [
+     -95.56416388083952,
+     29.112769067633582
+    ],
+    [
+     -95.56325970314985,
+     29.113713264955532
+    ],
+    [
+     -95.56281349377855,
+     29.113681208259944
+    ]
+   ],
+   "centroid": {
+    "lon": -95.5635065,
+    "lat": 29.1132018
+   },
+   "computed_acres": 1.2533,
+   "bbox": [
+    -95.5641639,
+    29.1126357,
+    -95.5628135,
+    29.1137133
+   ],
+   "extent": {
+    "length_ft": 544.0,
+    "width_ft": 201.2,
+    "bearing_deg": 232.3
+   },
+   "centroid_inside": true
+  },
+  "alternates": []
+ },
+ "pony543": {
+  "subject": {
+   "key": "pony543",
+   "label": "543 Pony Trl, Angleton, TX 77515",
+   "num": "543",
+   "street": "PONY",
+   "seed": [
+    -95.5699,
+    29.1145
+   ],
+   "county": "Brazoria"
+  },
+  "n_harvested": 2556,
+  "n_candidates": 1,
+  "best": {
+   "attributes": {
+    "objectid": "669539",
+    "PROP_ID": "185695",
+    "GEO_ID": "1543-0023-000",
+    "OWNER_NAME": "KOVACS MICHAEL A",
+    "NAME_CARE": "KOVACS MICHAEL A",
+    "LEGAL_AREA": "0.91",
+    "GIS_AREA": "0.842604",
+    "LEGAL_DESC": "BAR X RANCH SEC 11 (A0053 & A0097) BLK 3 LOT 23 ACRES 0.91",
+    "LAND_VALUE": "38220",
+    "IMP_VALUE": "0",
+    "MKT_VALUE": "38220",
+    "SITUS_ADDR": "543 PONY TRAIL , , TX 77515",
+    "SITUS_NUM": "543",
+    "SITUS_STRE": "Null",
+    "SITUS_ST_1": "PONY TRAIL",
+    "SITUS_ST_2": "Null",
+    "SITUS_CITY": "Null",
+    "SITUS_STAT": "TX",
+    "SITUS_ZIP": "77515",
+    "MAIL_ADDR": "18507 POLO MEADOW DR , HUMBLE, TX 77346",
+    "MAIL_LINE1": "Null",
+    "MAIL_LINE2": "18507 POLO MEADOW DR",
+    "MAIL_CITY": "HUMBLE",
+    "MAIL_STAT": "TX",
+    "MAIL_ZIP": "77346",
+    "SOURCE": "BRAZORIA APPRAISAL DISTRICT",
+    "DATE_ACQ": "46082",
+    "FIPS": "48039",
+    "COUNTY": "BRAZORIA",
+    "TAX_YEAR": "2026",
+    "YEAR_BUILT": "Null",
+    "shape": "Polygon",
+    "st_area(shape)": "4484.591287",
+    "st_perimeter(shape)": "356.605806",
+    "LGL_AREA_UNIT": "Null",
+    "GIS_AREA_UNIT": "Null",
+    "STAT_LAND_USE": "Null",
+    "LOC_LAND_USE": "Null"
+   },
+   "has_geometry": true,
+   "rings": [
+    [
+     [
+      -95.5683186150797,
+      29.11524696909962
+     ],
+     [
+      -95.56895403390433,
+      29.114276313293626
+     ],
+     [
+      -95.56909411808806,
+      29.114287160992973
+     ],
+     [
+      -95.5692160185738,
+      29.114302861195416
+     ],
+     [
+      -95.569314123586,
+      29.114323534759993
+     ],
+     [
+      -95.56875548197205,
+      29.115044641035787
+     ],
+     [
+      -95.56856542540739,
+      29.11519938783066
+     ],
+     [
+      -95.5684589454018,
+      29.11529389503331
+     ],
+     [
+      -95.5683774664089,
+      29.115263880896862
+     ],
+     [
+      -95.5683186150797,
+      29.11524696909962
+     ]
+    ]
+   ],
+   "ring": [
+    [
+     -95.5683186150797,
+     29.11524696909962
+    ],
+    [
+     -95.56895403390433,
+     29.114276313293626
+    ],
+    [
+     -95.56909411808806,
+     29.114287160992973
+    ],
+    [
+     -95.5692160185738,
+     29.114302861195416
+    ],
+    [
+     -95.569314123586,
+     29.114323534759993
+    ],
+    [
+     -95.56875548197205,
+     29.115044641035787
+    ],
+    [
+     -95.56856542540739,
+     29.11519938783066
+    ],
+    [
+     -95.5684589454018,
+     29.11529389503331
+    ],
+    [
+     -95.5683774664089,
+     29.115263880896862
+    ],
+    [
+     -95.5683186150797,
+     29.11524696909962
+    ]
+   ],
+   "centroid": {
+    "lon": -95.5688489,
+    "lat": 29.1147485
+   },
+   "computed_acres": 0.8457,
+   "bbox": [
+    -95.5693141,
+    29.1142763,
+    -95.5683186,
+    29.1152939
+   ],
+   "extent": {
+    "length_ft": 462.8,
+    "width_ft": 146.3,
+    "bearing_deg": 223.3
+   },
+   "centroid_inside": true
+  },
+  "alternates": []
+ },
+ "pony274": {
+  "subject": {
+   "key": "pony274",
+   "label": "274 Pony Trl, Angleton, TX 77515",
+   "num": "274",
+   "street": "PONY",
+   "seed": [
+    -95.5749,
+    29.1234
+   ],
+   "county": "Brazoria"
+  },
+  "n_harvested": 2776,
+  "n_candidates": 1,
+  "best": {
+   "attributes": {
+    "objectid": "663996",
+    "PROP_ID": "185556",
+    "GEO_ID": "1542-0019-001",
+    "OWNER_NAME": "CASSKEN LLC",
+    "NAME_CARE": "CASSKEN LLC",
+    "LEGAL_AREA": "0.84",
+    "GIS_AREA": "0.863076",
+    "LEGAL_DESC": "BAR X RANCH SEC 10 (A0053 S CARTER) BLK 1 LOT 19 ACRES 0.84",
+    "LAND_VALUE": "35280",
+    "IMP_VALUE": "0",
+    "MKT_VALUE": "35280",
+    "SITUS_ADDR": "274 PONY TRAIL , , TX 77515",
+    "SITUS_NUM": "274",
+    "SITUS_STRE": "Null",
+    "SITUS_ST_1": "PONY TRAIL",
+    "SITUS_ST_2": "Null",
+    "SITUS_CITY": "Null",
+    "SITUS_STAT": "TX",
+    "SITUS_ZIP": "77515",
+    "MAIL_ADDR": "6206 BURNING TREE DR , HOUSTON, TX 77036",
+    "MAIL_LINE1": "Null",
+    "MAIL_LINE2": "6206 BURNING TREE DR",
+    "MAIL_CITY": "HOUSTON",
+    "MAIL_STAT": "TX",
+    "MAIL_ZIP": "77036",
+    "SOURCE": "BRAZORIA APPRAISAL DISTRICT",
+    "DATE_ACQ": "46082",
+    "FIPS": "48039",
+    "COUNTY": "BRAZORIA",
+    "TAX_YEAR": "2026",
+    "YEAR_BUILT": "Null",
+    "shape": "Polygon",
+    "st_area(shape)": "4594.308477",
+    "st_perimeter(shape)": "324.336219",
+    "LGL_AREA_UNIT": "Null",
+    "GIS_AREA_UNIT": "Null",
+    "STAT_LAND_USE": "Null",
+    "LOC_LAND_USE": "Null"
+   },
+   "has_geometry": true,
+   "rings": [
+    [
+     [
+      -95.57487712064595,
+      29.12316104737497
+     ],
+     [
+      -95.57600196768853,
+      29.123033453044815
+     ],
+     [
+      -95.5760160658486,
+      29.123366949681234
+     ],
+     [
+      -95.57489907906475,
+      29.123404193658118
+     ],
+     [
+      -95.57489217820675,
+      29.1232690072176
+     ],
+     [
+      -95.57487712064595,
+      29.12316104737497
+     ]
+    ]
+   ],
+   "ring": [
+    [
+     -95.57487712064595,
+     29.12316104737497
+    ],
+    [
+     -95.57600196768853,
+     29.123033453044815
+    ],
+    [
+     -95.5760160658486,
+     29.123366949681234
+    ],
+    [
+     -95.57489907906475,
+     29.123404193658118
+    ],
+    [
+     -95.57489217820675,
+     29.1232690072176
+    ],
+    [
+     -95.57487712064595,
+     29.12316104737497
+    ]
+   ],
+   "centroid": {
+    "lon": -95.5755188,
+    "lat": 29.1232512
+   },
+   "computed_acres": 0.8668,
+   "bbox": [
+    -95.5760161,
+    29.1230335,
+    -95.5748771,
+    29.1234042
+   ],
+   "extent": {
+    "length_ft": 376.6,
+    "width_ft": 200.7,
+    "bearing_deg": 69.0
+   },
+   "centroid_inside": true
+  },
+  "alternates": []
+ },
+ "pony220": {
+  "subject": {
+   "key": "pony220",
+   "label": "220 Pony Trl, Angleton, TX 77515",
+   "num": "220",
+   "street": "PONY",
+   "seed": [
+    -95.5749,
+    29.1245
+   ],
+   "county": "Brazoria"
+  },
+  "n_harvested": 2788,
+  "n_candidates": 1,
+  "best": {
+   "attributes": {
+    "objectid": "663999",
+    "PROP_ID": "185565",
+    "GEO_ID": "1542-0028-001",
+    "OWNER_NAME": "LOPEZ VICTOR",
+    "NAME_CARE": "LOPEZ VICTOR",
+    "LEGAL_AREA": "0.76",
+    "GIS_AREA": "0.762983",
+    "LEGAL_DESC": "BAR X RANCH SEC 10 (A0053 S CARTER) BLK 1 LOT 28 ACRES 0.76",
+    "LAND_VALUE": "31920",
+    "IMP_VALUE": "0",
+    "MKT_VALUE": "31920",
+    "SITUS_ADDR": "220 PONY TRAIL , , TX 77515",
+    "SITUS_NUM": "220",
+    "SITUS_STRE": "Null",
+    "SITUS_ST_1": "PONY TRAIL",
+    "SITUS_ST_2": "Null",
+    "SITUS_CITY": "Null",
+    "SITUS_STAT": "TX",
+    "SITUS_ZIP": "77515",
+    "MAIL_ADDR": "8505 LENORE ST , HOUSTON, TX 77017",
+    "MAIL_LINE1": "Null",
+    "MAIL_LINE2": "8505 LENORE ST",
+    "MAIL_CITY": "HOUSTON",
+    "MAIL_STAT": "TX",
+    "MAIL_ZIP": "77017",
+    "SOURCE": "BRAZORIA APPRAISAL DISTRICT",
+    "DATE_ACQ": "46082",
+    "FIPS": "48039",
+    "COUNTY": "BRAZORIA",
+    "TAX_YEAR": "2026",
+    "YEAR_BUILT": "Null",
+    "shape": "Polygon",
+    "st_area(shape)": "4061.683526",
+    "st_perimeter(shape)": "313.508385",
+    "LGL_AREA_UNIT": "Null",
+    "GIS_AREA_UNIT": "Null",
+    "STAT_LAND_USE": "Null",
+    "LOC_LAND_USE": "Null"
+   },
+   "has_geometry": true,
+   "rings": [
+    [
+     [
+      -95.57498383870508,
+      29.12546608894971
+     ],
+     [
+      -95.57609707142934,
+      29.12544470430607
+     ],
+     [
+      -95.576108119809,
+      29.125694822981973
+     ],
+     [
+      -95.5749945960306,
+      29.12572974803322
+     ],
+     [
+      -95.57498383870508,
+      29.12546608894971
+     ]
+    ]
+   ],
+   "ring": [
+    [
+     -95.57498383870508,
+     29.12546608894971
+    ],
+    [
+     -95.57609707142934,
+     29.12544470430607
+    ],
+    [
+     -95.576108119809,
+     29.125694822981973
+    ],
+    [
+     -95.5749945960306,
+     29.12572974803322
+    ],
+    [
+     -95.57498383870508,
+     29.12546608894971
+    ]
+   ],
+   "centroid": {
+    "lon": -95.5755355,
+    "lat": 29.1255823
+   },
+   "computed_acres": 0.7659,
+   "bbox": [
+    -95.5761081,
+    29.1254447,
+    -95.5749838,
+    29.1257297
+   ],
+   "extent": {
+    "length_ft": 367.9,
+    "width_ft": 181.2,
+    "bearing_deg": 283.1
+   },
+   "centroid_inside": true
+  },
+  "alternates": []
+ },
+ "oldhenry1601": {
+  "subject": {
+   "key": "oldhenry1601",
+   "label": "1601 Old Henry Ct, Angleton, TX 77515",
+   "num": "1601",
+   "street": "OLD HENRY",
+   "seed": [
+    -95.5722,
+    29.1251
+   ],
+   "county": "Brazoria"
+  },
+  "n_harvested": 2768,
+  "n_candidates": 1,
+  "best": {
+   "attributes": {
+    "objectid": "669261",
+    "PROP_ID": "185603",
+    "GEO_ID": "1542-0066-003",
+    "OWNER_NAME": "ALVAREZ BENITA & CIRO",
+    "NAME_CARE": "ALVAREZ BENITA & CIRO",
+    "LEGAL_AREA": "0.76",
+    "GIS_AREA": "0.796995",
+    "LEGAL_DESC": "BAR X RANCH SEC 10 (A0053 S CARTER) BLK 3 LOT 66 ACRES 0.76",
+    "LAND_VALUE": "21280",
+    "IMP_VALUE": "0",
+    "MKT_VALUE": "21280",
+    "SITUS_ADDR": "1601 OLD HENRY CT, , TX 77515",
+    "SITUS_NUM": "1601",
+    "SITUS_STRE": "Null",
+    "SITUS_ST_1": "OLD HENRY",
+    "SITUS_ST_2": "CT",
+    "SITUS_CITY": "Null",
+    "SITUS_STAT": "TX",
+    "SITUS_ZIP": "77515",
+    "MAIL_ADDR": "6002 NEW QUAY ST , HOUSTON, TX 77085",
+    "MAIL_LINE1": "Null",
+    "MAIL_LINE2": "6002 NEW QUAY ST",
+    "MAIL_CITY": "HOUSTON",
+    "MAIL_STAT": "TX",
+    "MAIL_ZIP": "77085",
+    "SOURCE": "BRAZORIA APPRAISAL DISTRICT",
+    "DATE_ACQ": "46082",
+    "FIPS": "48039",
+    "COUNTY": "BRAZORIA",
+    "TAX_YEAR": "2026",
+    "YEAR_BUILT": "Null",
+    "shape": "Polygon",
+    "st_area(shape)": "4242.762279",
+    "st_perimeter(shape)": "320.184979",
+    "LGL_AREA_UNIT": "Null",
+    "GIS_AREA_UNIT": "Null",
+    "STAT_LAND_USE": "Null",
+    "LOC_LAND_USE": "Null"
+   },
+   "has_geometry": true,
+   "rings": [
+    [
+     [
+      -95.57197711636368,
+      29.12620717306353
+     ],
+     [
+      -95.57261453304154,
+      29.125367260171558
+     ],
+     [
+      -95.57284243293417,
+      29.125545562316596
+     ],
+     [
+      -95.57281192614712,
+      29.12557772125296
+     ],
+     [
+      -95.57274078766144,
+      29.125667037366757
+     ],
+     [
+      -95.57224434180452,
+      29.126353143214324
+     ],
+     [
+      -95.57197711636368,
+      29.12620717306353
+     ]
+    ]
+   ],
+   "ring": [
+    [
+     -95.57197711636368,
+     29.12620717306353
+    ],
+    [
+     -95.57261453304154,
+     29.125367260171558
+    ],
+    [
+     -95.57284243293417,
+     29.125545562316596
+    ],
+    [
+     -95.57281192614712,
+     29.12557772125296
+    ],
+    [
+     -95.57274078766144,
+     29.125667037366757
+    ],
+    [
+     -95.57224434180452,
+     29.126353143214324
+    ],
+    [
+     -95.57197711636368,
+     29.12620717306353
+    ]
+   ],
+   "centroid": {
+    "lon": -95.5723859,
+    "lat": 29.1258626
+   },
+   "computed_acres": 0.8002,
+   "bbox": [
+    -95.5728424,
+    29.1253673,
+    -95.5719771,
+    29.1263531
+   ],
+   "extent": {
+    "length_ft": 378.5,
+    "width_ft": 187.0,
+    "bearing_deg": 18.2
+   },
+   "centroid_inside": true
+  },
+  "alternates": []
+ }
+}
